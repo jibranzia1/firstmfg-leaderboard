@@ -1,0 +1,18 @@
+# Netlify configuration — First MFG Influencer Leaderboard
+# Static site: no build step. Publish the folder as-is.
+
+[build]
+  publish = "."
+  command = ""
+
+# Never cache the data file so the dashboard always pulls the latest hourly sync.
+[[headers]]
+  for = "/leaderboard-data.json"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+# Cache the shell lightly (5 min) — it rarely changes.
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
