@@ -364,6 +364,14 @@ function openModal(code){
     days.map(d=>'<tr><td>'+dlabel(d)+'</td><td class="num">'+fmtM2(i.daily[d].r)+'</td><td class="num">'+i.daily[d].o+'</td></tr>').join("")+
     '</tbody></table>'):'<div class="nosale" style="padding:8px 0">No sales recorded yet — activation target.</div>';
   const link=i.link?'<a href="'+i.link+'" target="_blank" rel="noopener" style="color:var(--amber)">'+i.link+'</a>':'<span class="nosale">— not on file</span>';
+  const rate=(i.commissionRate!=null&&i.commissionRate!=="")?Number(i.commissionRate):null;
+  const commLine=rate!=null?(rate+'%  ·  '+fmtM2(c.rev*rate/100)+' earned'):'<span class="nosale">not set in Collabs</span>';
+  const social=[];
+  if(i.instagram)social.push(['Instagram','@'+String(i.instagram).replace(/^@/,'')]);
+  if(i.tiktok)social.push(['TikTok','@'+String(i.tiktok).replace(/^@/,'')]);
+  if(i.followers)social.push(['Followers',Number(i.followers).toLocaleString()]);
+  const realname=(i.name&&i.name!==i.code)?i.name:null;
+  const socialRows=social.map(s=>'<div class="profrow"><span>'+s[0]+'</span><span>'+s[1]+'</span></div>').join("");
   document.getElementById("modal").innerHTML=
     '<div class="mhead"><div class="row1"><div><h3>'+i.name+'</h3><div class="code">code: '+i.code+'</div></div>'+
       '<button class="xbtn" onclick="closeModal()">✕</button></div></div>'+
@@ -378,11 +386,13 @@ function openModal(code){
         '<div class="mbar '+(qual?'q':'')+'"><i style="width:'+pct+'%"></i></div></div>'+
       '<div class="msub">Daily sales</div>'+chart+dtable+
       '<div class="msub">Profile</div>'+
+      (realname?'<div class="profrow"><span>Name</span><span>'+realname+'</span></div>':'')+
+      socialRows+
       '<div class="profrow"><span>Discount code</span><span>'+i.code+'</span></div>'+
       '<div class="profrow"><span>Tier</span><span>'+i.tier+'</span></div>'+
       '<div class="profrow"><span>Link</span><span>'+link+'</span></div>'+
-      '<div class="profrow"><span>Commission (20%)</span><span>'+fmtM2(c.rev*0.2)+'</span></div>'+
-      '<div class="note">Shopify Collabs exposes the code, tier and link only. To show real names, emails or socials here, add an <code>influencer-roster.csv</code> (columns: name,code,link) to the working folder and the hourly sync will map it in.</div>'+
+      '<div class="profrow"><span>Commission rate</span><span>'+commLine+'</span></div>'+
+      '<div class="note">Commission rate, name &amp; socials come from your Collabs roster file. Shopify’s API does not expose Collabs commissions or creator profiles, so these read “not set” until an <code>influencer-roster.csv</code> (columns: code,name,instagram,tiktok,followers,commission_rate,link) is added to the working folder — the hourly sync then maps it in automatically.</div>'+
     '</div>';
   document.getElementById("overlay").classList.add("show");
 }
