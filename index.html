@@ -166,7 +166,7 @@
 
   <div class="sec-h">
     <h3>Race to $5,000 — front runners</h3>
-    <span class="hint">cumulative all-time · click a card for detail</span>
+    <span class="hint">cumulative since Jun 1 · click a card for detail</span>
   </div>
   <div class="race" id="race"></div>
 
@@ -181,7 +181,9 @@
     <input type="date" id="from" onchange="applyDates()" />
     <span style="color:var(--dim)">→</span>
     <input type="date" id="to" onchange="applyDates()" />
-    <span class="qchip" data-range="all" onclick="quickRange(this)">All-time</span>
+    <span class="qchip" data-range="all" onclick="quickRange(this)">All history</span>
+    <span class="qchip" data-range="prog" onclick="quickRange(this)">Program (Jun 1+)</span>
+    <span class="qchip" data-range="30" onclick="quickRange(this)">Last 30d</span>
     <span class="qchip" data-range="7" onclick="quickRange(this)">Last 7d</span>
     <span class="qchip" data-range="today" onclick="quickRange(this)">Today</span>
     <span class="periodlabel" id="periodlabel"></span>
@@ -192,7 +194,7 @@
   <div class="tablewrap" style="margin-bottom:26px">
     <div class="tlchart" id="tlchart"></div>
     <table>
-      <thead><tr><th>Date</th><th class="num">Revenue</th><th class="num">Orders</th><th class="num">Creators w/ sales</th><th class="num">Avg order</th></tr></thead>
+      <thead><tr><th>Period</th><th class="num">Revenue</th><th class="num">Orders</th><th class="num">Creators w/ sales</th><th class="num">Avg order</th></tr></thead>
       <tbody id="tlrows"></tbody>
     </table>
   </div>
@@ -223,7 +225,7 @@
       <thead><tr>
         <th class="rank">#</th><th>Creator</th><th>Tier</th>
         <th class="num">Revenue</th><th class="num">Orders</th>
-        <th>To $5,000 (all-time)</th><th>Last sale</th>
+        <th>To $5,000 (program)</th><th>Last sale</th>
       </tr></thead>
       <tbody id="rows"></tbody>
     </table>
@@ -246,7 +248,7 @@ function fmtM(n){return "$"+n.toLocaleString("en-US",{minimumFractionDigits:0,ma
 function fmtM2(n){return "$"+n.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});}
 function dlabel(d){return new Date(d+"T00:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric"});}
 
-function cum(inf){let r=0,o=0,last=null;for(const d in inf.daily){r+=inf.daily[d].r;o+=inf.daily[d].o;if(!last||d>last)last=d;}return{rev:r,orders:o,last:last};}
+function cum(inf){let r=0,o=0,ar=0,ao=0,last=null;for(const d in inf.daily){ar+=inf.daily[d].r;ao+=inf.daily[d].o;if(!last||d>last)last=d;if(d>=DATA.programStart){r+=inf.daily[d].r;o+=inf.daily[d].o;}}return{rev:r,orders:o,arev:ar,aorders:ao,last:last};}
 function periodTotals(inf){let r=0,o=0,last=null;for(const d in inf.daily){if(d>=fromD&&d<=toD){r+=inf.daily[d].r;o+=inf.daily[d].o;if(!last||d>last)last=d;}}return{rev:r,orders:o,last:last};}
 
 async function loadData(){
@@ -264,15 +266,16 @@ async function loadData(){
 function boot(){
   // enrich cumulative + find date bounds
   let minD=DATA.programStart, maxD=DATA.programStart;
-  DATA.influencers.forEach(i=>{const c=cum(i);i._crev=c.rev;i._corders=c.orders;i._clast=c.last;
+  DATA.influencers.forEach(i=>{const c=cum(i);i._crev=c.rev;i._corders=c.orders;i._clast=c.last;i._arev=c.arev;i._aorders=c.aorders;
     for(const d in i.daily){if(d<minD)minD=d;if(d>maxD)maxD=d;}});
-  DATA._min=DATA.programStart; DATA._max=maxD;
+  DATA._min=minD; DATA._max=maxD;
   const _bd={};DATA.influencers.forEach(i=>{for(const d in i.daily){const e=_bd[d]||(_bd[d]={r:0,o:0,c:0});e.r+=i.daily[d].r;e.o+=i.daily[d].o;e.c++;}});DATA._byDay=_bd;
-  if(!fromD){fromD=DATA._min;toD=DATA._max;
+  const _bm={};DATA.influencers.forEach(i=>{const sm=new Set();for(const d in i.daily){const k=d.slice(0,7);const e=_bm[k]||(_bm[k]={r:0,o:0,c:0});e.r+=i.daily[d].r;e.o+=i.daily[d].o;if(!sm.has(k)){sm.add(k);e.c++;}}});DATA._byMonth=_bm;
+  if(!fromD){fromD=DATA.programStart;toD=DATA._max;
     document.getElementById("from").value=fromD;document.getElementById("to").value=toD;
     document.getElementById("from").min=DATA._min;document.getElementById("from").max=DATA._max;
     document.getElementById("to").min=DATA._min;document.getElementById("to").max=DATA._max;
-    setQ("all");}
+    setQ("prog");}
   renderMeta();renderCountdown();renderKPIs();renderRace();render();
 }
 
@@ -298,8 +301,8 @@ function renderKPIs(){
   const zero=inf.filter(i=>i._crev===0);
   const k=[{v:qualified.length,k:"Qualified ($5k+)",c:qualified.length?"good":""},
     {v:near.length,k:"Within $500 of $5k",c:"warn"},
-    {v:fmtM(total),k:"Total tracked revenue",c:""},
-    {v:withSales.length,k:"Creators with sales",c:""},
+    {v:fmtM(total),k:"Tracked revenue \u2014 program (Jun 1+)",c:""},
+    {v:withSales.length,k:"Creators with sales \u2014 program",c:""},
     {v:zero.length.toLocaleString(),k:"Zero-sales (activate)",c:"red"},
     {v:inf.length.toLocaleString(),k:"Active roster",c:""}];
   document.getElementById("kpis").innerHTML=k.map(x=>'<div class="kpi '+x.c+'"><div class="v">'+x.v+'</div><div class="k">'+x.k+'</div></div>').join("");
@@ -315,7 +318,7 @@ function renderRace(){
 }
 
 function renderPeriod(){
-  const bd=DATA._byDay||{};
+  const bd=DATA._byDay||{},bm=DATA._byMonth||{};
   let rev=0,orders=0,creators=0;
   DATA.influencers.forEach(i=>{let has=false;for(const d in i.daily){if(d>=fromD&&d<=toD){rev+=i.daily[d].r;orders+=i.daily[d].o;has=true;}}if(has)creators++;});
   document.getElementById("periodkpis").innerHTML=[
@@ -325,15 +328,24 @@ function renderPeriod(){
     {v:orders?fmtM2(rev/orders):"\u2014",k:"Avg order value \u2014 period",c:""}
   ].map(x=>'<div class="kpi '+x.c+'"><div class="v">'+x.v+'</div><div class="k">'+x.k+'</div></div>').join("");
   const days=[];let cur=new Date(fromD+"T00:00:00Z");const end=new Date(toD+"T00:00:00Z");
-  while(cur<=end&&days.length<150){days.push(cur.toISOString().slice(0,10));cur.setUTCDate(cur.getUTCDate()+1);}
-  const maxr=Math.max(1,...days.map(d=>bd[d]?bd[d].r:0));
-  document.getElementById("tlchart").innerHTML=days.map(d=>{
-    const e=bd[d]||{r:0,o:0,c:0},h=Math.max(2,e.r/maxr*100);
-    return '<div class="tlcol" title="'+dlabel(d)+': '+fmtM2(e.r)+' \u00b7 '+e.o+' orders \u00b7 '+e.c+' creators"><div class="stick" style="height:'+h+'%"></div><div class="dl">'+dlabel(d)+'</div></div>';
+  while(cur<=end&&days.length<5000){days.push(cur.toISOString().slice(0,10));cur.setUTCDate(cur.getUTCDate()+1);}
+  const monthly=days.length>92;
+  let buckets;
+  if(monthly){
+    const seen={};days.forEach(d=>{seen[d.slice(0,7)]=1;});
+    buckets=Object.keys(seen).sort().map(k=>{const e=bm[k]||{r:0,o:0,c:0};
+      return{label:new Date(k+"-15T00:00:00").toLocaleDateString("en-US",{month:"short",year:"2-digit"}),r:e.r,o:e.o,c:e.c};});
+  }else{
+    buckets=days.map(d=>{const e=bd[d]||{r:0,o:0,c:0};return{label:dlabel(d),r:e.r,o:e.o,c:e.c};});
+  }
+  const cb=buckets.slice(-60);
+  const maxr=Math.max(1,...cb.map(b=>b.r));
+  document.getElementById("tlchart").innerHTML=cb.map(b=>{
+    const h=Math.max(2,b.r/maxr*100);
+    return '<div class="tlcol" title="'+b.label+': '+fmtM2(b.r)+' \u00b7 '+b.o+' orders \u00b7 '+b.c+' creators"><div class="stick" style="height:'+h+'%"></div><div class="dl">'+b.label+'</div></div>';
   }).join("");
-  document.getElementById("tlrows").innerHTML=days.slice().reverse().map(d=>{
-    const e=bd[d]||{r:0,o:0,c:0};
-    return '<tr style="cursor:default"><td>'+dlabel(d)+'</td><td class="num">'+(e.r?fmtM2(e.r):'<span class="nosale">\u2014</span>')+'</td><td class="num">'+(e.o||'<span class="nosale">0</span>')+'</td><td class="num">'+(e.c||'<span class="nosale">0</span>')+'</td><td class="num">'+(e.o?fmtM2(e.r/e.o):'\u2014')+'</td></tr>';
+  document.getElementById("tlrows").innerHTML=buckets.slice().reverse().map(b=>{
+    return '<tr style="cursor:default"><td>'+b.label+'</td><td class="num">'+(b.r?fmtM2(b.r):'<span class="nosale">\u2014</span>')+'</td><td class="num">'+(b.o||'<span class="nosale">0</span>')+'</td><td class="num">'+(b.c||'<span class="nosale">0</span>')+'</td><td class="num">'+(b.o?fmtM2(b.r/b.o):'\u2014')+'</td></tr>';
   }).join("");
 }
 
@@ -342,6 +354,9 @@ function setQ(r){document.querySelectorAll(".qchip").forEach(c=>c.classList.togg
 function quickRange(el){
   const r=el.dataset.range;setQ(r);
   if(r==="all"){fromD=DATA._min;toD=DATA._max;}
+  else if(r==="prog"){fromD=DATA.programStart;toD=DATA._max;}
+  else if(r==="30"){const d=new Date(DATA._max+"T00:00:00");d.setDate(d.getDate()-29);
+    const iso=d.toISOString().slice(0,10);fromD=iso<DATA._min?DATA._min:iso;toD=DATA._max;}
   else if(r==="today"){fromD=DATA._max;toD=DATA._max;}
   else if(r==="7"){const d=new Date(DATA._max+"T00:00:00");d.setDate(d.getDate()-6);
     const iso=d.toISOString().slice(0,10);fromD=iso<DATA._min?DATA._min:iso;toD=DATA._max;}
@@ -400,13 +415,14 @@ function openModal(code){
   const i=DATA.influencers.find(x=>x.code===code);if(!i)return;
   const c=cum(i),aov=c.orders?c.rev/c.orders:0,pct=Math.min(100,c.rev/THRESHOLD*100),qual=c.rev>=THRESHOLD,gap=THRESHOLD-c.rev;
   const days=Object.keys(i.daily).sort();
-  const maxr=Math.max(1,...days.map(d=>i.daily[d].r));
-  const chart=days.length?('<div class="daychart">'+days.map(d=>{
+  const cdays=days.slice(-45);
+  const maxr=Math.max(1,...cdays.map(d=>i.daily[d].r));
+  const chart=cdays.length?('<div class="daychart">'+cdays.map(d=>{
       const h=Math.max(2,i.daily[d].r/maxr*100);
       return '<div class="dcol" title="'+dlabel(d)+': '+fmtM2(i.daily[d].r)+'"><div class="stick" style="height:'+h+'%"></div><div class="dl">'+dlabel(d).replace(" "," ")+'</div></div>';
     }).join("")+'</div>'):'';
   const dtable=days.length?('<table class="dtable"><thead><tr><th>Date</th><th class="num">Revenue</th><th class="num">Orders</th></tr></thead><tbody>'+
-    days.map(d=>'<tr><td>'+dlabel(d)+'</td><td class="num">'+fmtM2(i.daily[d].r)+'</td><td class="num">'+i.daily[d].o+'</td></tr>').join("")+
+    days.slice().reverse().map(d=>'<tr><td>'+dlabel(d)+'</td><td class="num">'+fmtM2(i.daily[d].r)+'</td><td class="num">'+i.daily[d].o+'</td></tr>').join("")+
     '</tbody></table>'):'<div class="nosale" style="padding:8px 0">No sales recorded yet — activation target.</div>';
   const link=i.link?'<a href="'+i.link+'" target="_blank" rel="noopener" style="color:var(--amber)">'+i.link+'</a>':'<span class="nosale">— not on file</span>';
   const rate=(i.commissionRate!=null&&i.commissionRate!=="")?Number(i.commissionRate):null;
@@ -422,7 +438,7 @@ function openModal(code){
       '<button class="xbtn" onclick="closeModal()">✕</button></div></div>'+
     '<div class="mbody">'+
       '<div class="mstats">'+
-        '<div class="ms"><div class="v">'+fmtM2(c.rev)+'</div><div class="k">Total revenue</div></div>'+
+        '<div class="ms"><div class="v">'+fmtM2(c.rev)+'</div><div class="k">Program revenue</div></div>'+
         '<div class="ms"><div class="v">'+c.orders+'</div><div class="k">Orders</div></div>'+
         '<div class="ms"><div class="v">'+(c.orders?fmtM2(aov):"—")+'</div><div class="k">Avg order</div></div>'+
         '<div class="ms"><div class="v"><span class="tier t-'+i.tier+'">'+i.tier+'</span></div><div class="k">Tier</div></div>'+
@@ -435,6 +451,7 @@ function openModal(code){
       socialRows+
       '<div class="profrow"><span>Discount code</span><span>'+i.code+'</span></div>'+
       '<div class="profrow"><span>Tier</span><span>'+i.tier+'</span></div>'+
+      '<div class="profrow"><span>All-time revenue (since '+(DATA.dataStart||DATA.programStart)+')</span><span>'+fmtM2(c.arev)+' \u00b7 '+c.aorders+' orders</span></div>'+
       '<div class="profrow"><span>Link</span><span>'+link+'</span></div>'+
       '<div class="profrow"><span>Commission rate</span><span>'+commLine+'</span></div>'+
       '<div class="note">Commission rate, name &amp; socials come from your Collabs roster file. Shopify’s API does not expose Collabs commissions or creator profiles, so these read “not set” until an <code>influencer-roster.csv</code> (columns: code,name,instagram,tiktok,followers,commission_rate,link) is added to the working folder — the hourly sync then maps it in automatically.</div>'+
