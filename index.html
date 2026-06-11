@@ -44,6 +44,11 @@
   .kpi .v{font-size:22px;font-weight:800;letter-spacing:-.5px;font-variant-numeric:tabular-nums}
   .kpi .k{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.3}
   .kpi.good .v{color:var(--green)} .kpi.warn .v{color:var(--amber)} .kpi.red .v{color:var(--red)}
+  .kpis-period{grid-template-columns:repeat(4,1fr);margin-bottom:16px}
+  .tlchart{display:flex;align-items:flex-end;gap:5px;height:130px;padding:14px 16px 8px;border-bottom:1px solid var(--line)}
+  .tlcol{flex:1;display:flex;flex-direction:column;align-items:center;gap:5px;min-width:0}
+  .tlcol .stick{width:70%;max-width:34px;background:linear-gradient(180deg,var(--amber),var(--amber2));border-radius:3px 3px 0 0;min-height:2px}
+  .tlcol .dl{font-size:9.5px;color:var(--dim);white-space:nowrap}
   .sec-h{display:flex;align-items:baseline;justify-content:space-between;margin:8px 2px 12px;flex-wrap:wrap;gap:6px}
   .sec-h h3{margin:0;font-size:15px;font-weight:700}
   .sec-h .hint{font-size:12px;color:var(--dim)}
@@ -166,8 +171,8 @@
   <div class="race" id="race"></div>
 
   <div class="sec-h">
-    <h3>Full leaderboard</h3>
-    <span class="hint" id="count-hint"></span>
+    <h3>Performance by period</h3>
+    <span class="hint">revenue · orders · creators for the selected window — applies to the leaderboard below too</span>
   </div>
 
   <!-- DATE SELECTOR -->
@@ -180,6 +185,21 @@
     <span class="qchip" data-range="7" onclick="quickRange(this)">Last 7d</span>
     <span class="qchip" data-range="today" onclick="quickRange(this)">Today</span>
     <span class="periodlabel" id="periodlabel"></span>
+  </div>
+
+  <div class="kpis kpis-period" id="periodkpis"></div>
+
+  <div class="tablewrap" style="margin-bottom:26px">
+    <div class="tlchart" id="tlchart"></div>
+    <table>
+      <thead><tr><th>Date</th><th class="num">Revenue</th><th class="num">Orders</th><th class="num">Creators w/ sales</th><th class="num">Avg order</th></tr></thead>
+      <tbody id="tlrows"></tbody>
+    </table>
+  </div>
+
+  <div class="sec-h">
+    <h3>Full leaderboard</h3>
+    <span class="hint" id="count-hint"></span>
   </div>
 
   <div class="controls">
@@ -247,6 +267,7 @@ function boot(){
   DATA.influencers.forEach(i=>{const c=cum(i);i._crev=c.rev;i._corders=c.orders;i._clast=c.last;
     for(const d in i.daily){if(d<minD)minD=d;if(d>maxD)maxD=d;}});
   DATA._min=DATA.programStart; DATA._max=maxD;
+  const _bd={};DATA.influencers.forEach(i=>{for(const d in i.daily){const e=_bd[d]||(_bd[d]={r:0,o:0,c:0});e.r+=i.daily[d].r;e.o+=i.daily[d].o;e.c++;}});DATA._byDay=_bd;
   if(!fromD){fromD=DATA._min;toD=DATA._max;
     document.getElementById("from").value=fromD;document.getElementById("to").value=toD;
     document.getElementById("from").min=DATA._min;document.getElementById("from").max=DATA._max;
@@ -293,6 +314,29 @@ function renderRace(){
   }).join("")||'<div class="rc">No sales recorded yet.</div>';
 }
 
+function renderPeriod(){
+  const bd=DATA._byDay||{};
+  let rev=0,orders=0,creators=0;
+  DATA.influencers.forEach(i=>{let has=false;for(const d in i.daily){if(d>=fromD&&d<=toD){rev+=i.daily[d].r;orders+=i.daily[d].o;has=true;}}if(has)creators++;});
+  document.getElementById("periodkpis").innerHTML=[
+    {v:fmtM2(rev),k:"Revenue \u2014 selected period",c:"warn"},
+    {v:orders.toLocaleString(),k:"Orders \u2014 selected period",c:""},
+    {v:creators.toLocaleString(),k:"Creators with sales \u2014 period",c:"good"},
+    {v:orders?fmtM2(rev/orders):"\u2014",k:"Avg order value \u2014 period",c:""}
+  ].map(x=>'<div class="kpi '+x.c+'"><div class="v">'+x.v+'</div><div class="k">'+x.k+'</div></div>').join("");
+  const days=[];let cur=new Date(fromD+"T00:00:00Z");const end=new Date(toD+"T00:00:00Z");
+  while(cur<=end&&days.length<150){days.push(cur.toISOString().slice(0,10));cur.setUTCDate(cur.getUTCDate()+1);}
+  const maxr=Math.max(1,...days.map(d=>bd[d]?bd[d].r:0));
+  document.getElementById("tlchart").innerHTML=days.map(d=>{
+    const e=bd[d]||{r:0,o:0,c:0},h=Math.max(2,e.r/maxr*100);
+    return '<div class="tlcol" title="'+dlabel(d)+': '+fmtM2(e.r)+' \u00b7 '+e.o+' orders \u00b7 '+e.c+' creators"><div class="stick" style="height:'+h+'%"></div><div class="dl">'+dlabel(d)+'</div></div>';
+  }).join("");
+  document.getElementById("tlrows").innerHTML=days.slice().reverse().map(d=>{
+    const e=bd[d]||{r:0,o:0,c:0};
+    return '<tr style="cursor:default"><td>'+dlabel(d)+'</td><td class="num">'+(e.r?fmtM2(e.r):'<span class="nosale">\u2014</span>')+'</td><td class="num">'+(e.o||'<span class="nosale">0</span>')+'</td><td class="num">'+(e.c||'<span class="nosale">0</span>')+'</td><td class="num">'+(e.o?fmtM2(e.r/e.o):'\u2014')+'</td></tr>';
+  }).join("");
+}
+
 /* date controls */
 function setQ(r){document.querySelectorAll(".qchip").forEach(c=>c.classList.toggle("on",c.dataset.range===r));}
 function quickRange(el){
@@ -318,6 +362,7 @@ function render(keepShown){
   if(!keepShown)shown=pageSize;
   const allTime=(fromD===DATA._min&&toD===DATA._max);
   document.getElementById("periodlabel").textContent=allTime?"All-time ("+dlabel(DATA._min)+" – "+dlabel(DATA._max)+")":"Showing "+dlabel(fromD)+" – "+dlabel(toD);
+  renderPeriod();
   const q=document.getElementById("search").value.trim().toUpperCase();
   const sortBy=document.getElementById("sort").value;
   const showZero=document.getElementById("showzero").checked;
