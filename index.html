@@ -187,6 +187,8 @@
     <span class="qchip" data-range="7" onclick="quickRange(this)">Last 7d</span>
     <span class="qchip" data-range="today" onclick="quickRange(this)">Today</span>
     <span class="periodlabel" id="periodlabel"></span>
+    <button class="reload" onclick="exportCSV('summary')" title="Export per-creator totals for the selected date range &amp; tier">⬇ Export summary</button>
+    <button class="reload" onclick="exportCSV('daily')" title="Export per-creator daily sales rows for the selected date range &amp; tier">⬇ Export daily</button>
   </div>
 
   <div class="kpis kpis-period" id="periodkpis"></div>
@@ -250,6 +252,25 @@ function dlabel(d){return new Date(d+"T00:00:00").toLocaleDateString("en-US",{mo
 
 function cum(inf){let r=0,o=0,ar=0,ao=0,last=null;for(const d in inf.daily){ar+=inf.daily[d].r;ao+=inf.daily[d].o;if(!last||d>last)last=d;if(d>=DATA.programStart){r+=inf.daily[d].r;o+=inf.daily[d].o;}}return{rev:r,orders:o,arev:ar,aorders:ao,last:last};}
 function periodTotals(inf){let r=0,o=0,last=null;for(const d in inf.daily){if(d>=fromD&&d<=toD){r+=inf.daily[d].r;o+=inf.daily[d].o;if(!last||d>last)last=d;}}return{rev:r,orders:o,last:last};}
+function _csvEsc(v){v=(v==null?"":String(v));return /[",\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v;}
+function _downloadCSV(name,rows){const csv=rows.map(r=>r.map(_csvEsc).join(",")).join("\r\n");const blob=new Blob(["\ufeff"+csv],{type:"text/csv;charset=utf-8"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},150);}
+function exportCSV(mode){
+  if(!DATA){return;}
+  var tier=activeTier;
+  var list=DATA.influencers.filter(function(i){return tier==="All"||i.tier===tier;});
+  var range=fromD+"_to_"+toD+(tier==="All"?"":"_"+tier);
+  if(mode==="daily"){
+    var rows=[["date","name","code","tier","link","revenue","orders"]];
+    list.forEach(function(i){Object.keys(i.daily).filter(function(d){return d>=fromD&&d<=toD;}).sort().forEach(function(d){rows.push([d,i.name,i.code,i.tier,i.link||"",i.daily[d].r.toFixed(2),i.daily[d].o]);});});
+    _downloadCSV("firstmfg_sales_daily_"+range+".csv",rows);
+  }else{
+    var rows=[["rank","name","code","tier","link","range_revenue","range_orders","last_sale_in_range","program_revenue_since_"+DATA.programStart,"all_time_revenue"]];
+    var enr=list.map(function(i){var p=periodTotals(i);var prog=0,all=0;for(var d in i.daily){all+=i.daily[d].r;if(d>=DATA.programStart)prog+=i.daily[d].r;}return {i:i,p:p,prog:prog,all:all};});
+    enr.sort(function(a,b){return b.p.rev-a.p.rev;});
+    enr.forEach(function(e,idx){rows.push([idx+1,e.i.name,e.i.code,e.i.tier,e.i.link||"",e.p.rev.toFixed(2),e.p.orders,e.p.last||"",e.prog.toFixed(2),e.all.toFixed(2)]);});
+    _downloadCSV("firstmfg_sales_summary_"+range+".csv",rows);
+  }
+}
 
 async function loadData(){
   try{
