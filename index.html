@@ -40,6 +40,10 @@
   .cd .n{font-size:25px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
   .cd .l{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:1px;margin-top:5px}
   .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
+  .srcbar{display:flex;align-items:center;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+  .srcbar .srclabel{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-right:4px}
+  .srcbtn{background:var(--panel2);border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:7px 14px;font-size:12.5px;font-weight:700;cursor:pointer}
+  .srcbtn.on{background:rgba(255,176,32,.14);border-color:var(--amber);color:var(--amber)}
   .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
   .kpi .v{font-size:22px;font-weight:800;letter-spacing:-.5px;font-variant-numeric:tabular-nums}
   .kpi .k{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.3}
@@ -169,6 +173,12 @@
     <div class="countdown" id="countdown"></div>
   </div>
 
+  <div class="srcbar">
+    <span class="srclabel">Source</span>
+    <button class="srcbtn on" data-src="collab" onclick="setSource(false)">Collab Sales (official)</button>
+    <button class="srcbtn" data-src="live" onclick="setSource(true)">Live (approx)</button>
+  </div>
+
   <div class="kpis" id="kpis"></div>
 
   <div class="sec-h">
@@ -203,7 +213,7 @@
   <div class="tablewrap" style="margin-bottom:26px">
     <div class="tlchart" id="tlchart"></div>
     <table>
-      <thead><tr><th>Period</th><th class="num">Collab Sales</th><th class="num">Commission</th><th class="num">Orders</th><th class="num">Creators w/ sales</th><th class="num">Avg order</th></tr></thead>
+      <thead><tr><th>Period</th><th class="num">Sales</th><th class="num">Orders</th><th class="num">Creators w/ sales</th><th class="num">Avg order</th></tr></thead>
       <tbody id="tlrows"></tbody>
     </table>
   </div>
@@ -235,7 +245,7 @@
     <table>
       <thead><tr>
         <th class="rank">#</th><th>Creator</th><th>Tier</th>
-        <th class="num">Collab Sales</th><th class="num" title="Commission (Collabs)">Commission</th><th class="num">Orders</th>
+        <th class="num" id="hSales">Collab Sales</th><th class="num" id="hSec">Commission</th><th class="num">Orders</th>
         <th>To $5,000 (program)</th><th>Last sale</th>
       </tr></thead>
       <tbody id="rows"></tbody>
@@ -253,7 +263,7 @@
 
 <script>
 const THRESHOLD=5000;
-let DATA=null, activeTier="All", fromD=null, toD=null, pageSize=150, shown=150, periodExpanded=false, lbExpanded=false;
+let DATA=null, ACTIVE=[], srcLive=false, activeTier="All", fromD=null, toD=null, pageSize=150, shown=150, periodExpanded=false, lbExpanded=false;
 
 function fmtM(n){return "$"+n.toLocaleString("en-US",{minimumFractionDigits:0,maximumFractionDigits:0});}
 function fmtM2(n){return "$"+n.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});}
@@ -266,7 +276,7 @@ function _downloadCSV(name,rows){const csv=rows.map(r=>r.map(_csvEsc).join(","))
 function exportCSV(mode){
   if(!DATA){return;}
   var tier=activeTier;
-  var list=DATA.influencers.filter(function(i){return tier==="All"||i.tier===tier;});
+  var list=ACTIVE.filter(function(i){return tier==="All"||i.tier===tier;});
   var range=fromD+"_to_"+toD+(tier==="All"?"":"_"+tier);
   if(mode==="daily"){
     var rows=[["date","name","code","tier","link","revenue","gross","orders"]];
@@ -294,13 +304,9 @@ async function loadData(){
 }
 
 function boot(){
-  // enrich cumulative + find date bounds
-  let minD=DATA.programStart, maxD=DATA.programStart;
-  DATA.influencers.forEach(i=>{const c=cum(i);i._crev=c.rev;i._corders=c.orders;i._clast=c.last;i._arev=c.arev;i._aorders=c.aorders;i._cgross=c.gross;
-    for(const d in i.daily){if(d<minD)minD=d;if(d>maxD)maxD=d;}});
-  DATA._min=minD; DATA._max=maxD;
-  const _bd={};DATA.influencers.forEach(i=>{for(const d in i.daily){const e=_bd[d]||(_bd[d]={r:0,o:0,g:0,c:0});e.r+=i.daily[d].r;e.o+=i.daily[d].o;e.g+=(i.daily[d].g||0);e.c++;}});DATA._byDay=_bd;
-  const _bm={};DATA.influencers.forEach(i=>{const sm=new Set();for(const d in i.daily){const k=d.slice(0,7);const e=_bm[k]||(_bm[k]={r:0,o:0,g:0,c:0});e.r+=i.daily[d].r;e.o+=i.daily[d].o;e.g+=(i.daily[d].g||0);if(!sm.has(k)){sm.add(k);e.c++;}}});DATA._byMonth=_bm;
+  enrichList(DATA.influencers); enrichList(DATA.liveInfluencers||[]);
+  ACTIVE = srcLive?(DATA.liveInfluencers||[]):DATA.influencers;
+  buildBounds();
   if(!fromD){fromD=DATA.programStart;toD=DATA._max;
     document.getElementById("from").value=fromD;document.getElementById("to").value=toD;
     document.getElementById("from").min=DATA._min;document.getElementById("from").max=DATA._max;
@@ -308,11 +314,27 @@ function boot(){
     setQ("prog");}
   renderMeta();renderCountdown();renderKPIs();renderRace();render();
 }
-
+function enrichList(list){(list||[]).forEach(i=>{const c=cum(i);i._crev=c.rev;i._corders=c.orders;i._clast=c.last;i._arev=c.arev;i._aorders=c.aorders;i._cgross=c.gross;});}
+function buildBounds(){
+  let minD=DATA.programStart,maxD=DATA.programStart;
+  ACTIVE.forEach(i=>{for(const d in i.daily){if(d<minD)minD=d;if(d>maxD)maxD=d;}});
+  DATA._min=minD;DATA._max=maxD;
+  const _bd={};ACTIVE.forEach(i=>{for(const d in i.daily){const e=_bd[d]||(_bd[d]={r:0,o:0,g:0,c:0});e.r+=i.daily[d].r;e.o+=i.daily[d].o;e.g+=(i.daily[d].g||0);e.c++;}});DATA._byDay=_bd;
+  const _bm={};ACTIVE.forEach(i=>{const sm=new Set();for(const d in i.daily){const k=d.slice(0,7);const e=_bm[k]||(_bm[k]={r:0,o:0,g:0,c:0});e.r+=i.daily[d].r;e.o+=i.daily[d].o;e.g+=(i.daily[d].g||0);if(!sm.has(k)){sm.add(k);e.c++;}}});DATA._byMonth=_bm;
+}
+function setSource(live){
+  srcLive=live; ACTIVE=live?(DATA.liveInfluencers||[]):DATA.influencers;
+  lbExpanded=false; periodExpanded=false; shown=pageSize;
+  buildBounds();
+  document.querySelectorAll(".srcbtn").forEach(b=>b.classList.toggle("on",(b.dataset.src==="live")===live));
+  var hs=document.getElementById("hSales"); if(hs)hs.textContent=live?"Live Sales":"Collab Sales";
+  var he=document.getElementById("hSec"); if(he)he.textContent=live?"\u2014":"Commission";
+  renderMeta();renderKPIs();renderRace();render();
+}
 function renderMeta(){
   const u=DATA.updated?new Date(DATA.updated):null;
   document.getElementById("updated").textContent="Updated "+(u?u.toLocaleString("en-US",{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit",timeZoneName:"short"}):"—");
-  document.getElementById("footer").innerHTML=(DATA.note||"")+"<br>Program start "+DATA.programStart+" · Threshold "+fmtM(DATA.threshold)+" · Deadline "+DATA.deadline+" · "+DATA.currency+" · UI v4";
+  document.getElementById("footer").innerHTML=(DATA.note||"")+"<br>Program start "+DATA.programStart+" · Threshold "+fmtM(DATA.threshold)+" · Deadline "+DATA.deadline+" · "+DATA.currency+" · UI v5";
 }
 function renderCountdown(){
   const dl=new Date(DATA.deadline+"T23:59:59");
@@ -323,19 +345,19 @@ function renderCountdown(){
   tick();clearInterval(window._cd);window._cd=setInterval(tick,1000);
 }
 function renderKPIs(){
-  const inf=DATA.influencers;
-  const qualified=inf.filter(i=>i._crev>=THRESHOLD);
-  const withSales=inf.filter(i=>i._crev>0);
-  const total=inf.reduce((a,i)=>a+i._crev,0);
-  const gross=inf.reduce((a,i)=>a+(i._cgross||0),0);
+  const col=DATA.influencers||[], liv=DATA.liveInfluencers||[];
+  const qualified=col.filter(i=>i._crev>=THRESHOLD);
+  const colTotal=col.reduce((a,i)=>a+i._crev,0);
+  const livTotal=liv.reduce((a,i)=>a+i._crev,0);
+  const withSales=ACTIVE.filter(i=>i._crev>0);
   const k=[{v:qualified.length,k:"Qualified ($5k+)",c:qualified.length?"good":""},
-    {v:fmtM(total),k:"Collab Sales \u2014 program (Jun 1+)",c:""},
-    {v:withSales.length,k:"Creators with sales \u2014 program",c:""},
-    {v:fmtM(gross),k:"Commission (Jun 1+)",c:"warn"}];
+    {v:fmtM(colTotal),k:"Collab Sales \u2014 official (Jun 1+)",c:"warn"},
+    {v:fmtM(livTotal),k:"Live approx \u2014 code+ref (Jun 1+)",c:""},
+    {v:withSales.length,k:"Creators with sales \u2014 "+(srcLive?"live":"collab"),c:""}];
   document.getElementById("kpis").innerHTML=k.map(x=>'<div class="kpi '+x.c+'"><div class="v">'+x.v+'</div><div class="k">'+x.k+'</div></div>').join("");
 }
 function renderRace(){
-  const top=[...DATA.influencers].filter(i=>i._crev>0).sort((a,b)=>b._crev-a._crev).slice(0,3);
+  const top=[...ACTIVE].filter(i=>i._crev>0).sort((a,b)=>b._crev-a._crev).slice(0,3);
   document.getElementById("race").innerHTML=top.map(i=>{
     const pct=Math.min(100,i._crev/THRESHOLD*100),gap=THRESHOLD-i._crev,q=gap<=0;
     return '<div class="rc" onclick="openModal(\''+esc(i.code)+'\')"><div class="top"><span class="nm">'+i.name+'</span><span class="amt">'+fmtM2(i._crev)+'</span></div>'+
@@ -347,45 +369,30 @@ function renderRace(){
 function togglePeriod(){periodExpanded=!periodExpanded;renderPeriod();}
 function renderPeriod(){
   const bd=DATA._byDay||{},bm=DATA._byMonth||{};
-  let rev=0,gross=0,orders=0,creators=0;
-  DATA.influencers.forEach(i=>{let has=false;for(const d in i.daily){if(d>=fromD&&d<=toD){rev+=i.daily[d].r;gross+=(i.daily[d].g||0);orders+=i.daily[d].o;has=true;}}if(has)creators++;});
+  let rev=0,orders=0,creators=0;
+  ACTIVE.forEach(i=>{let has=false;for(const d in i.daily){if(d>=fromD&&d<=toD){rev+=i.daily[d].r;orders+=i.daily[d].o;has=true;}}if(has)creators++;});
+  const slabel=srcLive?"Live Sales":"Collab Sales";
   document.getElementById("periodkpis").innerHTML=
     '<div class="periodstrip">'+
-    '<div class="ps"><span class="psv">'+fmtM2(rev)+'</span><span class="psk">Collab Sales</span></div>'+
-    '<div class="ps"><span class="psv amber">'+fmtM2(gross)+'</span><span class="psk">Commission</span></div>'+
+    '<div class="ps"><span class="psv amber">'+fmtM2(rev)+'</span><span class="psk">'+slabel+'</span></div>'+
     '<div class="ps"><span class="psv">'+orders.toLocaleString()+'</span><span class="psk">Orders</span></div>'+
     '<div class="ps"><span class="psv good">'+creators.toLocaleString()+'</span><span class="psk">Creators w/ sales</span></div>'+
-    '<div class="ps"><span class="psv">'+(orders?fmtM2(rev/orders):'\u2014')+'</span><span class="psk">Avg order</span></div>'+
+    '<div class="ps"><span class="psv">'+(orders?fmtM2(rev/orders):"\u2014")+'</span><span class="psk">Avg order</span></div>'+
     '</div>';
   const days=[];let cur=new Date(fromD+"T00:00:00Z");const end=new Date(toD+"T00:00:00Z");
   while(cur<=end&&days.length<5000){days.push(cur.toISOString().slice(0,10));cur.setUTCDate(cur.getUTCDate()+1);}
-  const monthly=days.length>92;
-  let buckets;
-  if(monthly){
-    const seen={};days.forEach(d=>{seen[d.slice(0,7)]=1;});
-    buckets=Object.keys(seen).sort().map(k=>{const e=bm[k]||{r:0,o:0,g:0,c:0};
-      return{label:new Date(k+"-15T00:00:00").toLocaleDateString("en-US",{month:"short",year:"2-digit"}),r:e.r,o:e.o,g:e.g||0,c:e.c};});
-  }else{
-    buckets=days.map(d=>{const e=bd[d]||{r:0,o:0,g:0,c:0};return{label:dlabel(d),r:e.r,o:e.o,g:e.g||0,c:e.c};});
-  }
-  const cb=buckets.slice(-60);
-  const maxr=Math.max(1,...cb.map(b=>b.r));
-  document.getElementById("tlchart").innerHTML=cb.map(b=>{
-    const h=Math.max(2,b.r/maxr*100);
-    return '<div class="tlcol" title="'+b.label+': '+fmtM2(b.r)+' \u00b7 '+b.o+' orders \u00b7 '+b.c+' creators"><div class="stick" style="height:'+h+'%"></div><div class="dl">'+b.label+'</div></div>';
-  }).join("");
-  const allrows=buckets.slice().reverse();
-  const showN=periodExpanded?allrows.length:5;
+  const monthly=days.length>92;let buckets;
+  if(monthly){const seen={};days.forEach(d=>{seen[d.slice(0,7)]=1;});
+    buckets=Object.keys(seen).sort().map(k=>{const e=bm[k]||{r:0,o:0,c:0};return{label:new Date(k+"-15T00:00:00").toLocaleDateString("en-US",{month:"short",year:"2-digit"}),r:e.r,o:e.o,c:e.c};});
+  }else{buckets=days.map(d=>{const e=bd[d]||{r:0,o:0,c:0};return{label:dlabel(d),r:e.r,o:e.o,c:e.c};});}
+  const cb=buckets.slice(-60);const maxr=Math.max(1,...cb.map(b=>b.r));
+  document.getElementById("tlchart").innerHTML=cb.map(b=>{const h=Math.max(2,b.r/maxr*100);
+    return '<div class="tlcol" title="'+b.label+': '+fmtM2(b.r)+' \u00b7 '+b.o+' orders"><div class="stick" style="height:'+h+'%"></div><div class="dl">'+b.label+'</div></div>';}).join("");
+  const allrows=buckets.slice().reverse();const showN=periodExpanded?allrows.length:5;
   document.getElementById("tlrows").innerHTML=allrows.slice(0,showN).map(b=>{
-    return '<tr style="cursor:default"><td>'+b.label+'</td>'+
-      '<td class="num">'+(b.r?fmtM2(b.r):'<span class="nosale">\u2014</span>')+'</td>'+
-      '<td class="num">'+(b.g?fmtM2(b.g):'<span class="nosale">\u2014</span>')+'</td>'+
-      '<td class="num">'+(b.o||'<span class="nosale">0</span>')+'</td>'+
-      '<td class="num">'+(b.c||'<span class="nosale">0</span>')+'</td>'+
-      '<td class="num">'+(b.o?fmtM2(b.r/b.o):'\u2014')+'</td></tr>';
-  }).join("");
+    return '<tr style="cursor:default"><td>'+b.label+'</td><td class="num">'+(b.r?fmtM2(b.r):'<span class="nosale">\u2014</span>')+'</td><td class="num">'+(b.o||'<span class="nosale">0</span>')+'</td><td class="num">'+(b.c||'<span class="nosale">0</span>')+'</td><td class="num">'+(b.o?fmtM2(b.r/b.o):"\u2014")+'</td></tr>';}).join("");
   const pmw=document.getElementById("periodmorewrap");
-  if(pmw){if(allrows.length>5){pmw.innerHTML='<button class="morebtn" onclick="togglePeriod()">'+(periodExpanded?'Show less':'Show all '+allrows.length+' periods')+'</button>';}else{pmw.innerHTML='';}}
+  if(pmw){if(allrows.length>5){pmw.innerHTML='<button class="morebtn" onclick="togglePeriod()">'+(periodExpanded?"Show less":"Show all "+allrows.length+" periods")+'</button>';}else{pmw.innerHTML="";}}
 }
 
 /* date controls */
@@ -420,7 +427,7 @@ function render(keepShown){
   const q=document.getElementById("search").value.trim().toUpperCase();
   const sortBy=document.getElementById("sort").value;
   const showZero=document.getElementById("showzero").checked;
-  let list=DATA.influencers.map(i=>{const p=periodTotals(i);return{i:i,rev:p.rev,gross:p.gross,orders:p.orders,last:p.last};});
+  let list=ACTIVE.map(i=>{const p=periodTotals(i);return{i:i,rev:p.rev,gross:p.gross,orders:p.orders,last:p.last};});
   if(activeTier!=="All")list=list.filter(x=>x.i.tier===activeTier);
   if(q)list=list.filter(x=>x.i.code.toUpperCase().includes(q));
   if(!showZero)list=list.filter(x=>x.rev>0);
@@ -451,7 +458,7 @@ function render(keepShown){
 /* modal */
 function esc(s){return s.replace(/'/g,"\\'");}
 function openModal(code){
-  const i=DATA.influencers.find(x=>x.code===code);if(!i)return;
+  const i=ACTIVE.find(x=>x.code===code);if(!i)return;
   const c=cum(i),aov=c.orders?c.rev/c.orders:0,pct=Math.min(100,c.rev/THRESHOLD*100),qual=c.rev>=THRESHOLD,gap=THRESHOLD-c.rev;
   const days=Object.keys(i.daily).sort();
   const cdays=days.slice(-45);
@@ -477,7 +484,7 @@ function openModal(code){
       '<button class="xbtn" onclick="closeModal()">✕</button></div></div>'+
     '<div class="mbody">'+
       '<div class="mstats">'+
-        '<div class="ms"><div class="v">'+fmtM2(c.rev)+'</div><div class="k">Collab Sales</div></div>'+
+        '<div class="ms"><div class="v">'+fmtM2(c.rev)+'</div><div class="k">Program sales</div></div>'+
         '<div class="ms"><div class="v">'+c.orders+'</div><div class="k">Orders</div></div>'+
         '<div class="ms"><div class="v">'+(c.orders?fmtM2(aov):"—")+'</div><div class="k">Avg order</div></div>'+
         '<div class="ms"><div class="v"><span class="tier t-'+i.tier+'">'+i.tier+'</span></div><div class="k">Tier</div></div>'+
