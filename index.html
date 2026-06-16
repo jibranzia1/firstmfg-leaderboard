@@ -203,7 +203,7 @@
   <div class="tablewrap" style="margin-bottom:26px">
     <div class="tlchart" id="tlchart"></div>
     <table>
-      <thead><tr><th>Period</th><th class="num">Revenue</th><th class="num">Collab sales</th><th class="num">Orders</th><th class="num">Creators w/ sales</th><th class="num">Avg order</th></tr></thead>
+      <thead><tr><th>Period</th><th class="num">Collab Sales</th><th class="num">Commission</th><th class="num">Orders</th><th class="num">Creators w/ sales</th><th class="num">Avg order</th></tr></thead>
       <tbody id="tlrows"></tbody>
     </table>
   </div>
@@ -223,7 +223,7 @@
     <span class="chip" data-tier="Silver" onclick="setTier(this)">Silver</span>
     <span class="chip" data-tier="Bronze" onclick="setTier(this)">Bronze</span>
     <select id="sort" onchange="render()">
-      <option value="rev">Sort: Revenue ↓</option>
+      <option value="rev">Sort: Collab Sales ↓</option>
       <option value="orders">Sort: Orders ↓</option>
       <option value="name">Sort: Name A–Z</option>
       <option value="gap">Sort: Closest to $5k</option>
@@ -235,7 +235,7 @@
     <table>
       <thead><tr>
         <th class="rank">#</th><th>Creator</th><th>Tier</th>
-        <th class="num">Revenue</th><th class="num" title="Collab sales — code-attributed (program period)">Collab sales</th><th class="num">Orders</th>
+        <th class="num">Collab Sales</th><th class="num" title="Commission (Collabs)">Commission</th><th class="num">Orders</th>
         <th>To $5,000 (program)</th><th>Last sale</th>
       </tr></thead>
       <tbody id="rows"></tbody>
@@ -273,7 +273,7 @@ function exportCSV(mode){
     list.forEach(function(i){Object.keys(i.daily).filter(function(d){return d>=fromD&&d<=toD;}).sort().forEach(function(d){rows.push([d,i.name,i.code,i.tier,i.link||"",i.daily[d].r.toFixed(2),(i.daily[d].g||0).toFixed(2),i.daily[d].o]);});});
     _downloadCSV("firstmfg_sales_daily_"+range+".csv",rows);
   }else{
-    var rows=[["rank","name","code","tier","link","range_revenue","range_collab_sales","range_orders","last_sale_in_range","program_revenue_since_"+DATA.programStart,"program_collab_sales_since_"+DATA.programStart,"all_time_revenue"]];
+    var rows=[["rank","name","code","tier","link","range_collab_sales","range_commission","range_orders","last_sale_in_range","program_collab_sales_since_"+DATA.programStart,"program_commission_since_"+DATA.programStart,"all_time_sales"]];
     var enr=list.map(function(i){var p=periodTotals(i);var prog=0,proggross=0,all=0;for(var d in i.daily){all+=i.daily[d].r;if(d>=DATA.programStart){prog+=i.daily[d].r;proggross+=(i.daily[d].g||0);}}return {i:i,p:p,prog:prog,proggross:proggross,all:all};});
     enr.sort(function(a,b){return b.p.rev-a.p.rev;});
     enr.forEach(function(e,idx){rows.push([idx+1,e.i.name,e.i.code,e.i.tier,e.i.link||"",e.p.rev.toFixed(2),e.p.gross.toFixed(2),e.p.orders,e.p.last||"",e.prog.toFixed(2),e.proggross.toFixed(2),e.all.toFixed(2)]);});
@@ -312,7 +312,7 @@ function boot(){
 function renderMeta(){
   const u=DATA.updated?new Date(DATA.updated):null;
   document.getElementById("updated").textContent="Updated "+(u?u.toLocaleString("en-US",{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit",timeZoneName:"short"}):"—");
-  document.getElementById("footer").innerHTML=(DATA.note||"")+"<br>Program start "+DATA.programStart+" · Threshold "+fmtM(DATA.threshold)+" · Deadline "+DATA.deadline+" · "+DATA.currency+" · UI v3";
+  document.getElementById("footer").innerHTML=(DATA.note||"")+"<br>Program start "+DATA.programStart+" · Threshold "+fmtM(DATA.threshold)+" · Deadline "+DATA.deadline+" · "+DATA.currency+" · UI v4";
 }
 function renderCountdown(){
   const dl=new Date(DATA.deadline+"T23:59:59");
@@ -329,9 +329,9 @@ function renderKPIs(){
   const total=inf.reduce((a,i)=>a+i._crev,0);
   const gross=inf.reduce((a,i)=>a+(i._cgross||0),0);
   const k=[{v:qualified.length,k:"Qualified ($5k+)",c:qualified.length?"good":""},
-    {v:fmtM(total),k:"Tracked revenue \u2014 program (Jun 1+)",c:""},
+    {v:fmtM(total),k:"Collab Sales \u2014 program (Jun 1+)",c:""},
     {v:withSales.length,k:"Creators with sales \u2014 program",c:""},
-    {v:fmtM(gross),k:"Collab sales (Jun 1+)",c:"warn"}];
+    {v:fmtM(gross),k:"Commission (Jun 1+)",c:"warn"}];
   document.getElementById("kpis").innerHTML=k.map(x=>'<div class="kpi '+x.c+'"><div class="v">'+x.v+'</div><div class="k">'+x.k+'</div></div>').join("");
 }
 function renderRace(){
@@ -351,8 +351,8 @@ function renderPeriod(){
   DATA.influencers.forEach(i=>{let has=false;for(const d in i.daily){if(d>=fromD&&d<=toD){rev+=i.daily[d].r;gross+=(i.daily[d].g||0);orders+=i.daily[d].o;has=true;}}if(has)creators++;});
   document.getElementById("periodkpis").innerHTML=
     '<div class="periodstrip">'+
-    '<div class="ps"><span class="psv">'+fmtM2(rev)+'</span><span class="psk">Revenue \u2014 current (code)</span></div>'+
-    '<div class="ps"><span class="psv amber">'+fmtM2(gross)+'</span><span class="psk">Collab sales</span></div>'+
+    '<div class="ps"><span class="psv">'+fmtM2(rev)+'</span><span class="psk">Collab Sales</span></div>'+
+    '<div class="ps"><span class="psv amber">'+fmtM2(gross)+'</span><span class="psk">Commission</span></div>'+
     '<div class="ps"><span class="psv">'+orders.toLocaleString()+'</span><span class="psk">Orders</span></div>'+
     '<div class="ps"><span class="psv good">'+creators.toLocaleString()+'</span><span class="psk">Creators w/ sales</span></div>'+
     '<div class="ps"><span class="psv">'+(orders?fmtM2(rev/orders):'\u2014')+'</span><span class="psk">Avg order</span></div>'+
@@ -460,7 +460,7 @@ function openModal(code){
       const h=Math.max(2,i.daily[d].r/maxr*100);
       return '<div class="dcol" title="'+dlabel(d)+': '+fmtM2(i.daily[d].r)+'"><div class="stick" style="height:'+h+'%"></div><div class="dl">'+dlabel(d).replace(" "," ")+'</div></div>';
     }).join("")+'</div>'):'';
-  const dtable=days.length?('<table class="dtable"><thead><tr><th>Date</th><th class="num">Revenue</th><th class="num">Collab</th><th class="num">Orders</th></tr></thead><tbody>'+
+  const dtable=days.length?('<table class="dtable"><thead><tr><th>Date</th><th class="num">Sales</th><th class="num">Comm.</th><th class="num">Orders</th></tr></thead><tbody>'+
     days.slice().reverse().map(d=>'<tr><td>'+dlabel(d)+'</td><td class="num">'+fmtM2(i.daily[d].r)+'</td><td class="num">'+((i.daily[d].g!=null)?fmtM2(i.daily[d].g):'—')+'</td><td class="num">'+i.daily[d].o+'</td></tr>').join("")+
     '</tbody></table>'):'<div class="nosale" style="padding:8px 0">No sales recorded yet — activation target.</div>';
   const link=i.link?'<a href="'+i.link+'" target="_blank" rel="noopener" style="color:var(--amber)">'+i.link+'</a>':'<span class="nosale">— not on file</span>';
@@ -477,7 +477,7 @@ function openModal(code){
       '<button class="xbtn" onclick="closeModal()">✕</button></div></div>'+
     '<div class="mbody">'+
       '<div class="mstats">'+
-        '<div class="ms"><div class="v">'+fmtM2(c.rev)+'</div><div class="k">Program revenue</div></div>'+
+        '<div class="ms"><div class="v">'+fmtM2(c.rev)+'</div><div class="k">Collab Sales</div></div>'+
         '<div class="ms"><div class="v">'+c.orders+'</div><div class="k">Orders</div></div>'+
         '<div class="ms"><div class="v">'+(c.orders?fmtM2(aov):"—")+'</div><div class="k">Avg order</div></div>'+
         '<div class="ms"><div class="v"><span class="tier t-'+i.tier+'">'+i.tier+'</span></div><div class="k">Tier</div></div>'+
@@ -490,8 +490,8 @@ function openModal(code){
       socialRows+
       '<div class="profrow"><span>Discount code</span><span>'+i.code+'</span></div>'+
       '<div class="profrow"><span>Tier</span><span>'+i.tier+'</span></div>'+
-      '<div class="profrow"><span>All-time revenue (since '+(DATA.dataStart||DATA.programStart)+')</span><span>'+fmtM2(c.arev)+' \u00b7 '+c.aorders+' orders</span></div>'+
-      '<div class="profrow"><span>Program Collab sales</span><span>'+fmtM2(c.gross)+'</span></div>'+'<div class="profrow"><span>Link</span><span>'+link+'</span></div>'+
+      '<div class="profrow"><span>All-time sales (since '+(DATA.dataStart||DATA.programStart)+')</span><span>'+fmtM2(c.arev)+' \u00b7 '+c.aorders+' orders</span></div>'+
+      '<div class="profrow"><span>Commission (program)</span><span>'+fmtM2(c.gross)+'</span></div>'+'<div class="profrow"><span>Link</span><span>'+link+'</span></div>'+
       '<div class="profrow"><span>Commission rate</span><span>'+commLine+'</span></div>'+
       '<div class="note">Commission rate, name &amp; socials come from your Collabs roster file. Shopify’s API does not expose Collabs commissions or creator profiles, so these read “not set” until an <code>influencer-roster.csv</code> (columns: code,name,instagram,tiktok,followers,commission_rate,link) is added to the working folder — the hourly sync then maps it in automatically.</div>'+
     '</div>';
