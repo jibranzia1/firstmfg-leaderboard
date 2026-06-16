@@ -226,7 +226,7 @@
     <table>
       <thead><tr>
         <th class="rank">#</th><th>Creator</th><th>Tier</th>
-        <th class="num">Revenue</th><th class="num">Orders</th>
+        <th class="num">Revenue</th><th class="num" title="Code-attributed gross sales — Collabs basis (program period)">Gross (Collabs)</th><th class="num">Orders</th>
         <th>To $5,000 (program)</th><th>Last sale</th>
       </tr></thead>
       <tbody id="rows"></tbody>
@@ -250,8 +250,8 @@ function fmtM(n){return "$"+n.toLocaleString("en-US",{minimumFractionDigits:0,ma
 function fmtM2(n){return "$"+n.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});}
 function dlabel(d){return new Date(d+"T00:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric"});}
 
-function cum(inf){let r=0,o=0,ar=0,ao=0,last=null;for(const d in inf.daily){ar+=inf.daily[d].r;ao+=inf.daily[d].o;if(!last||d>last)last=d;if(d>=DATA.programStart){r+=inf.daily[d].r;o+=inf.daily[d].o;}}return{rev:r,orders:o,arev:ar,aorders:ao,last:last};}
-function periodTotals(inf){let r=0,o=0,last=null;for(const d in inf.daily){if(d>=fromD&&d<=toD){r+=inf.daily[d].r;o+=inf.daily[d].o;if(!last||d>last)last=d;}}return{rev:r,orders:o,last:last};}
+function cum(inf){let r=0,o=0,g=0,ar=0,ao=0,last=null;for(const d in inf.daily){ar+=inf.daily[d].r;ao+=inf.daily[d].o;if(!last||d>last)last=d;if(d>=DATA.programStart){r+=inf.daily[d].r;o+=inf.daily[d].o;g+=(inf.daily[d].g||0);}}return{rev:r,orders:o,gross:g,arev:ar,aorders:ao,last:last};}
+function periodTotals(inf){let r=0,o=0,g=0,last=null;for(const d in inf.daily){if(d>=fromD&&d<=toD){r+=inf.daily[d].r;o+=inf.daily[d].o;g+=(inf.daily[d].g||0);if(!last||d>last)last=d;}}return{rev:r,orders:o,gross:g,last:last};}
 function _csvEsc(v){v=(v==null?"":String(v));return /[",\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v;}
 function _downloadCSV(name,rows){const csv=rows.map(r=>r.map(_csvEsc).join(",")).join("\r\n");const blob=new Blob(["\ufeff"+csv],{type:"text/csv;charset=utf-8"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},150);}
 function exportCSV(mode){
@@ -260,14 +260,14 @@ function exportCSV(mode){
   var list=DATA.influencers.filter(function(i){return tier==="All"||i.tier===tier;});
   var range=fromD+"_to_"+toD+(tier==="All"?"":"_"+tier);
   if(mode==="daily"){
-    var rows=[["date","name","code","tier","link","revenue","orders"]];
-    list.forEach(function(i){Object.keys(i.daily).filter(function(d){return d>=fromD&&d<=toD;}).sort().forEach(function(d){rows.push([d,i.name,i.code,i.tier,i.link||"",i.daily[d].r.toFixed(2),i.daily[d].o]);});});
+    var rows=[["date","name","code","tier","link","revenue","gross","orders"]];
+    list.forEach(function(i){Object.keys(i.daily).filter(function(d){return d>=fromD&&d<=toD;}).sort().forEach(function(d){rows.push([d,i.name,i.code,i.tier,i.link||"",i.daily[d].r.toFixed(2),(i.daily[d].g||0).toFixed(2),i.daily[d].o]);});});
     _downloadCSV("firstmfg_sales_daily_"+range+".csv",rows);
   }else{
-    var rows=[["rank","name","code","tier","link","range_revenue","range_orders","last_sale_in_range","program_revenue_since_"+DATA.programStart,"all_time_revenue"]];
-    var enr=list.map(function(i){var p=periodTotals(i);var prog=0,all=0;for(var d in i.daily){all+=i.daily[d].r;if(d>=DATA.programStart)prog+=i.daily[d].r;}return {i:i,p:p,prog:prog,all:all};});
+    var rows=[["rank","name","code","tier","link","range_revenue","range_gross","range_orders","last_sale_in_range","program_revenue_since_"+DATA.programStart,"program_gross_since_"+DATA.programStart,"all_time_revenue"]];
+    var enr=list.map(function(i){var p=periodTotals(i);var prog=0,proggross=0,all=0;for(var d in i.daily){all+=i.daily[d].r;if(d>=DATA.programStart){prog+=i.daily[d].r;proggross+=(i.daily[d].g||0);}}return {i:i,p:p,prog:prog,proggross:proggross,all:all};});
     enr.sort(function(a,b){return b.p.rev-a.p.rev;});
-    enr.forEach(function(e,idx){rows.push([idx+1,e.i.name,e.i.code,e.i.tier,e.i.link||"",e.p.rev.toFixed(2),e.p.orders,e.p.last||"",e.prog.toFixed(2),e.all.toFixed(2)]);});
+    enr.forEach(function(e,idx){rows.push([idx+1,e.i.name,e.i.code,e.i.tier,e.i.link||"",e.p.rev.toFixed(2),e.p.gross.toFixed(2),e.p.orders,e.p.last||"",e.prog.toFixed(2),e.proggross.toFixed(2),e.all.toFixed(2)]);});
     _downloadCSV("firstmfg_sales_summary_"+range+".csv",rows);
   }
 }
@@ -402,7 +402,7 @@ function render(keepShown){
   const q=document.getElementById("search").value.trim().toUpperCase();
   const sortBy=document.getElementById("sort").value;
   const showZero=document.getElementById("showzero").checked;
-  let list=DATA.influencers.map(i=>{const p=periodTotals(i);return{i:i,rev:p.rev,orders:p.orders,last:p.last};});
+  let list=DATA.influencers.map(i=>{const p=periodTotals(i);return{i:i,rev:p.rev,gross:p.gross,orders:p.orders,last:p.last};});
   if(activeTier!=="All")list=list.filter(x=>x.i.tier===activeTier);
   if(q)list=list.filter(x=>x.i.code.toUpperCase().includes(q));
   if(!showZero)list=list.filter(x=>x.rev>0);
@@ -422,9 +422,9 @@ function render(keepShown){
     return '<tr onclick="openModal(\''+esc(i.code)+'\')"><td class="rank">'+(idx+1)+'</td>'+
       '<td class="cname">'+i.name+'</td><td><span class="tier t-'+i.tier+'">'+i.tier+'</span></td>'+
       '<td class="num">'+(x.rev>0?fmtM2(x.rev):'<span class="nosale">No sales</span>')+'</td>'+
-      '<td class="num">'+(x.orders||'<span class="nosale">0</span>')+'</td>'+
+      '<td class="num">'+(x.gross>0?fmtM2(x.gross):'<span class="nosale">—</span>')+'</td>'+'<td class="num">'+(x.orders||'<span class="nosale">0</span>')+'</td>'+
       '<td>'+(i._crev>0?pbar:'<span class="nosale">—</span>')+'</td><td>'+last+'</td></tr>';
-  }).join("")||'<tr><td colspan="7" style="padding:24px;text-align:center;color:var(--dim)">No creators match.</td></tr>';
+  }).join("")||'<tr><td colspan="8" style="padding:24px;text-align:center;color:var(--dim)">No creators match.</td></tr>';
   const mb=document.getElementById("morebtn");
   if(totalCount>shown){mb.style.display="block";mb.textContent="Show "+Math.min(pageSize,totalCount-shown)+" more  ("+shown.toLocaleString()+" of "+totalCount.toLocaleString()+")";}
   else mb.style.display="none";
@@ -442,8 +442,8 @@ function openModal(code){
       const h=Math.max(2,i.daily[d].r/maxr*100);
       return '<div class="dcol" title="'+dlabel(d)+': '+fmtM2(i.daily[d].r)+'"><div class="stick" style="height:'+h+'%"></div><div class="dl">'+dlabel(d).replace(" "," ")+'</div></div>';
     }).join("")+'</div>'):'';
-  const dtable=days.length?('<table class="dtable"><thead><tr><th>Date</th><th class="num">Revenue</th><th class="num">Orders</th></tr></thead><tbody>'+
-    days.slice().reverse().map(d=>'<tr><td>'+dlabel(d)+'</td><td class="num">'+fmtM2(i.daily[d].r)+'</td><td class="num">'+i.daily[d].o+'</td></tr>').join("")+
+  const dtable=days.length?('<table class="dtable"><thead><tr><th>Date</th><th class="num">Revenue</th><th class="num">Gross</th><th class="num">Orders</th></tr></thead><tbody>'+
+    days.slice().reverse().map(d=>'<tr><td>'+dlabel(d)+'</td><td class="num">'+fmtM2(i.daily[d].r)+'</td><td class="num">'+((i.daily[d].g!=null)?fmtM2(i.daily[d].g):'—')+'</td><td class="num">'+i.daily[d].o+'</td></tr>').join("")+
     '</tbody></table>'):'<div class="nosale" style="padding:8px 0">No sales recorded yet — activation target.</div>';
   const link=i.link?'<a href="'+i.link+'" target="_blank" rel="noopener" style="color:var(--amber)">'+i.link+'</a>':'<span class="nosale">— not on file</span>';
   const rate=(i.commissionRate!=null&&i.commissionRate!=="")?Number(i.commissionRate):null;
@@ -473,7 +473,7 @@ function openModal(code){
       '<div class="profrow"><span>Discount code</span><span>'+i.code+'</span></div>'+
       '<div class="profrow"><span>Tier</span><span>'+i.tier+'</span></div>'+
       '<div class="profrow"><span>All-time revenue (since '+(DATA.dataStart||DATA.programStart)+')</span><span>'+fmtM2(c.arev)+' \u00b7 '+c.aorders+' orders</span></div>'+
-      '<div class="profrow"><span>Link</span><span>'+link+'</span></div>'+
+      '<div class="profrow"><span>Program gross (Collabs basis)</span><span>'+fmtM2(c.gross)+'</span></div>'+'<div class="profrow"><span>Link</span><span>'+link+'</span></div>'+
       '<div class="profrow"><span>Commission rate</span><span>'+commLine+'</span></div>'+
       '<div class="note">Commission rate, name &amp; socials come from your Collabs roster file. Shopify’s API does not expose Collabs commissions or creator profiles, so these read “not set” until an <code>influencer-roster.csv</code> (columns: code,name,instagram,tiktok,followers,commission_rate,link) is added to the working folder — the hourly sync then maps it in automatically.</div>'+
     '</div>';
