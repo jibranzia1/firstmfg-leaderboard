@@ -1,12 +1,82 @@
 {
-  "generatedAt": "2026-06-17T11:45:37Z",
+  "generatedAt": "2026-06-17T14:52:03Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 590,
-  "rowCount": 945,
+  "orderCount": 593,
+  "rowCount": 950,
   "rows": [
+    {
+      "name": "209662",
+      "subtotal": "0.0",
+      "currency": "USD",
+      "createdAt": "2026-06-17T14:06:57Z",
+      "orderDate": "2026-06-17",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Clutch Men's Motorcycle Leather Gloves - Black White Paisley / L",
+      "lineitemPrice": "18.47",
+      "sku": "FI230-BW1-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 1
+    },
+    {
+      "name": "209656",
+      "subtotal": "0.0",
+      "currency": "USD",
+      "createdAt": "2026-06-17T13:43:15Z",
+      "orderDate": "2026-06-17",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Rider Club - Men's Leather Motorcycle Jacket - Brown / M",
+      "lineitemPrice": "263.78",
+      "sku": "FIM225CDMZ-BRNB-M",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "209656",
+      "subtotal": "0.0",
+      "currency": "USD",
+      "createdAt": "2026-06-17T13:43:15Z",
+      "orderDate": "2026-06-17",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Vendetta Men's Motorcycle Leather Jacket - Black Olive / M",
+      "lineitemPrice": "237.4",
+      "sku": "FIM276SDTZ-BLKOLV-M",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 8
+    },
+    {
+      "name": "209656",
+      "subtotal": "0.0",
+      "currency": "USD",
+      "createdAt": "2026-06-17T13:43:15Z",
+      "orderDate": "2026-06-17",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Upside Perforated Men's Club Style Leather Vest - Black / M",
+      "lineitemPrice": "175.13",
+      "sku": "FIM653PERF-BBLK-M",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 4
+    },
+    {
+      "name": "209654",
+      "subtotal": "152.95",
+      "currency": "USD",
+      "createdAt": "2026-06-17T12:53:29Z",
+      "orderDate": "2026-06-17",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Bonnie - Women's Motorcycle Leather Vest - Diamond Quilt - Black White / L",
+      "lineitemPrice": "152.95",
+      "sku": "FIL588CDM-BLKWH-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 1
+    },
     {
       "name": "209632",
       "subtotal": "183.28",
@@ -18,7 +88,7 @@
       "lineitemName": "Sinister - Men's Motorcycle Leather Vest - Red White / 4XL",
       "lineitemPrice": "185.13",
       "sku": "FIM672QLT-RDWHT-4XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -1013,7 +1083,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5542
+      "inventory": 5543
     },
     {
       "name": "209203",
@@ -2441,7 +2511,7 @@
       "lineitemPrice": "37.99",
       "sku": "LHPT1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1982
+      "inventory": 1980
     },
     {
       "name": "208715",
@@ -2651,7 +2721,7 @@
       "lineitemPrice": "98.32",
       "sku": "FIM659CNV-BLK-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 15
+      "inventory": 14
     },
     {
       "name": "208633",
@@ -2701,12 +2771,12 @@
       "currency": "USD",
       "createdAt": "2026-06-10T02:06:23Z",
       "orderDate": "2026-06-09",
-      "financialStatus": "PAID",
+      "financialStatus": "REFUNDED",
       "quantity": 1,
       "lineitemName": "Texas Ranger Vest - 3XL",
       "lineitemPrice": "184.0",
       "sku": "M048-BLK-3XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 1
     },
     {
@@ -3317,12 +3387,12 @@
       "currency": "USD",
       "createdAt": "2026-06-08T05:41:55Z",
       "orderDate": "2026-06-08",
-      "financialStatus": "PAID",
+      "financialStatus": "REFUNDED",
       "quantity": 1,
       "lineitemName": "Indy Men's Motorcycle Leather Jacket - Black / XL",
       "lineitemPrice": "254.93",
       "sku": "FIM278CDL-BLK-XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 1
     },
     {
@@ -3561,7 +3631,7 @@
       "lineitemPrice": "77.81",
       "sku": "FIL027MESH-BBLK-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 10
     },
     {
       "name": "208226",
@@ -4790,7 +4860,7 @@
       "financialStatus": "PAID",
       "quantity": 1,
       "lineitemName": "Murdock - Men's Motorcycle Denim Vest - Black (Charcoal Grey) / 5XL",
-      "lineitemPrice": "96.44",
+      "lineitemPrice": "96.45",
       "sku": "FIM651DM-BLK-5XL",
       "fulfillmentStatus": "unfulfilled",
       "inventory": 1
@@ -5451,7 +5521,7 @@
       "lineitemPrice": "21.0",
       "sku": "FI211DEER-BLK-M",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 10
+      "inventory": 11
     },
     {
       "name": "207492",
@@ -7859,7 +7929,7 @@
       "lineitemPrice": "19.2",
       "sku": "WHIP-BLK-STRD",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 19
+      "inventory": 18
     },
     {
       "name": "206570",
@@ -8517,7 +8587,7 @@
       "lineitemPrice": "83.34",
       "sku": "ATM3003-NGRN-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 13
+      "inventory": 12
     },
     {
       "name": "206328",
@@ -8573,7 +8643,7 @@
       "lineitemPrice": "122.36",
       "sku": "FIL588CDM-BLKWH-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "206310",
@@ -9595,7 +9665,7 @@
       "lineitemPrice": "19.2",
       "sku": "WHIP-BLK-STRD",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 19
+      "inventory": 18
     },
     {
       "name": "206090",
@@ -10771,7 +10841,7 @@
       "lineitemPrice": "19.2",
       "sku": "WHIP-BLK-STRD",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 19
+      "inventory": 18
     },
     {
       "name": "205666",
@@ -10799,7 +10869,7 @@
       "lineitemPrice": "83.34",
       "sku": "ATM3003-NGRN-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 13
+      "inventory": 12
     },
     {
       "name": "205661",
@@ -11079,7 +11149,7 @@
       "lineitemPrice": "19.2",
       "sku": "WHIP-BLK-STRD",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 19
+      "inventory": 18
     },
     {
       "name": "205554",
@@ -11975,7 +12045,7 @@
       "lineitemPrice": "78.9",
       "sku": "FIM659CNV-TAN-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 9
+      "inventory": 8
     },
     {
       "name": "205222",
@@ -12241,7 +12311,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5542
+      "inventory": 5543
     },
     {
       "name": "205119",
@@ -12529,12 +12599,12 @@
       "currency": "USD",
       "createdAt": "2026-05-20T08:29:27Z",
       "orderDate": "2026-05-20",
-      "financialStatus": "PAID",
+      "financialStatus": "REFUNDED",
       "quantity": 1,
       "lineitemName": "Desperado Men's Motorcycle Twill Jacket - Black / L",
       "lineitemPrice": "113.05",
       "sku": "FIM254TWILL-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 1
     },
     {
@@ -12759,7 +12829,7 @@
       "lineitemPrice": "42.12",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 82
+      "inventory": 81
     },
     {
       "name": "204908",
@@ -12815,7 +12885,7 @@
       "lineitemPrice": "18.5",
       "sku": "FIMB16006-BLK-36",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 277
+      "inventory": 276
     },
     {
       "name": "204899",
@@ -13067,7 +13137,7 @@
       "lineitemPrice": "21.0",
       "sku": "FI211DEER-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 9
+      "inventory": 8
     },
     {
       "name": "204806",
