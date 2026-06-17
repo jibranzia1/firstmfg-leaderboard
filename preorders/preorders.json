@@ -1,12 +1,40 @@
 {
-  "generatedAt": "2026-06-17T16:39:42Z",
+  "generatedAt": "2026-06-17T17:51:29Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 593,
-  "rowCount": 950,
+  "orderCount": 595,
+  "rowCount": 953,
   "rows": [
+    {
+      "name": "209686",
+      "subtotal": "546.44",
+      "currency": "USD",
+      "createdAt": "2026-06-17T17:08:23Z",
+      "orderDate": "2026-06-17",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Turbine Men's Motorcycle Perforated Leather Jacket - Black / XL",
+      "lineitemPrice": "243.82",
+      "sku": "FIM213CNP-BLK-XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "209686",
+      "subtotal": "546.44",
+      "currency": "USD",
+      "createdAt": "2026-06-17T17:08:23Z",
+      "orderDate": "2026-06-17",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Nightstrike Men\u2019s Motorcycle Leather Jacket - BLACK / XL",
+      "lineitemPrice": "308.13",
+      "sku": "FIM275CDMZ-BLK-XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 7
+    },
     {
       "name": "209666",
       "subtotal": "175.13",
@@ -19,7 +47,7 @@
       "lineitemPrice": "175.13",
       "sku": "CUS5010LTH-BLK-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "209662",
@@ -242,7 +270,7 @@
       "lineitemName": "Texan Men's Motorcycle Western Style Leather Vest - Black / 3XL",
       "lineitemPrice": "151.84",
       "sku": "FIM643CCB-BLK-3XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -1097,7 +1125,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5538
+      "inventory": 5536
     },
     {
       "name": "209203",
@@ -1307,7 +1335,7 @@
       "lineitemPrice": "12.15",
       "sku": "FIMB16000-BRN-38",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 11
+      "inventory": 10
     },
     {
       "name": "209141",
@@ -2049,7 +2077,7 @@
       "lineitemPrice": "16.62",
       "sku": "FI230-BLKWT-M",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "208891",
@@ -2119,7 +2147,7 @@
       "lineitemPrice": "14.91",
       "sku": "FIMB16001-BLK-40",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 39
+      "inventory": 38
     },
     {
       "name": "208856",
@@ -2507,7 +2535,7 @@
       "orderDate": "2026-06-11",
       "financialStatus": "PAID",
       "quantity": 1,
-      "lineitemName": "\ufeffEnduro Men's Motorcycle Leather Gauntlet - Black / L",
+      "lineitemName": "Enduro Men's Motorcycle Leather Gauntlet - Black / L",
       "lineitemPrice": "18.5",
       "sku": "FI143GL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
@@ -2525,7 +2553,7 @@
       "lineitemPrice": "37.99",
       "sku": "LHPT1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1978
+      "inventory": 1975
     },
     {
       "name": "208715",
@@ -5661,7 +5689,7 @@
       "lineitemPrice": "14.78",
       "sku": "FI230-BLKWT-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "207475",
@@ -5867,7 +5895,7 @@
       "orderDate": "2026-06-01",
       "financialStatus": "PAID",
       "quantity": 1,
-      "lineitemName": "\ufeffEnduro Men's Motorcycle Leather Gauntlet - Black / M",
+      "lineitemName": "Enduro Men's Motorcycle Leather Gauntlet - Black / M",
       "lineitemPrice": "18.5",
       "sku": "FI143GL-BLK-M",
       "fulfillmentStatus": "unfulfilled",
@@ -6221,7 +6249,7 @@
       "lineitemPrice": "455.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -469
+      "inventory": -470
     },
     {
       "name": "207262",
@@ -7337,6 +7365,20 @@
       "orderDate": "2026-05-27",
       "financialStatus": "PAID",
       "quantity": 1,
+      "lineitemName": "49/51 - No Collar Men's Leather/Canvas Motorcycle Vest - Black / 3XL",
+      "lineitemPrice": "139.21",
+      "sku": "FIM4951CNV-N-BLK-3XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 1
+    },
+    {
+      "name": "206828",
+      "subtotal": "0.0",
+      "currency": "USD",
+      "createdAt": "2026-05-27T15:06:58Z",
+      "orderDate": "2026-05-27",
+      "financialStatus": "PAID",
+      "quantity": 1,
       "lineitemName": "Equalizer Men's Motorcycle Denim Shirt - Black / XXL",
       "lineitemPrice": "130.78",
       "sku": "FIM423DM-BLK-XXL",
@@ -7344,24 +7386,24 @@
       "inventory": 0
     },
     {
-      "name": "206838",
+      "name": "206828",
       "subtotal": "0.0",
       "currency": "USD",
-      "createdAt": "2026-05-27T15:14:10Z",
+      "createdAt": "2026-05-27T15:06:58Z",
       "orderDate": "2026-05-27",
       "financialStatus": "PAID",
       "quantity": 1,
-      "lineitemName": "\ufeffEnduro Men's Motorcycle Leather Gauntlet - Black / XL",
+      "lineitemName": "Enduro Men's Motorcycle Leather Gauntlet - Black / XL",
       "lineitemPrice": "18.5",
       "sku": "FI143GL-BLK-XL",
       "fulfillmentStatus": "unfulfilled",
       "inventory": 2
     },
     {
-      "name": "206838",
+      "name": "206828",
       "subtotal": "0.0",
       "currency": "USD",
-      "createdAt": "2026-05-27T15:14:10Z",
+      "createdAt": "2026-05-27T15:06:58Z",
       "orderDate": "2026-05-27",
       "financialStatus": "PAID",
       "quantity": 1,
@@ -9119,7 +9161,7 @@
       "lineitemPrice": "140.26",
       "sku": "FIM659LTH-CCG-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 16
+      "inventory": 15
     },
     {
       "name": "206218",
@@ -9441,7 +9483,7 @@
       "lineitemPrice": "590.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -469
+      "inventory": -470
     },
     {
       "name": "206147",
@@ -11345,7 +11387,7 @@
       "lineitemPrice": "139.79",
       "sku": "CUS6028LRD-BLK-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 10
+      "inventory": 9
     },
     {
       "name": "205447",
@@ -11789,7 +11831,7 @@
       "orderDate": "2026-05-21",
       "financialStatus": "PAID",
       "quantity": 1,
-      "lineitemName": "\ufeffEnduro Men's Motorcycle Leather Gauntlet - Black / M",
+      "lineitemName": "Enduro Men's Motorcycle Leather Gauntlet - Black / M",
       "lineitemPrice": "14.8",
       "sku": "FI143GL-BLK-M",
       "fulfillmentStatus": "fulfilled",
@@ -12311,7 +12353,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5538
+      "inventory": 5533
     },
     {
       "name": "205119",
