@@ -1,12 +1,26 @@
 {
-  "generatedAt": "2026-06-18T20:49:27Z",
+  "generatedAt": "2026-06-18T21:41:08Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 586,
-  "rowCount": 955,
+  "orderCount": 587,
+  "rowCount": 956,
   "rows": [
+    {
+      "name": "209868",
+      "subtotal": "249.99",
+      "currency": "USD",
+      "createdAt": "2026-06-18T20:54:07Z",
+      "orderDate": "2026-06-18",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Renegade - Men's Perforated Leather Motorcycle Vest - L",
+      "lineitemPrice": "249.99",
+      "sku": "197406",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": -1
+    },
     {
       "name": "209856",
       "subtotal": "0.0",
@@ -60,7 +74,7 @@
       "lineitemName": "Love Lace Women's Motorcycle Leather Vest - Black / M",
       "lineitemPrice": "133.0",
       "sku": "FIL578CDM-BLK-M",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -200,7 +214,7 @@
       "lineitemName": "Mastermind Men's Motorcycle Leather Jacket - Tall / Black / M",
       "lineitemPrice": "268.01",
       "sku": "FIM244TALL-BLK-M",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -214,7 +228,7 @@
       "lineitemName": "CE-2 Armor Pad Set",
       "lineitemPrice": "43.25",
       "sku": "ARMOR-SET",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 76
     },
     {
@@ -649,7 +663,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5585
+      "inventory": 5579
     },
     {
       "name": "209712",
@@ -858,7 +872,7 @@
       "lineitemName": "Mystery box - Extra Value Guaranteed - $149.99 / Men's Vest / L",
       "lineitemPrice": "149.99",
       "sku": "",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -16
     },
     {
@@ -872,7 +886,7 @@
       "lineitemName": "Shell Shock Men's Motorcycle Leather Vest (limited edition) - Black / L",
       "lineitemPrice": "174.74",
       "sku": "CUS6028LRD-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 16
     },
     {
@@ -886,7 +900,7 @@
       "lineitemName": "Mystery box - Extra Value Guaranteed - $99.99 / Men's Vest / L",
       "lineitemPrice": "99.99",
       "sku": "",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -13
     },
     {
@@ -900,7 +914,7 @@
       "lineitemName": "Lowside Gunner Men's Perforated Leather Vest - Brown / L",
       "lineitemPrice": "186.2",
       "sku": "FIM6590PERF-CCG-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 19
     },
     {
@@ -1390,7 +1404,7 @@
       "lineitemName": "Mystery box - Extra Value Guaranteed - $149.99 / Men's Vest / XL",
       "lineitemPrice": "149.99",
       "sku": "",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -12
     },
     {
@@ -1404,7 +1418,7 @@
       "lineitemName": "Upside Perforated Men's Club Style Leather Vest - Grey / XL",
       "lineitemPrice": "157.62",
       "sku": "FIM653PERF-BKG-XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 14
     },
     {
@@ -1446,7 +1460,7 @@
       "lineitemName": "Mystery box - Extra Value Guaranteed - $149.99 / Men's Vest / L",
       "lineitemPrice": "149.99",
       "sku": "",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -16
     },
     {
@@ -1460,7 +1474,7 @@
       "lineitemName": "Lowside Men's Perforated Motorcycle Leather Vest - Black / L",
       "lineitemPrice": "163.57",
       "sku": "FIM659PERF-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 16
     },
     {
@@ -1811,7 +1825,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5585
+      "inventory": 5579
     },
     {
       "name": "209203",
@@ -2091,7 +2105,7 @@
       "lineitemPrice": "157.25",
       "sku": "FIM659CPM-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 27
+      "inventory": 25
     },
     {
       "name": "209139",
@@ -2735,7 +2749,7 @@
       "lineitemPrice": "80.5",
       "sku": "FIM659TWILL-BLK-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 15
+      "inventory": 14
     },
     {
       "name": "208895",
@@ -3239,7 +3253,7 @@
       "lineitemPrice": "37.99",
       "sku": "LHPT1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1954
+      "inventory": 1977
     },
     {
       "name": "208715",
@@ -8153,7 +8167,7 @@
       "lineitemPrice": "97.52",
       "sku": "ATL3071-BLKPL-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3
+      "inventory": 4
     },
     {
       "name": "206823",
@@ -8545,7 +8559,7 @@
       "lineitemPrice": "145.39",
       "sku": "FIM659PERF-BLKRD-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "206617",
@@ -8999,7 +9013,7 @@
       "name": "206461",
       "subtotal": "69.16",
       "currency": "USD",
-      "createdAt": "2026-05-25T19:12:31Z",
+      "createdAt": "2026-05-25T19:22:35Z",
       "orderDate": "2026-05-25",
       "financialStatus": "PAID",
       "quantity": 1,
@@ -12297,7 +12311,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 2
     },
     {
       "name": "205397",
@@ -13067,7 +13081,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5585
+      "inventory": 5579
     },
     {
       "name": "205119",
@@ -13109,7 +13123,7 @@
       "lineitemPrice": "164.03",
       "sku": "FIL588PERF-BBLK-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "205096",
