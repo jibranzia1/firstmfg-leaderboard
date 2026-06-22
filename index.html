@@ -326,6 +326,12 @@ function setSource(live){
   srcLive=live; ACTIVE=live?(DATA.liveInfluencers||[]):DATA.influencers;
   lbExpanded=false; periodExpanded=false; shown=pageSize;
   buildBounds();
+  // re-sync date filter to the newly active view's bounds
+  ["from","to"].forEach(function(id){var el=document.getElementById(id);if(el){el.min=DATA._min;el.max=DATA._max;}});
+  if(toD>DATA._max||srcLive){toD=DATA._max;}
+  if(fromD<DATA._min){fromD=DATA._min;}
+  document.getElementById("from").value=fromD;
+  document.getElementById("to").value=toD;
   document.querySelectorAll(".srcbtn").forEach(b=>b.classList.toggle("on",(b.dataset.src==="live")===live));
   var hs=document.getElementById("hSales"); if(hs)hs.textContent=live?"Live Sales":"Collab Sales";
   var he=document.getElementById("hSec"); if(he)he.textContent=live?"\u2014":"Commission";
