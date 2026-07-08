@@ -1,12 +1,26 @@
 {
-  "generatedAt": "2026-07-08T07:43:19Z",
+  "generatedAt": "2026-07-08T16:15:27Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 623,
-  "rowCount": 981,
+  "orderCount": 624,
+  "rowCount": 983,
   "rows": [
+    {
+      "name": "213296",
+      "subtotal": "186.2",
+      "currency": "USD",
+      "createdAt": "2026-07-08T13:49:17Z",
+      "orderDate": "2026-07-08",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Lowside Hornet Perforated Men's Club Style Leather Vest - Black Gold / XXL",
+      "lineitemPrice": "186.2",
+      "sku": "FIM059PERF-BLKGL-XXL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
     {
       "name": "213283",
       "subtotal": "116.08",
@@ -18,7 +32,7 @@
       "lineitemName": "Get Back Whip - RED WHITE / STRD",
       "lineitemPrice": "24.0",
       "sku": "WHIP-RDWHT-STRD",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 115
     },
     {
@@ -32,7 +46,7 @@
       "lineitemName": "Neoprene Half Face Inverse Skull Riding Mask - Grey Black",
       "lineitemPrice": "7.99",
       "sku": "FI-7801",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -46,7 +60,7 @@
       "lineitemName": "Upside Moto Mesh Men's Motorcycle Vest - Red / XXL",
       "lineitemPrice": "86.45",
       "sku": "FIM653MESH-BLKRD-XXL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 5
     },
     {
@@ -228,7 +242,7 @@
       "lineitemName": "No Rival - Men's Motorcycle Leather Vest - Black / 6XL",
       "lineitemPrice": "150.78",
       "sku": "FIM639NOC-BLK-6XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -247,11 +261,11 @@
     },
     {
       "name": "213204",
-      "subtotal": "432.0",
+      "subtotal": "411.0",
       "currency": "USD",
       "createdAt": "2026-07-07T17:59:16Z",
       "orderDate": "2026-07-07",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "Ranch Men's Motorcycle Leather Gloves - Black / L",
       "lineitemPrice": "18.5",
@@ -261,11 +275,11 @@
     },
     {
       "name": "213204",
-      "subtotal": "432.0",
+      "subtotal": "411.0",
       "currency": "USD",
       "createdAt": "2026-07-07T17:59:16Z",
       "orderDate": "2026-07-07",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "SMALL TRUCKER - Vegetable Tanned Leather Wallet - GRANITE / Antique Brass",
       "lineitemPrice": "21.0",
@@ -275,11 +289,11 @@
     },
     {
       "name": "213204",
-      "subtotal": "432.0",
+      "subtotal": "411.0",
       "currency": "USD",
       "createdAt": "2026-07-07T17:59:16Z",
       "orderDate": "2026-07-07",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "Custom MC Jacket - Men's - mczr_price_454_99",
       "lineitemPrice": "784.99",
@@ -1147,7 +1161,7 @@
       "currency": "USD",
       "createdAt": "2026-07-05T21:39:52Z",
       "orderDate": "2026-07-05",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "Natural Belt - Natural / 40",
       "lineitemPrice": "21.2",
@@ -1161,12 +1175,12 @@
       "currency": "USD",
       "createdAt": "2026-07-05T21:39:52Z",
       "orderDate": "2026-07-05",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "LARGE TRUCKER - Vegetable Tanned Leather Wallet - ROYAL BLUE / Chrome",
       "lineitemPrice": "21.2",
       "sku": "FIW9001-RBLU-LRG",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 59
     },
     {
@@ -1175,7 +1189,7 @@
       "currency": "USD",
       "createdAt": "2026-07-05T21:39:52Z",
       "orderDate": "2026-07-05",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "Independence Day Swat Style Vest",
       "lineitemPrice": "639.99",
@@ -1189,7 +1203,7 @@
       "currency": "USD",
       "createdAt": "2026-07-05T21:39:52Z",
       "orderDate": "2026-07-05",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "FMC Tool Roll - White",
       "lineitemPrice": "29.6",
@@ -1203,7 +1217,7 @@
       "currency": "USD",
       "createdAt": "2026-07-05T21:39:52Z",
       "orderDate": "2026-07-05",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "Leather Belt 1 3/4\" - Brown / 40",
       "lineitemPrice": "12.8",
@@ -1217,7 +1231,7 @@
       "currency": "USD",
       "createdAt": "2026-07-05T21:39:52Z",
       "orderDate": "2026-07-05",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "Leather Belt 1 3/4\" - Black / 40",
       "lineitemPrice": "12.8",
@@ -1231,7 +1245,7 @@
       "currency": "USD",
       "createdAt": "2026-07-05T21:39:52Z",
       "orderDate": "2026-07-05",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "Squares Belt - Squares / 40",
       "lineitemPrice": "21.2",
@@ -1245,7 +1259,7 @@
       "currency": "USD",
       "createdAt": "2026-07-05T21:39:52Z",
       "orderDate": "2026-07-05",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "Leather Belt 1 1/2\" - Brown / 40",
       "lineitemPrice": "10.8",
@@ -1601,7 +1615,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3411
+      "inventory": 3421
     },
     {
       "name": "212685",
@@ -1643,7 +1657,7 @@
       "lineitemPrice": "875.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "212668",
@@ -1847,12 +1861,12 @@
       "currency": "USD",
       "createdAt": "2026-07-04T06:19:33Z",
       "orderDate": "2026-07-04",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "SMALL TRUCKER - Vegetable Tanned Leather Wallet - GUNMETAL BLACK / Chrome",
       "lineitemPrice": "16.8",
       "sku": "FIW9002-GMBK-SML",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -1861,7 +1875,7 @@
       "currency": "USD",
       "createdAt": "2026-07-04T06:19:33Z",
       "orderDate": "2026-07-04",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "CE-2 Armor Pad Set",
       "lineitemPrice": "33.7",
@@ -1875,7 +1889,7 @@
       "currency": "USD",
       "createdAt": "2026-07-04T06:19:33Z",
       "orderDate": "2026-07-04",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_REFUNDED",
       "quantity": 1,
       "lineitemName": "Custom MC Jacket - Women's - mczr_price_524_99",
       "lineitemPrice": "674.99",
@@ -2133,7 +2147,7 @@
       "lineitemPrice": "725.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "212530",
@@ -2427,7 +2441,7 @@
       "lineitemPrice": "790.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "212403",
@@ -3211,7 +3225,7 @@
       "lineitemPrice": "810.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "212013",
@@ -3547,7 +3561,7 @@
       "lineitemPrice": "130.78",
       "sku": "FMM690BSF-BLK-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 13
+      "inventory": 12
     },
     {
       "name": "211911",
@@ -4041,17 +4055,31 @@
     },
     {
       "name": "211628",
-      "subtotal": "254.47",
+      "subtotal": "314.47",
       "currency": "USD",
       "createdAt": "2026-06-29T01:16:05Z",
       "orderDate": "2026-06-28",
-      "financialStatus": "PAID",
+      "financialStatus": "PARTIALLY_PAID",
       "quantity": 1,
       "lineitemName": "Maiden - Women's Motorcycle Leather Jacket - Black / Made To Measure (+$50 USD)",
       "lineitemPrice": "254.47",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
       "inventory": -1
+    },
+    {
+      "name": "211628",
+      "subtotal": "314.47",
+      "currency": "USD",
+      "createdAt": "2026-06-29T01:16:05Z",
+      "orderDate": "2026-06-28",
+      "financialStatus": "PARTIALLY_PAID",
+      "quantity": 1,
+      "lineitemName": "Additional charges",
+      "lineitemPrice": "60.0",
+      "sku": "",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": ""
     },
     {
       "name": "211619",
@@ -5143,7 +5171,7 @@
       "lineitemPrice": "650.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "211191",
@@ -7257,7 +7285,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3411
+      "inventory": 3419
     },
     {
       "name": "210512",
@@ -7803,7 +7831,7 @@
       "lineitemPrice": "455.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "210356",
@@ -7993,12 +8021,12 @@
       "currency": "USD",
       "createdAt": "2026-06-20T19:23:44Z",
       "orderDate": "2026-06-20",
-      "financialStatus": "PAID",
+      "financialStatus": "REFUNDED",
       "quantity": 1,
       "lineitemName": "Hunt Club Motorcycle Leather Canvas Vest Grey - Grey / L",
       "lineitemPrice": "104.63",
       "sku": "FIM664CNVQ-BLKGRY-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -8307,7 +8335,7 @@
       "lineitemPrice": "122.36",
       "sku": "FIM618CFD-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 15
+      "inventory": 14
     },
     {
       "name": "210185",
@@ -8741,7 +8769,7 @@
       "lineitemPrice": "69.16",
       "sku": "FIM650MESH-BBLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 17
+      "inventory": 16
     },
     {
       "name": "210003",
@@ -8797,7 +8825,7 @@
       "lineitemPrice": "69.16",
       "sku": "FIM650MESH-BBLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 17
+      "inventory": 16
     },
     {
       "name": "209999",
@@ -8825,7 +8853,7 @@
       "lineitemPrice": "565.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "209999",
@@ -8937,7 +8965,7 @@
       "lineitemPrice": "13.99",
       "sku": "LHCLNWIPE",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1107
+      "inventory": 1126
     },
     {
       "name": "209996",
@@ -9287,7 +9315,7 @@
       "lineitemPrice": "730.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "209920",
@@ -9463,12 +9491,12 @@
       "currency": "USD",
       "createdAt": "2026-06-18T22:42:29Z",
       "orderDate": "2026-06-18",
-      "financialStatus": "PAID",
+      "financialStatus": "REFUNDED",
       "quantity": 1,
       "lineitemName": "Bonnie - Women's Motorcycle Leather Vest - Diamond Quilt - Black White / L",
       "lineitemPrice": "152.95",
       "sku": "FIL588CDM-BLKWH-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -9735,7 +9763,7 @@
       "lineitemPrice": "97.52",
       "sku": "ATL3071-PNK-S",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 12
+      "inventory": 11
     },
     {
       "name": "209783",
@@ -10141,7 +10169,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3411
+      "inventory": 3419
     },
     {
       "name": "209712",
@@ -10239,7 +10267,7 @@
       "lineitemPrice": "18.47",
       "sku": "FI230-BW1-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 3
     },
     {
       "name": "209656",
@@ -10589,7 +10617,7 @@
       "lineitemPrice": "735.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "209515",
@@ -10995,7 +11023,7 @@
       "lineitemPrice": "820.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "209304",
@@ -11191,7 +11219,7 @@
       "lineitemPrice": "455.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "209243",
@@ -11303,7 +11331,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3411
+      "inventory": 3419
     },
     {
       "name": "209203",
@@ -11597,7 +11625,7 @@
       "lineitemPrice": "157.25",
       "sku": "FIM659CPM-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 8
+      "inventory": 7
     },
     {
       "name": "209139",
@@ -11667,7 +11695,7 @@
       "lineitemPrice": "565.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "209132",
@@ -12185,7 +12213,7 @@
       "lineitemPrice": "710.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1789
+      "inventory": -1788
     },
     {
       "name": "208918",
@@ -12773,7 +12801,7 @@
       "lineitemPrice": "37.99",
       "sku": "LHPT1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2187
+      "inventory": 2196
     },
     {
       "name": "208715",
