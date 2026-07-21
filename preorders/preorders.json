@@ -1,12 +1,138 @@
 {
-  "generatedAt": "2026-07-20T19:39:10Z",
+  "generatedAt": "2026-07-21T07:40:43Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 526,
-  "rowCount": 812,
+  "orderCount": 533,
+  "rowCount": 821,
   "rows": [
+    {
+      "name": "214769",
+      "subtotal": "536.84",
+      "currency": "USD",
+      "createdAt": "2026-07-21T02:16:42Z",
+      "orderDate": "2026-07-20",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Leather Neck & Chest Warmer - L/XL",
+      "lineitemPrice": "27.0",
+      "sku": "FINWRMGL-BLK-L/XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 332
+    },
+    {
+      "name": "214769",
+      "subtotal": "536.84",
+      "currency": "USD",
+      "createdAt": "2026-07-21T02:16:42Z",
+      "orderDate": "2026-07-20",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "BiTurbo - Men's Leather Motorcycle Jacket - Black / XL",
+      "lineitemPrice": "254.91",
+      "sku": "FIM286CDMZ-BLK-XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 3
+    },
+    {
+      "name": "214769",
+      "subtotal": "536.84",
+      "currency": "USD",
+      "createdAt": "2026-07-21T02:16:42Z",
+      "orderDate": "2026-07-20",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Raptor Men's Motorcycle Leather Jacket - Black / XL",
+      "lineitemPrice": "254.93",
+      "sku": "FIM431CDMZ-BLK-XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "214768",
+      "subtotal": "166.25",
+      "currency": "USD",
+      "createdAt": "2026-07-21T02:11:34Z",
+      "orderDate": "2026-07-20",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Upside Men's Club Style Leather Vest - Black / M",
+      "lineitemPrice": "166.25",
+      "sku": "FIM653QLT-BBLK-M",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "214751",
+      "subtotal": "168.0",
+      "currency": "USD",
+      "createdAt": "2026-07-20T22:50:15Z",
+      "orderDate": "2026-07-20",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Infantry Motorcycle Leather Canvas Vest - Camo / 3XL",
+      "lineitemPrice": "168.0",
+      "sku": "FIM666-CAMO-3XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "214750",
+      "subtotal": "0.0",
+      "currency": "USD",
+      "createdAt": "2026-07-20T21:43:14Z",
+      "orderDate": "2026-07-20",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Cindy -  Women's Motorcycle Leather Vest Black - Black White / S",
+      "lineitemPrice": "141.88",
+      "sku": "FIL576PM-BLKWH-S",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "214745",
+      "subtotal": "174.72",
+      "currency": "USD",
+      "createdAt": "2026-07-20T21:21:46Z",
+      "orderDate": "2026-07-20",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Lowside Men's Motorcycle Leather Vest - Black / XL",
+      "lineitemPrice": "174.72",
+      "sku": "FIM659CPM-BLK-XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "214744",
+      "subtotal": "0.0",
+      "currency": "USD",
+      "createdAt": "2026-07-20T21:17:41Z",
+      "orderDate": "2026-07-20",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Love Lace Women's Motorcycle Leather Vest - Black / XL",
+      "lineitemPrice": "133.0",
+      "sku": "FIL578CDM-BLK-XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "214724",
+      "subtotal": "131.89",
+      "currency": "USD",
+      "createdAt": "2026-07-20T19:18:56Z",
+      "orderDate": "2026-07-20",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Commuter Men's Motorcycle Leather Jacket - Brown / L",
+      "lineitemPrice": "131.89",
+      "sku": "FIM277CVZ-BRN-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
     {
       "name": "214720",
       "subtotal": "189.0",
@@ -46,7 +172,7 @@
       "lineitemName": "Lowrider Perforated Men's Leather Vest - Black / L",
       "lineitemPrice": "166.25",
       "sku": "FIM650PERF-BBLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 15
     },
     {
@@ -61,7 +187,7 @@
       "lineitemPrice": "18.47",
       "sku": "FI230-BLKWT-M",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "214688",
@@ -74,7 +200,7 @@
       "lineitemName": "Gun Slinger Men's Motorcycle Western Style Leather Vest - Black / 8XL",
       "lineitemPrice": "141.91",
       "sku": "FMM612BSF-BLK-8XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -158,7 +284,7 @@
       "lineitemName": "Downside Men's Motorcycle Leather Vest - Purple / L",
       "lineitemPrice": "149.63",
       "sku": "FIM693QLT-BLKPUR-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -172,7 +298,7 @@
       "lineitemName": "Sharp Shooter Men's Motorcycle Leather Vest - Black / L",
       "lineitemPrice": "117.7",
       "sku": "FIM689NOC-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -186,7 +312,7 @@
       "lineitemName": "Diamond Quilted Leather Belt - Black / 34",
       "lineitemPrice": "28.35",
       "sku": "FIMB16012-BKBK-34",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 4
     },
     {
@@ -200,7 +326,7 @@
       "lineitemName": "Upside Men's Club Style Leather Vest - Black / M",
       "lineitemPrice": "149.63",
       "sku": "FIM653QLT-BBLK-M",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -228,7 +354,7 @@
       "lineitemName": "Tiff Women's Motorcycle Twill Vest - Black / L",
       "lineitemPrice": "77.81",
       "sku": "FIL519TWILL-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 14
     },
     {
@@ -242,7 +368,7 @@
       "lineitemName": "Sharp Shooter Men's Motorcycle Leather Vest - Black / L",
       "lineitemPrice": "117.7",
       "sku": "FIM689NOC-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -256,8 +382,8 @@
       "lineitemName": "Dagger Motorcycle Twill Shirt - Black / L",
       "lineitemPrice": "127.69",
       "sku": "CUS423TWL-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 3
     },
     {
       "name": "214618",
@@ -284,7 +410,7 @@
       "lineitemName": "Tiff Women's Motorcycle Twill Vest - Black / 3XL",
       "lineitemPrice": "86.81",
       "sku": "FIL519TWILL-BLK-3XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -312,7 +438,7 @@
       "lineitemName": "No Rival - Men's Motorcycle Leather Vest - Black / 5XL",
       "lineitemPrice": "126.7",
       "sku": "FIM639NOC-BLK-5XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -340,7 +466,7 @@
       "lineitemName": "Upside Moto Mesh Men's Motorcycle Vest - Red / 4XL",
       "lineitemPrice": "86.81",
       "sku": "FIM653MESH-BLKRD-4XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -424,7 +550,7 @@
       "lineitemName": "Lowside Hornet Perforated Men's Club Style Leather Vest - Black Gold / 3XL",
       "lineitemPrice": "176.58",
       "sku": "FIM059PERF-BLKGL-3XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -662,7 +788,7 @@
       "lineitemName": "Rally Chaps - Unisex - Black / S",
       "lineitemPrice": "127.69",
       "sku": "FMM835CC-BLK-S",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 8
     },
     {
@@ -676,7 +802,7 @@
       "lineitemName": "Sissy Women's Leather Chaps - Black / XS",
       "lineitemPrice": "127.69",
       "sku": "FIL745CSL-BLK-XS",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -718,7 +844,7 @@
       "lineitemName": "Cascade Men's Leather Motorcycle Gloves - Black / L",
       "lineitemPrice": "37.8",
       "sku": "FI215-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 29
     },
     {
@@ -746,7 +872,7 @@
       "lineitemName": "Patriot Chaps with Snap Out Liner - Unisex - Black / 3XL",
       "lineitemPrice": "142.16",
       "sku": "FIM840CDD-BLK-3XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 5
     },
     {
@@ -760,7 +886,7 @@
       "lineitemName": "Immortal Men's Motorcycle Textile Jacket - Orange / M",
       "lineitemPrice": "127.69",
       "sku": "FIM450TEXZ-ORNG-M",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 8
     },
     {
@@ -774,7 +900,7 @@
       "lineitemName": "Upside Men's Club Style Leather Vest - Black / S",
       "lineitemPrice": "149.63",
       "sku": "FIM653QLT-BBLK-S",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -859,7 +985,7 @@
       "lineitemPrice": "755.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "214382",
@@ -971,7 +1097,7 @@
       "lineitemPrice": "149.63",
       "sku": "FIM653QLT-BBLK-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 22
+      "inventory": 20
     },
     {
       "name": "214345",
@@ -1069,7 +1195,7 @@
       "lineitemPrice": "620.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "214294",
@@ -1167,7 +1293,7 @@
       "lineitemPrice": "675.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "214288",
@@ -1489,7 +1615,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3304
+      "inventory": 3310
     },
     {
       "name": "214159",
@@ -1573,7 +1699,7 @@
       "lineitemPrice": "815.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "214129",
@@ -2147,7 +2273,7 @@
       "lineitemPrice": "18.47",
       "sku": "FI230-BLKWT-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 11
+      "inventory": 10
     },
     {
       "name": "213918",
@@ -2315,7 +2441,7 @@
       "lineitemPrice": "89.44",
       "sku": "FIM659TWILL-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2
+      "inventory": 1
     },
     {
       "name": "213848",
@@ -2511,7 +2637,7 @@
       "lineitemPrice": "594.99",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -490
+      "inventory": -491
     },
     {
       "name": "213809",
@@ -2609,7 +2735,7 @@
       "lineitemPrice": "785.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "213763",
@@ -2637,7 +2763,7 @@
       "lineitemPrice": "35.95",
       "sku": "G-FOG-S",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 42
+      "inventory": 41
     },
     {
       "name": "213751",
@@ -2651,7 +2777,7 @@
       "lineitemPrice": "485.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "213751",
@@ -2749,7 +2875,7 @@
       "lineitemPrice": "565.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "213718",
@@ -2805,7 +2931,7 @@
       "lineitemPrice": "705.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "213715",
@@ -2833,7 +2959,7 @@
       "lineitemPrice": "177.4",
       "sku": "FIM659CPM-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "213700",
@@ -2847,7 +2973,7 @@
       "lineitemPrice": "141.88",
       "sku": "FIL576PM-BLKWH-S",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "213700",
@@ -2973,7 +3099,7 @@
       "lineitemPrice": "725.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "213589",
@@ -3001,7 +3127,7 @@
       "lineitemPrice": "174.72",
       "sku": "FIM659CPM-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "213575",
@@ -3351,7 +3477,7 @@
       "lineitemPrice": "18.47",
       "sku": "FI211-BLK-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 312
+      "inventory": 311
     },
     {
       "name": "213495",
@@ -3365,7 +3491,7 @@
       "lineitemPrice": "750.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "213489",
@@ -3393,7 +3519,7 @@
       "lineitemPrice": "174.72",
       "sku": "FIM659CPM-BLK-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 29
+      "inventory": 28
     },
     {
       "name": "213481",
@@ -3561,7 +3687,7 @@
       "lineitemPrice": "184.72",
       "sku": "FIM659CPM-BLK-4XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 13
+      "inventory": 12
     },
     {
       "name": "213430",
@@ -3589,7 +3715,7 @@
       "lineitemPrice": "184.72",
       "sku": "FIM659CPM-BLK-4XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 13
+      "inventory": 12
     },
     {
       "name": "213385",
@@ -3673,7 +3799,7 @@
       "lineitemPrice": "89.95",
       "sku": "C6O-PHG",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 464
+      "inventory": 463
     },
     {
       "name": "213362",
@@ -3701,7 +3827,7 @@
       "lineitemPrice": "268.34",
       "sku": "FIM277CVZ-BRN-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1
+      "inventory": 0
     },
     {
       "name": "213327",
@@ -3855,7 +3981,7 @@
       "lineitemPrice": "86.45",
       "sku": "FIM653MESH-BLKRD-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 12
+      "inventory": 11
     },
     {
       "name": "213276",
@@ -4247,7 +4373,7 @@
       "lineitemPrice": "564.99",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -490
+      "inventory": -491
     },
     {
       "name": "213174",
@@ -4457,7 +4583,7 @@
       "lineitemPrice": "194.72",
       "sku": "FIM659CPM-BLK-6XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2
+      "inventory": 1
     },
     {
       "name": "213070",
@@ -4695,7 +4821,7 @@
       "lineitemPrice": "211.02",
       "sku": "FIM277CVZ-BRN-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1
+      "inventory": 0
     },
     {
       "name": "213032",
@@ -5395,7 +5521,7 @@
       "lineitemPrice": "14.78",
       "sku": "FI230-BLKWT-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 11
+      "inventory": 10
     },
     {
       "name": "212685",
@@ -5409,7 +5535,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3304
+      "inventory": 3310
     },
     {
       "name": "212685",
@@ -5451,7 +5577,7 @@
       "lineitemPrice": "875.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "212668",
@@ -5759,7 +5885,7 @@
       "lineitemPrice": "419.99",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -159
+      "inventory": -160
     },
     {
       "name": "212593",
@@ -5843,7 +5969,7 @@
       "lineitemPrice": "147.78",
       "sku": "FIM659CPM-BLK-4XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 13
+      "inventory": 12
     },
     {
       "name": "212575",
@@ -5941,7 +6067,7 @@
       "lineitemPrice": "725.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "212530",
@@ -6151,7 +6277,7 @@
       "lineitemPrice": "211.02",
       "sku": "FIM277CVZ-BRN-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": -1
+      "inventory": 0
     },
     {
       "name": "212480",
@@ -6235,7 +6361,7 @@
       "lineitemPrice": "790.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "212403",
@@ -6305,7 +6431,7 @@
       "lineitemPrice": "78.66",
       "sku": "FIM659CNV-BLK-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 19
+      "inventory": 18
     },
     {
       "name": "212393",
@@ -6697,7 +6823,7 @@
       "lineitemPrice": "145.39",
       "sku": "FIM659PERF-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 17
+      "inventory": 16
     },
     {
       "name": "212176",
@@ -7019,7 +7145,7 @@
       "lineitemPrice": "810.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "212013",
@@ -7033,7 +7159,7 @@
       "lineitemPrice": "153.39",
       "sku": "FIM659PERF-BLK-4XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 8
+      "inventory": 7
     },
     {
       "name": "212009",
@@ -7201,7 +7327,7 @@
       "lineitemPrice": "364.99",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -558
+      "inventory": -560
     },
     {
       "name": "211942",
@@ -7285,7 +7411,7 @@
       "lineitemPrice": "263.78",
       "sku": "FIM277CVZ-BRN-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1
+      "inventory": 0
     },
     {
       "name": "211919",
@@ -7943,7 +8069,7 @@
       "lineitemPrice": "151.2",
       "sku": "FIM666-CAMO-3XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "211569",
@@ -8041,7 +8167,7 @@
       "lineitemPrice": "464.99",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -558
+      "inventory": -560
     },
     {
       "name": "211548",
@@ -8069,7 +8195,7 @@
       "lineitemPrice": "157.25",
       "sku": "FIM659CPM-BLK-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 29
+      "inventory": 28
     },
     {
       "name": "211516",
@@ -8965,7 +9091,7 @@
       "lineitemPrice": "650.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -1849
+      "inventory": -1851
     },
     {
       "name": "211191",
@@ -9035,7 +9161,7 @@
       "lineitemPrice": "163.57",
       "sku": "FIM659PERF-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 17
+      "inventory": 16
     },
     {
       "name": "211179",
@@ -9063,7 +9189,7 @@
       "lineitemPrice": "16.62",
       "sku": "FI211-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 312
+      "inventory": 311
     },
     {
       "name": "211179",
@@ -9399,7 +9525,7 @@
       "lineitemPrice": "18.47",
       "sku": "FI211-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 312
+      "inventory": 311
     },
     {
       "name": "211087",
@@ -9581,7 +9707,7 @@
       "lineitemPrice": "164.03",
       "sku": "FIM684CDM-RED-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 6
     },
     {
       "name": "211005",
@@ -9763,7 +9889,7 @@
       "lineitemPrice": "704.99",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -490
+      "inventory": -491
     },
     {
       "name": "210947",
@@ -10281,7 +10407,7 @@
       "lineitemPrice": "14.78",
       "sku": "FI211-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 312
+      "inventory": 311
     },
     {
       "name": "210775",
@@ -10449,7 +10575,7 @@
       "lineitemPrice": "649.99",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -490
+      "inventory": -491
     },
     {
       "name": "210720",
@@ -10617,7 +10743,7 @@
       "lineitemPrice": "69.16",
       "sku": "FIM659DM-BLU-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5
+      "inventory": 4
     },
     {
       "name": "210684",
@@ -10897,7 +11023,7 @@
       "lineitemPrice": "69.16",
       "sku": "FIM659DM-BLU-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5
+      "inventory": 4
     },
     {
       "name": "210570",
@@ -11079,7 +11205,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3304
+      "inventory": 3310
     },
     {
       "name": "210512",
@@ -11135,7 +11261,7 @@
       "lineitemPrice": "145.39",
       "sku": "FIM659PERF-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 17
+      "inventory": 16
     },
     {
       "name": "210493",
@@ -11149,7 +11275,7 @@
       "lineitemPrice": "139.78",
       "sku": "FIM659CPM-BLK-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 29
+      "inventory": 28
     },
     {
       "name": "210488",
@@ -11359,7 +11485,7 @@
       "lineitemPrice": "130.78",
       "sku": "FIM669CNVQ-BLKBR-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 10
+      "inventory": 9
     },
     {
       "name": "210427",
