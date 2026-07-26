@@ -1,12 +1,68 @@
 {
-  "generatedAt": "2026-07-26T02:19:12Z",
+  "generatedAt": "2026-07-26T13:23:09Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 486,
-  "rowCount": 726,
+  "orderCount": 489,
+  "rowCount": 730,
   "rows": [
+    {
+      "name": "215343",
+      "subtotal": "156.05",
+      "currency": "USD",
+      "createdAt": "2026-07-26T12:31:26Z",
+      "orderDate": "2026-07-26",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Upside Perforated Men's Club Style Leather Vest - Grey / XXL",
+      "lineitemPrice": "157.62",
+      "sku": "FIM653PERF-BKG-XXL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "215328",
+      "subtotal": "78.81",
+      "currency": "USD",
+      "createdAt": "2026-07-26T03:36:06Z",
+      "orderDate": "2026-07-25",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Downside Perforated Men's Motorcycle Leather Vest - Black / XXL",
+      "lineitemPrice": "78.81",
+      "sku": "FIM693PERF-BLK-XXL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "215325",
+      "subtotal": "154.14",
+      "currency": "USD",
+      "createdAt": "2026-07-26T03:09:37Z",
+      "orderDate": "2026-07-25",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Sharp Shooter Perforated Men's Motorcycle Leather Vest - Black / 3XL",
+      "lineitemPrice": "79.32",
+      "sku": "FIM689PERF-BLK-3XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 7
+    },
+    {
+      "name": "215325",
+      "subtotal": "154.14",
+      "currency": "USD",
+      "createdAt": "2026-07-26T03:09:37Z",
+      "orderDate": "2026-07-25",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Sharp Shooter Perforated Men's Motorcycle Leather Vest - Black / XXL",
+      "lineitemPrice": "74.82",
+      "sku": "FIM689PERF-BLK-XXL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
     {
       "name": "215310",
       "subtotal": "278.16",
@@ -467,7 +523,7 @@
       "lineitemPrice": "15.96",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 182
+      "inventory": 179
     },
     {
       "name": "215166",
@@ -691,7 +747,7 @@
       "lineitemPrice": "15.96",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 182
+      "inventory": 179
     },
     {
       "name": "215095",
@@ -1461,7 +1517,7 @@
       "lineitemPrice": "166.25",
       "sku": "FIM650PERF-BBLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 13
+      "inventory": 11
     },
     {
       "name": "214698",
@@ -1587,7 +1643,7 @@
       "lineitemPrice": "117.7",
       "sku": "FIM689NOC-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 17
+      "inventory": 16
     },
     {
       "name": "214661",
@@ -1657,7 +1713,7 @@
       "lineitemPrice": "117.7",
       "sku": "FIM689NOC-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 17
+      "inventory": 16
     },
     {
       "name": "214618",
@@ -1979,7 +2035,7 @@
       "lineitemPrice": "117.7",
       "sku": "FIM689NOC-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 17
+      "inventory": 16
     },
     {
       "name": "214492",
@@ -2791,7 +2847,7 @@
       "lineitemPrice": "117.7",
       "sku": "FIM689NOC-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 17
+      "inventory": 16
     },
     {
       "name": "214201",
@@ -2903,7 +2959,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3922
+      "inventory": 3942
     },
     {
       "name": "214159",
@@ -4513,7 +4569,7 @@
       "lineitemPrice": "86.45",
       "sku": "FIM659DM-BLU-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 24
+      "inventory": 23
     },
     {
       "name": "213563",
@@ -4835,7 +4891,7 @@
       "lineitemPrice": "174.72",
       "sku": "FIM659CPM-BLK-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 29
+      "inventory": 28
     },
     {
       "name": "213481",
@@ -6865,7 +6921,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3922
+      "inventory": 3942
     },
     {
       "name": "212685",
@@ -7187,7 +7243,7 @@
       "lineitemPrice": "574.99",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -342
+      "inventory": -343
     },
     {
       "name": "212595",
@@ -7201,7 +7257,7 @@
       "lineitemPrice": "574.99",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -342
+      "inventory": -343
     },
     {
       "name": "212595",
@@ -8125,7 +8181,7 @@
       "lineitemPrice": "133.0",
       "sku": "FIM650PERF-BBLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 13
+      "inventory": 11
     },
     {
       "name": "212178",
@@ -8139,7 +8195,7 @@
       "lineitemPrice": "133.0",
       "sku": "FIM650PERF-BBLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 13
+      "inventory": 11
     },
     {
       "name": "212177",
@@ -9525,7 +9581,7 @@
       "lineitemPrice": "157.25",
       "sku": "FIM659CPM-BLK-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 29
+      "inventory": 28
     },
     {
       "name": "211516",
