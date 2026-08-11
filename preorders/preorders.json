@@ -1,12 +1,40 @@
 {
-  "generatedAt": "2026-08-11T07:13:55Z",
+  "generatedAt": "2026-08-11T13:12:28Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 537,
-  "rowCount": 815,
+  "orderCount": 538,
+  "rowCount": 817,
   "rows": [
+    {
+      "name": "217680",
+      "subtotal": "46.89",
+      "currency": "USD",
+      "createdAt": "2026-08-11T11:08:49Z",
+      "orderDate": "2026-08-11",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Roper Men's Motorcycle Leather Gloves - Black / L",
+      "lineitemPrice": "18.47",
+      "sku": "FI211-BLK-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 325
+    },
+    {
+      "name": "217680",
+      "subtotal": "46.89",
+      "currency": "USD",
+      "createdAt": "2026-08-11T11:08:49Z",
+      "orderDate": "2026-08-11",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "2 Tone Roper Men's Motorcycle Leather Gloves - Black Denim / L",
+      "lineitemPrice": "29.0",
+      "sku": "FI217-BLKDM-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
     {
       "name": "217664",
       "subtotal": "121.93",
@@ -117,7 +145,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "217617",
@@ -159,7 +187,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "217587",
@@ -243,7 +271,7 @@
       "lineitemPrice": "600.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "217537",
@@ -481,7 +509,7 @@
       "lineitemPrice": "13.99",
       "sku": "LHWIPE55",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1432
+      "inventory": 1478
     },
     {
       "name": "217498",
@@ -663,7 +691,7 @@
       "lineitemPrice": "800.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "217437",
@@ -1027,7 +1055,7 @@
       "lineitemPrice": "815.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "217366",
@@ -1419,7 +1447,7 @@
       "lineitemPrice": "565.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "217178",
@@ -1461,7 +1489,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3453
+      "inventory": 3457
     },
     {
       "name": "217178",
@@ -1545,7 +1573,7 @@
       "lineitemPrice": "590.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "217164",
@@ -2273,7 +2301,7 @@
       "lineitemPrice": "145.39",
       "sku": "FIM659PERF-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 12
+      "inventory": 11
     },
     {
       "name": "216867",
@@ -2497,7 +2525,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3453
+      "inventory": 3457
     },
     {
       "name": "216807",
@@ -3687,7 +3715,7 @@
       "lineitemPrice": "650.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "216448",
@@ -4415,7 +4443,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3453
+      "inventory": 3457
     },
     {
       "name": "216275",
@@ -4933,7 +4961,7 @@
       "lineitemPrice": "900.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "216064",
@@ -5549,7 +5577,7 @@
       "lineitemPrice": "152.95",
       "sku": "FIM650CDM-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 8
+      "inventory": 7
     },
     {
       "name": "215837",
@@ -5689,7 +5717,7 @@
       "lineitemPrice": "18.47",
       "sku": "FI211-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 327
+      "inventory": 325
     },
     {
       "name": "215783",
@@ -5829,7 +5857,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3453
+      "inventory": 3457
     },
     {
       "name": "215751",
@@ -6669,7 +6697,7 @@
       "lineitemPrice": "88.0",
       "sku": "FIM650MESH-BBLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3
+      "inventory": 2
     },
     {
       "name": "215449",
@@ -6977,7 +7005,7 @@
       "lineitemPrice": "77.81",
       "sku": "FIM650MESH-BLKRD-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 8
+      "inventory": 7
     },
     {
       "name": "215343",
@@ -7509,7 +7537,7 @@
       "lineitemPrice": "620.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "215152",
@@ -8125,7 +8153,7 @@
       "lineitemPrice": "86.45",
       "sku": "FIM659DM-BLU-S",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5
+      "inventory": 4
     },
     {
       "name": "214869",
@@ -8265,7 +8293,7 @@
       "lineitemPrice": "37.0",
       "sku": "FI151GL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 40
+      "inventory": 39
     },
     {
       "name": "214812",
@@ -8769,7 +8797,7 @@
       "lineitemPrice": "126.7",
       "sku": "FIM639NOC-BLK-5XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 3
     },
     {
       "name": "214601",
@@ -9063,7 +9091,7 @@
       "lineitemPrice": "149.63",
       "sku": "FIM653QLT-BBLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 31
+      "inventory": 29
     },
     {
       "name": "214469",
@@ -9315,7 +9343,7 @@
       "lineitemPrice": "755.0",
       "sku": "",
       "fulfillmentStatus": "fulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "214382",
@@ -9525,7 +9553,7 @@
       "lineitemPrice": "620.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "214294",
@@ -9553,7 +9581,7 @@
       "lineitemPrice": "33.3",
       "sku": "FI151GL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 40
+      "inventory": 39
     },
     {
       "name": "214291",
@@ -9623,7 +9651,7 @@
       "lineitemPrice": "675.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "214288",
@@ -9945,7 +9973,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3453
+      "inventory": 3457
     },
     {
       "name": "214159",
@@ -10029,7 +10057,7 @@
       "lineitemPrice": "815.0",
       "sku": "",
       "fulfillmentStatus": "fulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "214129",
@@ -10995,7 +11023,7 @@
       "lineitemPrice": "174.72",
       "sku": "FIM659CPM-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 46
+      "inventory": 45
     },
     {
       "name": "213809",
@@ -11107,7 +11135,7 @@
       "lineitemPrice": "785.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "213763",
@@ -11149,7 +11177,7 @@
       "lineitemPrice": "485.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "213751",
@@ -11163,7 +11191,7 @@
       "lineitemPrice": "18.47",
       "sku": "FI211-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 327
+      "inventory": 325
     },
     {
       "name": "213746",
@@ -11247,7 +11275,7 @@
       "lineitemPrice": "565.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "213718",
@@ -11317,7 +11345,7 @@
       "lineitemPrice": "705.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2000
+      "inventory": -2002
     },
     {
       "name": "213715",
