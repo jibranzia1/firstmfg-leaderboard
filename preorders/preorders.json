@@ -1,12 +1,68 @@
 {
-  "generatedAt": "2026-09-01T07:13:59Z",
+  "generatedAt": "2026-09-01T13:14:03Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 661,
-  "rowCount": 1087,
+  "orderCount": 663,
+  "rowCount": 1091,
   "rows": [
+    {
+      "name": "220955",
+      "subtotal": "60.0",
+      "currency": "USD",
+      "createdAt": "2026-09-01T12:25:18Z",
+      "orderDate": "2026-09-01",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Crusader Men's Motorcycle Leather Jacket - Whiskey / L",
+      "lineitemPrice": "60.0",
+      "sku": "FIM256CDMZ-WHSKY-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "220951",
+      "subtotal": "231.18",
+      "currency": "USD",
+      "createdAt": "2026-09-01T09:55:58Z",
+      "orderDate": "2026-09-01",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Motorcycle Rain Suit - Men's - Black / XXL",
+      "lineitemPrice": "104.18",
+      "sku": "ATM3003-BLK-XXL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 15
+    },
+    {
+      "name": "220951",
+      "subtotal": "231.18",
+      "currency": "USD",
+      "createdAt": "2026-09-01T09:55:58Z",
+      "orderDate": "2026-09-01",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Leather Neck & Chest Warmer - L/XL",
+      "lineitemPrice": "27.0",
+      "sku": "FINWRMGL-BLK-L/XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 330
+    },
+    {
+      "name": "220951",
+      "subtotal": "231.18",
+      "currency": "USD",
+      "createdAt": "2026-09-01T09:55:58Z",
+      "orderDate": "2026-09-01",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Mens Club Style Custom Vest - mczr_price_385",
+      "lineitemPrice": "200.0",
+      "sku": "",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": -2596
+    },
     {
       "name": "220940",
       "subtotal": "130.79",
@@ -215,7 +271,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "220845",
@@ -228,7 +284,7 @@
       "lineitemName": "Vendetta Men's Motorcycle Leather Jacket - Black Olive / XXL",
       "lineitemPrice": "263.78",
       "sku": "FIM276SDTZ-BLKOLV-XXL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -439,7 +495,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "220787",
@@ -691,7 +747,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "220699",
@@ -873,7 +929,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "220661",
@@ -1167,7 +1223,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "220603",
@@ -1615,7 +1671,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "220431",
@@ -1825,7 +1881,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "220381",
@@ -2035,7 +2091,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "220305",
@@ -2175,7 +2231,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "220242",
@@ -2483,7 +2539,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "220122",
@@ -2777,7 +2833,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "220007",
@@ -3351,7 +3407,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "219854",
@@ -3379,7 +3435,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219847",
@@ -3421,7 +3477,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219841",
@@ -3785,7 +3841,7 @@
       "lineitemPrice": "200.25",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219692",
@@ -3841,7 +3897,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219669",
@@ -3897,7 +3953,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219632",
@@ -4219,7 +4275,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219592",
@@ -4233,7 +4289,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "219591",
@@ -4247,7 +4303,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219591",
@@ -4289,7 +4345,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219577",
@@ -4373,7 +4429,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "219552",
@@ -4457,7 +4513,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219531",
@@ -4723,7 +4779,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219449",
@@ -4737,7 +4793,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219449",
@@ -4779,7 +4835,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219439",
@@ -4793,7 +4849,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219439",
@@ -4863,7 +4919,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219424",
@@ -4947,7 +5003,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "219411",
@@ -4961,7 +5017,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219409",
@@ -5045,7 +5101,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "219405",
@@ -5059,7 +5115,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219393",
@@ -5213,7 +5269,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219362",
@@ -5255,7 +5311,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219344",
@@ -5395,7 +5451,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219298",
@@ -5423,7 +5479,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "219297",
@@ -5437,7 +5493,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219296",
@@ -5465,7 +5521,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219293",
@@ -5577,7 +5633,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219201",
@@ -5591,7 +5647,7 @@
       "lineitemPrice": "263.78",
       "sku": "FIM263CVZ-COPR-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 8
+      "inventory": 10
     },
     {
       "name": "219201",
@@ -5619,7 +5675,7 @@
       "lineitemPrice": "201.01",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219191",
@@ -5633,7 +5689,7 @@
       "lineitemPrice": "201.01",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219191",
@@ -5731,7 +5787,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "219163",
@@ -6445,7 +6501,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "218857",
@@ -6627,7 +6683,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218818",
@@ -6753,7 +6809,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218770",
@@ -6921,7 +6977,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "218739",
@@ -6935,7 +6991,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218738",
@@ -6977,7 +7033,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "218730",
@@ -7033,7 +7089,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218716",
@@ -7061,7 +7117,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218711",
@@ -7075,7 +7131,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218711",
@@ -7103,7 +7159,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218703",
@@ -7131,7 +7187,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "218696",
@@ -7145,7 +7201,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218696",
@@ -7173,7 +7229,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218693",
@@ -7481,7 +7537,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218637",
@@ -7775,7 +7831,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "218529",
@@ -7817,7 +7873,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218526",
@@ -7873,7 +7929,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218504",
@@ -8097,7 +8153,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218403",
@@ -8181,7 +8237,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218388",
@@ -8321,7 +8377,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218356",
@@ -8433,7 +8489,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218326",
@@ -8503,7 +8559,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218318",
@@ -8573,7 +8629,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218296",
@@ -8629,7 +8685,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218274",
@@ -8727,7 +8783,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218225",
@@ -8797,7 +8853,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218221",
@@ -8853,7 +8909,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218217",
@@ -8979,7 +9035,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "218199",
@@ -8993,7 +9049,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218197",
@@ -9133,7 +9189,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218149",
@@ -9301,7 +9357,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218077",
@@ -9525,7 +9581,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "218014",
@@ -9581,7 +9637,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "217982",
@@ -9637,7 +9693,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "217922",
@@ -9819,7 +9875,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "217815",
@@ -10043,7 +10099,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "217785",
@@ -10407,7 +10463,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "217617",
@@ -10421,7 +10477,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "217617",
@@ -10449,7 +10505,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "217587",
@@ -10533,7 +10589,7 @@
       "lineitemPrice": "600.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "217537",
@@ -10645,7 +10701,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "217511",
@@ -10785,7 +10841,7 @@
       "lineitemPrice": "13.99",
       "sku": "LHWIPE55",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 916
+      "inventory": 898
     },
     {
       "name": "217498",
@@ -10897,7 +10953,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "217455",
@@ -10967,7 +11023,7 @@
       "lineitemPrice": "800.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "217437",
@@ -11331,7 +11387,7 @@
       "lineitemPrice": "815.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "217366",
@@ -11457,7 +11513,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "217321",
@@ -11583,7 +11639,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "217270",
@@ -11723,7 +11779,7 @@
       "lineitemPrice": "565.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "217178",
@@ -11765,7 +11821,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4103
+      "inventory": 4130
     },
     {
       "name": "217178",
@@ -11779,7 +11835,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "217177",
@@ -11849,7 +11905,7 @@
       "lineitemPrice": "590.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "217164",
@@ -12801,7 +12857,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4103
+      "inventory": 4130
     },
     {
       "name": "216807",
@@ -12857,7 +12913,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "216804",
@@ -14005,7 +14061,7 @@
       "lineitemPrice": "650.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2595
+      "inventory": -2596
     },
     {
       "name": "216448",
@@ -14467,7 +14523,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "216340",
@@ -14747,7 +14803,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4103
+      "inventory": 4130
     },
     {
       "name": "216275",
@@ -15055,7 +15111,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 71
+      "inventory": 70
     },
     {
       "name": "216133",
