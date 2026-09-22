@@ -1,12 +1,96 @@
 {
-  "generatedAt": "2026-09-22T14:20:29Z",
+  "generatedAt": "2026-09-22T19:06:45Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 678,
-  "rowCount": 1110,
+  "orderCount": 682,
+  "rowCount": 1116,
   "rows": [
+    {
+      "name": "224104",
+      "subtotal": "150.0",
+      "currency": "USD",
+      "createdAt": "2026-09-22T18:17:40Z",
+      "orderDate": "2026-09-22",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "CUS_MEN-CLUB-VEST",
+      "lineitemPrice": "200.0",
+      "sku": "",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": -15
+    },
+    {
+      "name": "224104",
+      "subtotal": "150.0",
+      "currency": "USD",
+      "createdAt": "2026-09-22T18:17:40Z",
+      "orderDate": "2026-09-22",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "SMALL TRUCKER - Vegetable Tanned Leather Wallet - Dark Brown / Chrome",
+      "lineitemPrice": "21.0",
+      "sku": "FIW9002-DBRN-SS-SML",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 11
+    },
+    {
+      "name": "224104",
+      "subtotal": "150.0",
+      "currency": "USD",
+      "createdAt": "2026-09-22T18:17:40Z",
+      "orderDate": "2026-09-22",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Fast Back Deer Skin Gloves - Black / XL",
+      "lineitemPrice": "29.0",
+      "sku": "FI242DEER-BLK-XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 122
+    },
+    {
+      "name": "224098",
+      "subtotal": "0.0",
+      "currency": "USD",
+      "createdAt": "2026-09-22T16:39:40Z",
+      "orderDate": "2026-09-22",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Unbeatable Men's Motorcycle Leather Vest - Black / S",
+      "lineitemPrice": "166.25",
+      "sku": "FIM676CDM-BLK-S",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "224093",
+      "subtotal": "83.13",
+      "currency": "USD",
+      "createdAt": "2026-09-22T16:24:56Z",
+      "orderDate": "2026-09-22",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Upside Men's Club Style Leather Vest - Black / L",
+      "lineitemPrice": "83.13",
+      "sku": "FIM653QLT-BBLK-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "224080",
+      "subtotal": "0.0",
+      "currency": "USD",
+      "createdAt": "2026-09-22T15:09:19Z",
+      "orderDate": "2026-09-22",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Lowside Men's Motorcycle Leather Vest - Black / L",
+      "lineitemPrice": "174.72",
+      "sku": "FIM659CPM-BLK-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
     {
       "name": "224067",
       "subtotal": "216.25",
@@ -32,7 +116,7 @@
       "lineitemName": "Molly Women's Vegan Faux Leather Jacket (Black) - Black / S",
       "lineitemPrice": "42.0",
       "sku": "WBL-1012VGL-BLK-S",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -61,7 +145,7 @@
       "lineitemPrice": "86.45",
       "sku": "FIM634DM-BLU-M",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "224056",
@@ -88,7 +172,7 @@
       "lineitemName": "Venom Men's Motorcycle Leather Vest - Black / L",
       "lineitemPrice": "175.13",
       "sku": "FIM654CPM-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -117,7 +201,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "224030",
@@ -145,7 +229,7 @@
       "lineitemPrice": "205.08",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -14
+      "inventory": -15
     },
     {
       "name": "224023",
@@ -159,7 +243,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI232-FLRL-M",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 352
+      "inventory": 351
     },
     {
       "name": "224023",
@@ -187,7 +271,7 @@
       "lineitemPrice": "37.0",
       "sku": "FI120GL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "224012",
@@ -242,7 +326,7 @@
       "lineitemName": "Sharp Shooter Men's Motorcycle Leather Vest - Black / L",
       "lineitemPrice": "130.78",
       "sku": "FIM689NOC-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 8
     },
     {
@@ -257,7 +341,7 @@
       "lineitemPrice": "29.0",
       "sku": "FI153GEL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "223978",
@@ -313,7 +397,7 @@
       "lineitemPrice": "27.99",
       "sku": "LHHP1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5902
+      "inventory": 5878
     },
     {
       "name": "223965",
@@ -1265,7 +1349,7 @@
       "lineitemPrice": "152.95",
       "sku": "FIM647CDM-BLK-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "223779",
@@ -1377,7 +1461,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "223741",
@@ -1405,7 +1489,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "223741",
@@ -1419,7 +1503,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "223739",
@@ -1489,7 +1573,7 @@
       "lineitemPrice": "89.44",
       "sku": "FIM659TWILL-BLK-XXL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "223676",
@@ -1670,7 +1754,7 @@
       "lineitemName": "Cinder Men's Cafe Style Leather Jacket - Black / M",
       "lineitemPrice": "119.99",
       "sku": "CUS264CDMZ-BLK-M",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -1684,8 +1768,8 @@
       "lineitemName": "CE-2 Armor Pad Set",
       "lineitemPrice": "42.83",
       "sku": "ARMOR-SET",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 7
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 107
     },
     {
       "name": "223603",
@@ -1698,8 +1782,8 @@
       "lineitemName": "Roper DBL Palm Men's Motorcycle Leather Gloves - Black Yellow / L",
       "lineitemPrice": "10.71",
       "sku": "FI211DBL-BLKYL-L",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 80
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 79
     },
     {
       "name": "223603",
@@ -1740,7 +1824,7 @@
       "lineitemName": "Cinder Men's Cafe Style Leather Jacket - Grey / XL",
       "lineitemPrice": "122.07",
       "sku": "CUS264CDMZ-BKG-XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 2
     },
     {
@@ -1783,7 +1867,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "223578",
@@ -1811,7 +1895,7 @@
       "lineitemPrice": "29.0",
       "sku": "FI153GEL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "223559",
@@ -1923,7 +2007,7 @@
       "lineitemPrice": "121.41",
       "sku": "FMM612BSF-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 2
     },
     {
       "name": "223497",
@@ -1979,7 +2063,7 @@
       "lineitemPrice": "200.6",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "223477",
@@ -1993,7 +2077,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "223477",
@@ -2007,7 +2091,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "223470",
@@ -2021,7 +2105,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -14
+      "inventory": -15
     },
     {
       "name": "223470",
@@ -2035,7 +2119,7 @@
       "lineitemPrice": "5.5",
       "sku": "FI160GL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1142
+      "inventory": 1140
     },
     {
       "name": "223470",
@@ -2049,7 +2133,7 @@
       "lineitemPrice": "18.5",
       "sku": "FIMB16006-BLK-36",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 337
+      "inventory": 334
     },
     {
       "name": "223444",
@@ -2119,7 +2203,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -14
+      "inventory": -15
     },
     {
       "name": "223404",
@@ -2259,7 +2343,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "fulfilled",
-      "inventory": -14
+      "inventory": -15
     },
     {
       "name": "223372",
@@ -2343,7 +2427,7 @@
       "lineitemPrice": "16.0",
       "sku": "FIMB16001-BLK-34",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3
+      "inventory": 4
     },
     {
       "name": "223355",
@@ -2469,7 +2553,7 @@
       "lineitemPrice": "39.99",
       "sku": "FIM689RCNV-BLKWH-3XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "223325",
@@ -2525,7 +2609,7 @@
       "lineitemPrice": "9.99",
       "sku": "FIMB16012-BKBK-38",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3
+      "inventory": 2
     },
     {
       "name": "223325",
@@ -2665,7 +2749,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "223306",
@@ -2777,7 +2861,7 @@
       "lineitemPrice": "83.13",
       "sku": "FIM653QLT-BLKWH-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "223271",
@@ -2889,7 +2973,7 @@
       "lineitemPrice": "174.72",
       "sku": "FIM659CPM-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 2
+      "inventory": 0
     },
     {
       "name": "223226",
@@ -2903,7 +2987,7 @@
       "lineitemPrice": "59.99",
       "sku": "FIM4951CNV-N-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "223215",
@@ -3057,7 +3141,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "223154",
@@ -3113,7 +3197,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "223150",
@@ -3141,7 +3225,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "223150",
@@ -3295,7 +3379,7 @@
       "lineitemPrice": "174.72",
       "sku": "FIM659CPM-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2
+      "inventory": 0
     },
     {
       "name": "223097",
@@ -3309,7 +3393,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "223097",
@@ -3351,7 +3435,7 @@
       "lineitemPrice": "79.99",
       "sku": "FIM689CDM-BRNB-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 11
+      "inventory": 3
     },
     {
       "name": "223096",
@@ -3365,7 +3449,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "223096",
@@ -3407,7 +3491,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "223081",
@@ -3673,7 +3757,7 @@
       "lineitemPrice": "89.44",
       "sku": "FIM659TWILL-BLK-XXL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "222956",
@@ -3771,7 +3855,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222930",
@@ -3785,7 +3869,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "222930",
@@ -3813,7 +3897,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222930",
@@ -3841,7 +3925,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI230-BLKGR-S",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 44
+      "inventory": 43
     },
     {
       "name": "222928",
@@ -3883,7 +3967,7 @@
       "lineitemPrice": "174.72",
       "sku": "FIM659CPM-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2
+      "inventory": 0
     },
     {
       "name": "222913",
@@ -4009,7 +4093,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222872",
@@ -4065,7 +4149,7 @@
       "lineitemPrice": "87.36",
       "sku": "FIM659CPM-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2
+      "inventory": 0
     },
     {
       "name": "222860",
@@ -4163,7 +4247,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222819",
@@ -4205,7 +4289,7 @@
       "lineitemPrice": "174.72",
       "sku": "FIM659CPM-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2
+      "inventory": 0
     },
     {
       "name": "222813",
@@ -4303,7 +4387,7 @@
       "lineitemPrice": "208.34",
       "sku": "CUS6033PERF-OSB-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 5
     },
     {
       "name": "222777",
@@ -4331,7 +4415,7 @@
       "lineitemPrice": "121.91",
       "sku": "FIM253SDC-BRN-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "222765",
@@ -4443,7 +4527,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "222708",
@@ -4471,7 +4555,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222694",
@@ -4583,7 +4667,7 @@
       "lineitemPrice": "200.39",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222667",
@@ -4765,7 +4849,7 @@
       "lineitemPrice": "175.13",
       "sku": "FIM653PERF-BBLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 9
     },
     {
       "name": "222590",
@@ -4849,7 +4933,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222569",
@@ -4919,7 +5003,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222553",
@@ -4961,7 +5045,7 @@
       "lineitemPrice": "21.0",
       "sku": "FIW9002-HTR-SML",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 58
+      "inventory": 57
     },
     {
       "name": "222551",
@@ -5031,7 +5115,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI132GEL-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 543
+      "inventory": 541
     },
     {
       "name": "222537",
@@ -5086,7 +5170,7 @@
       "lineitemName": "Mystery box - Extra Value Guaranteed - $149.99 / Men's Vest / 3XL",
       "lineitemPrice": "149.99",
       "sku": "",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -8
     },
     {
@@ -5100,7 +5184,7 @@
       "lineitemName": "Honey Badger Women's Motorcycle Leather Vest - Standard / Black / 5XL",
       "lineitemPrice": "151.88",
       "sku": "FIL566RCSL-BLK-5XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 9
     },
     {
@@ -5115,7 +5199,7 @@
       "lineitemPrice": "133.0",
       "sku": "FIL512NOC-BLK-S",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 3
     },
     {
       "name": "222514",
@@ -5143,7 +5227,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "222511",
@@ -5157,7 +5241,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222502",
@@ -5689,7 +5773,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222331",
@@ -5717,7 +5801,7 @@
       "lineitemPrice": "9.99",
       "sku": "FIMB16006-BLK-36",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 337
+      "inventory": 334
     },
     {
       "name": "222327",
@@ -5801,7 +5885,7 @@
       "lineitemPrice": "39.99",
       "sku": "FIM689RCNV-BLKWH-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2
+      "inventory": 1
     },
     {
       "name": "222315",
@@ -5857,7 +5941,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222304",
@@ -5871,7 +5955,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -14
+      "inventory": -15
     },
     {
       "name": "222297",
@@ -5926,8 +6010,8 @@
       "lineitemName": "Ace Men's Leather Motorcycle Jacket - Black / XL",
       "lineitemPrice": "197.29",
       "sku": "FMM202FBZ-BLK-XL",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 1
     },
     {
       "name": "222284",
@@ -5941,7 +6025,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222284",
@@ -5969,7 +6053,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "222284",
@@ -6011,7 +6095,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "222281",
@@ -6025,7 +6109,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222273",
@@ -6067,7 +6151,7 @@
       "lineitemPrice": "166.25",
       "sku": "FIM653QLT-BLKWH-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "222262",
@@ -6095,7 +6179,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "222255",
@@ -6109,7 +6193,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222253",
@@ -6123,7 +6207,7 @@
       "lineitemPrice": "29.0",
       "sku": "FI153GEL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "222253",
@@ -6319,7 +6403,7 @@
       "lineitemPrice": "122.36",
       "sku": "FMM200BMP-BLK-2XS",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 5
+      "inventory": 6
     },
     {
       "name": "222234",
@@ -6431,7 +6515,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222229",
@@ -6445,7 +6529,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "222223",
@@ -6473,7 +6557,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "fulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222220",
@@ -6542,8 +6626,8 @@
       "lineitemName": "Royal Women's Club Style Motorcycle Leather Vest - Limited Edition - XL",
       "lineitemPrice": "117.6",
       "sku": "CUS5005LTH-BLKPL-XL",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 2
     },
     {
       "name": "222196",
@@ -6613,7 +6697,7 @@
       "lineitemPrice": "33.7",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "222179",
@@ -6627,7 +6711,7 @@
       "lineitemPrice": "211.02",
       "sku": "FIM277CVZ-BRN-M",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "222166",
@@ -6865,7 +6949,7 @@
       "lineitemPrice": "139.78",
       "sku": "FIM659CPM-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2
+      "inventory": 0
     },
     {
       "name": "222081",
@@ -6921,7 +7005,7 @@
       "lineitemPrice": "175.13",
       "sku": "FIM653PERF-BBLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 9
     },
     {
       "name": "222073",
@@ -6935,7 +7019,7 @@
       "lineitemPrice": "175.13",
       "sku": "FIM653PERF-BBLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 9
     },
     {
       "name": "222070",
@@ -6977,7 +7061,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "222059",
@@ -7019,7 +7103,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "222036",
@@ -7047,7 +7131,7 @@
       "lineitemPrice": "104.63",
       "sku": "FIM664CNVQ-BLKGRY-XXL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 2
+      "inventory": 1
     },
     {
       "name": "222010",
@@ -7229,7 +7313,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI174GL-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 841
+      "inventory": 838
     },
     {
       "name": "221961",
@@ -7312,7 +7396,7 @@
       "lineitemName": "Men\u2019s Major League Motorcycle T-Shirt - BLACK / M",
       "lineitemPrice": "9.99",
       "sku": "FIT-007",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -7326,8 +7410,8 @@
       "lineitemName": "Fillmore Men's Motorcycle Leather Jacket - Black / M",
       "lineitemPrice": "203.94",
       "sku": "FIM208CDLZ-BLK-M",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 1
     },
     {
       "name": "221924",
@@ -7397,7 +7481,7 @@
       "lineitemPrice": "166.67",
       "sku": "CUS6033PERF-OSB-S",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 2
     },
     {
       "name": "221906",
@@ -7523,7 +7607,7 @@
       "lineitemPrice": "33.7",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "221870",
@@ -7551,7 +7635,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221864",
@@ -7607,7 +7691,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221859",
@@ -7635,7 +7719,7 @@
       "lineitemPrice": "5.5",
       "sku": "FI160GL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1142
+      "inventory": 1140
     },
     {
       "name": "221852",
@@ -7817,7 +7901,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "221818",
@@ -7830,7 +7914,7 @@
       "lineitemName": "Sinister - Men's Motorcycle Leather Vest - Red White / XL",
       "lineitemPrice": "142.46",
       "sku": "FIM672QLT-RDWHT-XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -7859,7 +7943,7 @@
       "lineitemPrice": "12.8",
       "sku": "FIMB16005-BLK-38",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 73
+      "inventory": 72
     },
     {
       "name": "221814",
@@ -7887,7 +7971,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221814",
@@ -7985,7 +8069,7 @@
       "lineitemPrice": "14.8",
       "sku": "BF211-BLKPE-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 2
     },
     {
       "name": "221791",
@@ -8040,7 +8124,7 @@
       "lineitemName": "Scout Deer Skin Fingerless Gloves - Black / S",
       "lineitemPrice": "9.99",
       "sku": "FI249DEER-BLK-S",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 76
     },
     {
@@ -8054,8 +8138,8 @@
       "lineitemName": "Sinister - Men's Motorcycle Leather Vest - Black Red / L",
       "lineitemPrice": "140.1",
       "sku": "FIM672QLT-BLKRD-L",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 2
     },
     {
       "name": "221772",
@@ -8195,7 +8279,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221749",
@@ -8236,7 +8320,7 @@
       "lineitemName": "Moto Bomber - Men's Leather Jacket - Black / XL",
       "lineitemPrice": "186.19",
       "sku": "FIM220CMB-BLK-XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 16
     },
     {
@@ -8250,7 +8334,7 @@
       "lineitemName": "Mystery box - Extra Value Guaranteed - $99.99 / Men's Vest / XL",
       "lineitemPrice": "99.99",
       "sku": "",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -28
     },
     {
@@ -8264,7 +8348,7 @@
       "lineitemName": "Mystery box - Extra Value Guaranteed - $199.99 / Men's Jacket / XL",
       "lineitemPrice": "199.99",
       "sku": "",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -1
     },
     {
@@ -8293,7 +8377,7 @@
       "lineitemPrice": "140.1",
       "sku": "FIM653PERF-BBLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 9
     },
     {
       "name": "221703",
@@ -8307,7 +8391,7 @@
       "lineitemPrice": "163.99",
       "sku": "CUS6038CDM-RBW-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "221692",
@@ -8335,7 +8419,7 @@
       "lineitemPrice": "33.7",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "221681",
@@ -8363,7 +8447,7 @@
       "lineitemPrice": "97.13",
       "sku": "FMM612BSF-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1
+      "inventory": 2
     },
     {
       "name": "221667",
@@ -8377,7 +8461,7 @@
       "lineitemPrice": "104.62",
       "sku": "FIM689NOC-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 16
+      "inventory": 15
     },
     {
       "name": "221661",
@@ -8391,7 +8475,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221661",
@@ -8405,7 +8489,7 @@
       "lineitemPrice": "9.99",
       "sku": "FIMB16012-BKBK-38",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 3
+      "inventory": 2
     },
     {
       "name": "221661",
@@ -8419,7 +8503,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "221659",
@@ -8433,7 +8517,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "221659",
@@ -8461,7 +8545,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221649",
@@ -8531,7 +8615,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221618",
@@ -8797,7 +8881,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221546",
@@ -8811,7 +8895,7 @@
       "lineitemPrice": "5.5",
       "sku": "FI160GL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1142
+      "inventory": 1140
     },
     {
       "name": "221546",
@@ -8923,7 +9007,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI230-BLKWT-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 6
     },
     {
       "name": "221529",
@@ -9259,7 +9343,7 @@
       "lineitemPrice": "104.62",
       "sku": "FIM689NOC-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 16
+      "inventory": 15
     },
     {
       "name": "221433",
@@ -9273,7 +9357,7 @@
       "lineitemPrice": "133.0",
       "sku": "FIM653QLT-BLKWH-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "221431",
@@ -9287,7 +9371,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221431",
@@ -9301,7 +9385,7 @@
       "lineitemPrice": "14.18",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "221430",
@@ -9343,7 +9427,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221424",
@@ -9356,8 +9440,8 @@
       "lineitemName": "Upside Men's Club Style Leather Vest - White / L",
       "lineitemPrice": "133.0",
       "sku": "FIM653QLT-BLKWH-L",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 1
     },
     {
       "name": "221421",
@@ -9441,7 +9525,7 @@
       "lineitemPrice": "133.0",
       "sku": "FIM653QLT-BLKWH-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "221384",
@@ -9581,7 +9665,7 @@
       "lineitemPrice": "104.62",
       "sku": "FIM689NOC-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 16
+      "inventory": 15
     },
     {
       "name": "221357",
@@ -9595,7 +9679,7 @@
       "lineitemPrice": "163.99",
       "sku": "CUS6038CDM-RBW-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "221350",
@@ -9609,7 +9693,7 @@
       "lineitemPrice": "71.55",
       "sku": "FIM659TWILL-BLK-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "221350",
@@ -9735,7 +9819,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221311",
@@ -9861,7 +9945,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -14
+      "inventory": -15
     },
     {
       "name": "221272",
@@ -9931,7 +10015,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "221234",
@@ -9945,7 +10029,7 @@
       "lineitemPrice": "86.45",
       "sku": "FIM693MESH-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "221229",
@@ -9973,7 +10057,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221216",
@@ -10239,7 +10323,7 @@
       "lineitemPrice": "178.11",
       "sku": "FIM649CP-BLK-S",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "221165",
@@ -10253,7 +10337,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "221165",
@@ -10267,7 +10351,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221162",
@@ -10281,7 +10365,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "221162",
@@ -10295,7 +10379,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221154",
@@ -10351,7 +10435,7 @@
       "lineitemPrice": "86.45",
       "sku": "FIM693MESH-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "221138",
@@ -10449,7 +10533,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221085",
@@ -10575,7 +10659,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "221067",
@@ -10617,7 +10701,7 @@
       "lineitemPrice": "89.44",
       "sku": "FIM659TWILL-BLK-XXL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "221030",
@@ -10631,7 +10715,7 @@
       "lineitemPrice": "66.5",
       "sku": "FIL512NOC-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "221018",
@@ -10715,7 +10799,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "220998",
@@ -10799,7 +10883,7 @@
       "lineitemPrice": "79.99",
       "sku": "FIM689CDM-BRNB-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 6
+      "inventory": 4
     },
     {
       "name": "220979",
@@ -10897,7 +10981,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "220955",
@@ -10953,7 +11037,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "220951",
@@ -10981,7 +11065,7 @@
       "lineitemPrice": "21.0",
       "sku": "FIW9002-HTR-SML",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 58
+      "inventory": 57
     },
     {
       "name": "220940",
@@ -10995,7 +11079,7 @@
       "lineitemPrice": "130.79",
       "sku": "FIM664CNVQ-BLKGRY-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "220929",
@@ -11065,7 +11149,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI230-BLKWT-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 6
     },
     {
       "name": "220889",
@@ -11107,7 +11191,7 @@
       "lineitemPrice": "130.79",
       "sku": "FIM664CNVQ-BLKGRY-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2
+      "inventory": 1
     },
     {
       "name": "220878",
@@ -11191,7 +11275,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "220845",
@@ -11260,7 +11344,7 @@
       "lineitemName": "Sinister - Men's Motorcycle Leather Vest - Black White / XXL",
       "lineitemPrice": "175.13",
       "sku": "FIM672QLT-BLKWH-XXL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -11373,7 +11457,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI230-BLKWT-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 6
     },
     {
       "name": "220789",
@@ -11415,7 +11499,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "220787",
@@ -11428,8 +11512,8 @@
       "lineitemName": "Mesa  - Men's Motorcycle Leather Shirt - Black / 4XL",
       "lineitemPrice": "174.03",
       "sku": "FIM419CDM-BLK-4XL",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 2
     },
     {
       "name": "220780",
@@ -11471,7 +11555,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "220756",
@@ -11540,8 +11624,8 @@
       "lineitemName": "Essex Women's Motorcycle Denim Vest with Removable Sweatshirt - Black / XL",
       "lineitemPrice": "108.61",
       "sku": "FIL517DMH-BLK-XL",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 2
     },
     {
       "name": "220724",
@@ -11549,12 +11633,12 @@
       "currency": "USD",
       "createdAt": "2026-08-30T22:37:28Z",
       "orderDate": "2026-08-30",
-      "financialStatus": "PAID",
+      "financialStatus": "REFUNDED",
       "quantity": 1,
       "lineitemName": "Motorcycle Rain Suit - Men's - Black / 8XL",
       "lineitemPrice": "124.18",
       "sku": "ATM3003-BLK-8XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -11667,7 +11751,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "220699",
@@ -11709,7 +11793,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "220695",
@@ -11849,7 +11933,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "220661",
@@ -12031,7 +12115,7 @@
       "lineitemPrice": "9.99",
       "sku": "FIMB16006-BLK-36",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 337
+      "inventory": 334
     },
     {
       "name": "220624",
@@ -12157,7 +12241,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "220603",
@@ -12185,7 +12269,7 @@
       "lineitemPrice": "152.5",
       "sku": "M006-BRN-3XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "220601",
@@ -12325,7 +12409,7 @@
       "lineitemPrice": "175.13",
       "sku": "FIM653PERF-BBLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 9
     },
     {
       "name": "220540",
@@ -12521,7 +12605,7 @@
       "lineitemPrice": "295.95",
       "sku": "FIM226CDMZ-BLK-3XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 3
     },
     {
       "name": "220442",
@@ -12619,7 +12703,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "220431",
@@ -12717,7 +12801,7 @@
       "lineitemPrice": "300.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -177
+      "inventory": -178
     },
     {
       "name": "220409",
@@ -12731,7 +12815,7 @@
       "lineitemPrice": "9.99",
       "sku": "FIMB16011-BLKWH-36",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 16
+      "inventory": 15
     },
     {
       "name": "220395",
@@ -12745,7 +12829,7 @@
       "lineitemPrice": "208.34",
       "sku": "CUS6033PERF-OSB-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 3
     },
     {
       "name": "220390",
@@ -12829,7 +12913,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "220381",
@@ -12871,7 +12955,7 @@
       "lineitemPrice": "152.95",
       "sku": "FIM618CFD-BLK-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "220374",
@@ -12899,7 +12983,7 @@
       "lineitemPrice": "232.74",
       "sku": "FIL153CDMZ-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1
+      "inventory": 2
     },
     {
       "name": "220366",
@@ -12983,7 +13067,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "220335",
@@ -13053,7 +13137,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "220305",
@@ -13095,7 +13179,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI160GL-BLK-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1175
+      "inventory": 1172
     },
     {
       "name": "220302",
@@ -13178,8 +13262,8 @@
       "lineitemName": "Stateside - Mens American Flag Leather Motorcycle Vest - L",
       "lineitemPrice": "204.99",
       "sku": "CUS6038CDM-RBW-L",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 1
     },
     {
       "name": "220271",
@@ -13221,7 +13305,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "220242",
@@ -13249,7 +13333,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI160GL-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1142
+      "inventory": 1140
     },
     {
       "name": "220223",
@@ -13333,7 +13417,7 @@
       "lineitemPrice": "86.45",
       "sku": "FIL516DM-BLK-M",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "220205",
@@ -13402,7 +13486,7 @@
       "lineitemName": "Blackfang Men's Leather/Twill Motorcycle Vest - XL",
       "lineitemPrice": "249.99",
       "sku": "199675",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -1
     },
     {
@@ -13417,7 +13501,7 @@
       "lineitemPrice": "108.61",
       "sku": "FIL517DMH-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1
+      "inventory": 2
     },
     {
       "name": "220154",
@@ -13472,7 +13556,7 @@
       "lineitemName": "Renegade - Men's Perforated Leather Motorcycle Vest - L",
       "lineitemPrice": "249.99",
       "sku": "197406",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -4
     },
     {
@@ -13543,7 +13627,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "220122",
@@ -13571,7 +13655,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "220116",
@@ -13627,7 +13711,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "220098",
@@ -13654,7 +13738,7 @@
       "lineitemName": "Bonnie - Women's Motorcycle Leather Vest - Diamond Quilt - Black / M",
       "lineitemPrice": "152.95",
       "sku": "FIL588CDM-BBLK-M",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 1
     },
     {
@@ -13668,7 +13752,7 @@
       "lineitemName": "Roper Women's Motorcycle Leather Gloves - Black / L",
       "lineitemPrice": "18.47",
       "sku": "FI301-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 288
     },
     {
@@ -13682,7 +13766,7 @@
       "lineitemName": "Pursuit Men's Deer Skin Gloves - Black / XL",
       "lineitemPrice": "26.5",
       "sku": "FI245DEER-BLK-XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 93
     },
     {
@@ -13724,8 +13808,8 @@
       "lineitemName": "High Roller Men's Motorcycle Leather Vest - Black / L",
       "lineitemPrice": "152.95",
       "sku": "FIM619CDL-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 1
     },
     {
       "name": "220068",
@@ -13738,7 +13822,7 @@
       "lineitemName": "Daredevil Men's Motorcycle Twill/Leather Jacket - Black / L",
       "lineitemPrice": "79.99",
       "sku": "FIM260TW-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -13808,8 +13892,8 @@
       "lineitemName": "Hunt Club Motorcycle Leather Canvas Vest Grey - Grey / L",
       "lineitemPrice": "130.79",
       "sku": "FIM664CNVQ-BLKGRY-L",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 1
     },
     {
       "name": "220018",
@@ -13823,7 +13907,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "220018",
@@ -13837,7 +13921,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "220007",
@@ -14005,7 +14089,7 @@
       "lineitemPrice": "89.44",
       "sku": "FIM659TWILL-BLK-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "219980",
@@ -14019,7 +14103,7 @@
       "lineitemPrice": "86.94",
       "sku": "FIM624TWILL-BLK-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 10
+      "inventory": 9
     },
     {
       "name": "219978",
@@ -14047,7 +14131,7 @@
       "lineitemPrice": "5.5",
       "sku": "FI160NZ-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3
+      "inventory": 2
     },
     {
       "name": "219977",
@@ -14102,8 +14186,8 @@
       "lineitemName": "Tactical Emerald Men\u2019s Motorcycle Leather Vest - BLACK/GREEN / 5XL",
       "lineitemPrice": "229.44",
       "sku": "CUS645LTH-04-BLKGR-5XL",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 1
     },
     {
       "name": "219966",
@@ -14117,7 +14201,7 @@
       "lineitemPrice": "18.5",
       "sku": "BF211-BLKPE-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 2
     },
     {
       "name": "219966",
@@ -14145,7 +14229,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI160GL-BLK-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1175
+      "inventory": 1172
     },
     {
       "name": "219966",
@@ -14159,7 +14243,7 @@
       "lineitemPrice": "21.0",
       "sku": "FIW9002-HTR-SML",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 58
+      "inventory": 57
     },
     {
       "name": "219964",
@@ -14271,7 +14355,7 @@
       "lineitemPrice": "89.44",
       "sku": "FIM659TWILL-BLK-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "219913",
@@ -14285,7 +14369,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -14
+      "inventory": -15
     },
     {
       "name": "219906",
@@ -14368,8 +14452,8 @@
       "lineitemName": "Havoc Men's Denim Motorcycle Vest - Blue / 9XL / Denim",
       "lineitemPrice": "118.26",
       "sku": "FIM629DM-BLU-9XL",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 1
     },
     {
       "name": "219880",
@@ -14411,7 +14495,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 107
     },
     {
       "name": "219873",
@@ -14453,7 +14537,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "219854",
@@ -14481,7 +14565,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "219847",
@@ -14523,7 +14607,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "219841",
@@ -14635,7 +14719,7 @@
       "lineitemPrice": "130.79",
       "sku": "FIM664CNVQ-BLKGRY-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "219787",
@@ -14719,7 +14803,7 @@
       "lineitemPrice": "5.5",
       "sku": "FI160GL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1142
+      "inventory": 1140
     },
     {
       "name": "219777",
@@ -14733,7 +14817,7 @@
       "lineitemPrice": "21.0",
       "sku": "FIW9002-HTR-SML",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 58
+      "inventory": 57
     },
     {
       "name": "219770",
@@ -14747,7 +14831,7 @@
       "lineitemPrice": "130.79",
       "sku": "FIM664CNVQ-BLKGRY-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2
+      "inventory": 1
     },
     {
       "name": "219770",
@@ -14887,7 +14971,7 @@
       "lineitemPrice": "175.13",
       "sku": "FIM653PERF-BBLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 9
     },
     {
       "name": "219694",
@@ -14915,7 +14999,7 @@
       "lineitemPrice": "200.25",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "219692",
@@ -14971,7 +15055,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "219669",
@@ -15027,7 +15111,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "219632",
@@ -15041,7 +15125,7 @@
       "lineitemPrice": "185.13",
       "sku": "FIM693PERF-BLK-4XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "219630",
@@ -15069,7 +15153,7 @@
       "lineitemPrice": "191.74",
       "sku": "FIM659PERF-BLK-5XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "219626",
@@ -15082,8 +15166,8 @@
       "lineitemName": "Hunt Club Motorcycle Leather Canvas Vest Grey - Grey / M",
       "lineitemPrice": "130.79",
       "sku": "FIM664CNVQ-BLKGRY-M",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 2
     },
     {
       "name": "219625",
@@ -15166,7 +15250,7 @@
       "lineitemName": "Ironclad - Men\u2019s Blue&Black Leather/Canvas Motorcycle Vest - L",
       "lineitemPrice": "249.99",
       "sku": "195747",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -1
     },
     {
@@ -15180,8 +15264,8 @@
       "lineitemName": "49/51 Wolf Pack - Men's Leather/Canvas Motorcycle Vest (Limited Edition) - Black / L",
       "lineitemPrice": "163.0",
       "sku": "CUS6003LTH-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 1
     },
     {
       "name": "219600",
@@ -15195,7 +15279,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI160GL-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1175
+      "inventory": 1172
     },
     {
       "name": "219600",
@@ -15250,8 +15334,8 @@
       "lineitemName": "CE-2 Armor Pad Set",
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 7
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 107
     },
     {
       "name": "219599",
@@ -15349,7 +15433,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "219592",
@@ -15363,7 +15447,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "219591",
@@ -15377,7 +15461,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "219591",
@@ -15391,7 +15475,7 @@
       "lineitemPrice": "9.99",
       "sku": "FIMB16012-BKBK-40",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 21
+      "inventory": 20
     },
     {
       "name": "219587",
@@ -15419,7 +15503,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -2921
+      "inventory": -2923
     },
     {
       "name": "219577",
@@ -15447,7 +15531,7 @@
       "lineitemPrice": "152.95",
       "sku": "FIM647CDM-BLK-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "219569",
@@ -15474,8 +15558,8 @@
       "lineitemName": "Fairmont Women's Motorcycle Leather Vest - Black / S",
       "lineitemPrice": "133.0",
       "sku": "FIL512NOC-BLK-S",
-      "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 3
     },
     {
       "name": "219553",
@@ -15503,7 +15587,7 @@
       "lineitemPrice": "17.73",
       "sku": "SWBACKCE2",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 99
     },
     {
       "name": "219552",
