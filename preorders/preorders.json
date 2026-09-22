@@ -1,12 +1,68 @@
 {
-  "generatedAt": "2026-09-22T07:07:16Z",
+  "generatedAt": "2026-09-22T14:20:29Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 675,
-  "rowCount": 1106,
+  "orderCount": 678,
+  "rowCount": 1110,
   "rows": [
+    {
+      "name": "224067",
+      "subtotal": "216.25",
+      "currency": "USD",
+      "createdAt": "2026-09-22T13:12:09Z",
+      "orderDate": "2026-09-22",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Downside Men's Motorcycle Leather Vest - Black / Made To Measure (+$50 USD)",
+      "lineitemPrice": "216.25",
+      "sku": "",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": -3
+    },
+    {
+      "name": "224065",
+      "subtotal": "177.23",
+      "currency": "USD",
+      "createdAt": "2026-09-22T13:11:07Z",
+      "orderDate": "2026-09-22",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Molly Women's Vegan Faux Leather Jacket (Black) - Black / S",
+      "lineitemPrice": "42.0",
+      "sku": "WBL-1012VGL-BLK-S",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "224065",
+      "subtotal": "177.23",
+      "currency": "USD",
+      "createdAt": "2026-09-22T13:11:07Z",
+      "orderDate": "2026-09-22",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Alexis Women's Leather Pants - Black / 4",
+      "lineitemPrice": "135.23",
+      "sku": "FIL710CFD-BLK-4",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "224063",
+      "subtotal": "85.59",
+      "currency": "USD",
+      "createdAt": "2026-09-22T12:55:44Z",
+      "orderDate": "2026-09-22",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Haywood Men's Motorcycle Denim Vest - Blue - Blue / M",
+      "lineitemPrice": "86.45",
+      "sku": "FIM634DM-BLU-M",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 1
+    },
     {
       "name": "224056",
       "subtotal": "97.34",
@@ -172,7 +228,7 @@
       "lineitemName": "Nina Women's Motorcycle Leather Vest - Black / XXL",
       "lineitemPrice": "141.88",
       "sku": "FIL584CDM-BLK-XXL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -257,7 +313,7 @@
       "lineitemPrice": "27.99",
       "sku": "LHHP1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5713
+      "inventory": 5902
     },
     {
       "name": "223965",
@@ -1306,7 +1362,7 @@
       "lineitemName": "Mystery box - Extra Value Guaranteed - $199.99 / Men's Jacket / L",
       "lineitemPrice": "199.99",
       "sku": "",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -4
     },
     {
@@ -3365,7 +3421,7 @@
       "lineitemPrice": "98.32",
       "sku": "FIM659CNV-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 18
+      "inventory": 17
     },
     {
       "name": "223076",
@@ -3589,7 +3645,7 @@
       "lineitemPrice": "119.99",
       "sku": "FIM243CSLZ-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 12
+      "inventory": 11
     },
     {
       "name": "222972",
@@ -4051,7 +4107,7 @@
       "lineitemPrice": "98.32",
       "sku": "FIM659CNV-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 18
+      "inventory": 17
     },
     {
       "name": "222849",
@@ -4933,7 +4989,7 @@
       "lineitemPrice": "191.74",
       "sku": "FIM659PERF-BLK-3XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 8
+      "inventory": 7
     },
     {
       "name": "222549",
@@ -5745,7 +5801,7 @@
       "lineitemPrice": "39.99",
       "sku": "FIM689RCNV-BLKWH-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3
+      "inventory": 2
     },
     {
       "name": "222315",
@@ -6845,7 +6901,7 @@
       "currency": "USD",
       "createdAt": "2026-09-07T18:26:44Z",
       "orderDate": "2026-09-07",
-      "financialStatus": "PAID",
+      "financialStatus": "REFUNDED",
       "quantity": 1,
       "lineitemName": "Upside Perforated Men's Club Style Leather Vest - Grey / XL",
       "lineitemPrice": "140.1",
@@ -6859,7 +6915,7 @@
       "currency": "USD",
       "createdAt": "2026-09-07T18:26:44Z",
       "orderDate": "2026-09-07",
-      "financialStatus": "PAID",
+      "financialStatus": "REFUNDED",
       "quantity": 1,
       "lineitemName": "Upside Perforated Men's Club Style Leather Vest - Black / XL",
       "lineitemPrice": "175.13",
@@ -6873,7 +6929,7 @@
       "currency": "USD",
       "createdAt": "2026-09-07T18:26:44Z",
       "orderDate": "2026-09-07",
-      "financialStatus": "PAID",
+      "financialStatus": "REFUNDED",
       "quantity": 1,
       "lineitemName": "Upside Perforated Men's Club Style Leather Vest - Black / XL",
       "lineitemPrice": "175.13",
@@ -8643,7 +8699,7 @@
       "lineitemPrice": "211.02",
       "sku": "FIM276SDTZ-BLKOLV-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 10
+      "inventory": 9
     },
     {
       "name": "221567",
@@ -9343,7 +9399,7 @@
       "lineitemPrice": "211.02",
       "sku": "FIM276SDTZ-BLKOLV-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 10
+      "inventory": 9
     },
     {
       "name": "221412",
@@ -9693,7 +9749,7 @@
       "lineitemPrice": "164.03",
       "sku": "FIM683CDM-BLK-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 3
+      "inventory": 2
     },
     {
       "name": "221311",
@@ -10140,7 +10196,7 @@
       "lineitemName": "Mystery box - Extra Value Guaranteed - $99.99 / Men's Vest / XL",
       "lineitemPrice": "99.99",
       "sku": "",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": -28
     },
     {
@@ -10155,7 +10211,7 @@
       "lineitemPrice": "97.52",
       "sku": "ATL3071-GRY-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 10
+      "inventory": 9
     },
     {
       "name": "221179",
@@ -10743,7 +10799,7 @@
       "lineitemPrice": "79.99",
       "sku": "FIM689CDM-BRNB-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 6
     },
     {
       "name": "220979",
@@ -11023,7 +11079,7 @@
       "lineitemPrice": "98.32",
       "sku": "FIM659CNV-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 18
+      "inventory": 17
     },
     {
       "name": "220881",
@@ -11149,7 +11205,7 @@
       "lineitemPrice": "263.78",
       "sku": "FIM276SDTZ-BLKOLV-XXL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 10
+      "inventory": 9
     },
     {
       "name": "220845",
@@ -12045,7 +12101,7 @@
       "lineitemPrice": "98.32",
       "sku": "FIM659CNV-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 18
+      "inventory": 17
     },
     {
       "name": "220617",
@@ -12199,7 +12255,7 @@
       "lineitemPrice": "300.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -139
+      "inventory": -140
     },
     {
       "name": "220551",
@@ -14117,7 +14173,7 @@
       "lineitemPrice": "86.45",
       "sku": "FIM653MESH-BBLK-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7
+      "inventory": 6
     },
     {
       "name": "219964",
@@ -14649,7 +14705,7 @@
       "lineitemPrice": "300.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -139
+      "inventory": -140
     },
     {
       "name": "219777",
