@@ -1,12 +1,26 @@
 {
-  "generatedAt": "2026-09-25T18:06:17Z",
+  "generatedAt": "2026-09-25T19:07:07Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 685,
-  "rowCount": 1091,
+  "orderCount": 686,
+  "rowCount": 1093,
   "rows": [
+    {
+      "name": "224506",
+      "subtotal": "139.78",
+      "currency": "USD",
+      "createdAt": "2026-09-25T18:24:19Z",
+      "orderDate": "2026-09-25",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Lowside Men's Motorcycle Leather Vest - Black / L",
+      "lineitemPrice": "139.78",
+      "sku": "FIM659CPM-BLK-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
     {
       "name": "224500",
       "subtotal": "192.44",
@@ -32,7 +46,7 @@
       "lineitemName": "Rook - Men's Motorcycle Denim Vest - Black/Black / XL",
       "lineitemPrice": "97.54",
       "sku": "FIM697DMH-BBLK-XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 7
     },
     {
@@ -215,7 +229,7 @@
       "lineitemPrice": "33.7",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "224435",
@@ -271,7 +285,7 @@
       "lineitemPrice": "27.99",
       "sku": "LHHP1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7364
+      "inventory": 7414
     },
     {
       "name": "224428",
@@ -285,7 +299,7 @@
       "lineitemPrice": "24.99",
       "sku": "LHLC1002FBA-UPC",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 11387
+      "inventory": 11408
     },
     {
       "name": "224428",
@@ -397,7 +411,7 @@
       "lineitemPrice": "33.7",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "224416",
@@ -1111,7 +1125,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "224231",
@@ -1213,7 +1227,7 @@
     },
     {
       "name": "224188",
-      "subtotal": "166.25",
+      "subtotal": "332.92",
       "currency": "USD",
       "createdAt": "2026-09-23T15:37:26Z",
       "orderDate": "2026-09-23",
@@ -1222,8 +1236,22 @@
       "lineitemName": "Upside Men's Club Style Leather Vest - White / M",
       "lineitemPrice": "166.25",
       "sku": "FIM653QLT-BLKWH-M",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
+    },
+    {
+      "name": "224188",
+      "subtotal": "332.92",
+      "currency": "USD",
+      "createdAt": "2026-09-23T15:37:26Z",
+      "orderDate": "2026-09-23",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Inferno Rogue Men's Leather Vest (Limited Edition) - OIL SAND/BLACK / M",
+      "lineitemPrice": "166.67",
+      "sku": "CUS6033PERF-OSB-M",
+      "fulfillmentStatus": "fulfilled",
+      "inventory": 2
     },
     {
       "name": "224175",
@@ -1713,7 +1741,7 @@
       "lineitemPrice": "27.99",
       "sku": "LHHP1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7364
+      "inventory": 7414
     },
     {
       "name": "223965",
@@ -3085,7 +3113,7 @@
       "lineitemPrice": "42.83",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "223603",
@@ -3183,7 +3211,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "223578",
@@ -4541,7 +4569,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "223150",
@@ -4709,7 +4737,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "223097",
@@ -4765,7 +4793,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "223096",
@@ -7999,7 +8027,7 @@
       "lineitemPrice": "33.7",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "222179",
@@ -8517,7 +8545,7 @@
       "lineitemPrice": "219.02",
       "sku": "FIM277CDMZ-BLK-3XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 8
+      "inventory": 9
     },
     {
       "name": "221982",
@@ -8615,7 +8643,7 @@
       "lineitemPrice": "9.99",
       "sku": "FI174GL-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 418
+      "inventory": 417
     },
     {
       "name": "221961",
@@ -8909,7 +8937,7 @@
       "lineitemPrice": "33.7",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "221870",
@@ -9385,7 +9413,7 @@
       "lineitemPrice": "23.2",
       "sku": "FI241DEER-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 30
+      "inventory": 29
     },
     {
       "name": "221791",
@@ -9721,7 +9749,7 @@
       "lineitemPrice": "33.7",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "221681",
@@ -10337,7 +10365,7 @@
       "lineitemPrice": "122.36",
       "sku": "FIM840CDD-BLK-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 28
+      "inventory": 27
     },
     {
       "name": "221522",
@@ -11709,7 +11737,7 @@
       "lineitemPrice": "263.78",
       "sku": "FIM276SDTZ-BLKOLV-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 9
+      "inventory": 8
     },
     {
       "name": "221149",
@@ -12297,7 +12325,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "220955",
@@ -12619,7 +12647,7 @@
       "lineitemPrice": "263.78",
       "sku": "FIM276SDTZ-BLKOLV-XL",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 9
+      "inventory": 8
     },
     {
       "name": "220839",
@@ -12871,7 +12899,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "220756",
@@ -13109,7 +13137,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "220695",
@@ -14383,7 +14411,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "220335",
@@ -14971,7 +14999,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "220116",
@@ -15027,7 +15055,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "220098",
@@ -15223,7 +15251,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 93
+      "inventory": 94
     },
     {
       "name": "220018",
