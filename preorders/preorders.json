@@ -1,12 +1,54 @@
 {
-  "generatedAt": "2026-09-28T16:18:59Z",
+  "generatedAt": "2026-09-28T19:06:34Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 717,
-  "rowCount": 1115,
+  "orderCount": 720,
+  "rowCount": 1118,
   "rows": [
+    {
+      "name": "224964",
+      "subtotal": "243.82",
+      "currency": "USD",
+      "createdAt": "2026-09-28T19:03:34Z",
+      "orderDate": "2026-09-28",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Enforcer Men's Motorcycle Leather Jacket - Black / L",
+      "lineitemPrice": "243.82",
+      "sku": "FIM297CLMZ-BLK-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "224962",
+      "subtotal": "124.5",
+      "currency": "USD",
+      "createdAt": "2026-09-28T18:53:49Z",
+      "orderDate": "2026-09-28",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Monte Carlo - Women's Leather Motorcycle Jacket - Black / XL",
+      "lineitemPrice": "124.5",
+      "sku": "FIL160NOCZ-BLK-XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": -1
+    },
+    {
+      "name": "224961",
+      "subtotal": "152.95",
+      "currency": "USD",
+      "createdAt": "2026-09-28T18:40:48Z",
+      "orderDate": "2026-09-28",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Superstar Men's Motorcycle Leather Jacket - Black / L",
+      "lineitemPrice": "152.95",
+      "sku": "FMM200BMP-BLK-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 1
+    },
     {
       "name": "224945",
       "subtotal": "98.45",
@@ -131,7 +173,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "224903",
@@ -215,7 +257,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "224881",
@@ -341,7 +383,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "224853",
@@ -383,7 +425,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "224844",
@@ -564,7 +606,7 @@
       "lineitemName": "Vintage - Men\u2019s Plaid Motorcycle flannel Shirt - Blue Black / M",
       "lineitemPrice": "19.99",
       "sku": "FIM418RFNL-BLUBK-M",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 6
     },
     {
@@ -578,7 +620,7 @@
       "lineitemName": "CE-2 Armor Pad Set",
       "lineitemPrice": "33.7",
       "sku": "ARMOR-SET",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 81
     },
     {
@@ -634,7 +676,7 @@
       "lineitemName": "Lowside Black Men's Motorcycle Canvas Vest - Black / 5XL",
       "lineitemPrice": "88.44",
       "sku": "FIM659CNV-BLK-5XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -662,7 +704,7 @@
       "lineitemName": "Raider Men's Motorcycle Leather Jacket - Black / XL",
       "lineitemPrice": "211.02",
       "sku": "FIM263CDMZ-BLK-XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -802,7 +844,7 @@
       "lineitemName": "Lowside Rider Men's Motorcycle Leather Vest - Brown / L",
       "lineitemPrice": "70.13",
       "sku": "FIM659LTH-CCG-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -816,7 +858,7 @@
       "lineitemName": "Mastermind Men's Motorcycle Leather Jacket - Tall / Black / XXL",
       "lineitemPrice": "211.02",
       "sku": "FIM244TALL-BLK-XXL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -844,7 +886,7 @@
       "lineitemName": "Patriot Chaps with Snap Out Liner - Unisex - Black / 2XS",
       "lineitemPrice": "122.36",
       "sku": "FIM840CDD-BLK-2XS",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -859,7 +901,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "224726",
@@ -914,7 +956,7 @@
       "lineitemName": "Nightstrike Men\u2019s Motorcycle Leather Jacket - BLACK / M",
       "lineitemPrice": "246.5",
       "sku": "FIM275CDMZ-BLK-M",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -1068,7 +1110,7 @@
       "lineitemName": "Mastermind Men's Motorcycle Leather Jacket - Standard / Black / XL",
       "lineitemPrice": "211.02",
       "sku": "FIM244BNKDZ-BLK-XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 10
     },
     {
@@ -1096,7 +1138,7 @@
       "lineitemName": "Scout Deer Skin Fingerless Gloves - Black / L",
       "lineitemPrice": "14.8",
       "sku": "FI249DEER-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 82
     },
     {
@@ -1110,7 +1152,7 @@
       "lineitemName": "Cascade Men's Leather Motorcycle Gloves - Black / L",
       "lineitemPrice": "33.6",
       "sku": "FI215-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 6
     },
     {
@@ -1153,7 +1195,7 @@
       "lineitemPrice": "186.19",
       "sku": "FIL150CDMZ-BLK-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "224643",
@@ -1166,7 +1208,7 @@
       "lineitemName": "Popstar Women's  Motorcycle Leather Jacket - Black / L",
       "lineitemPrice": "186.19",
       "sku": "FIL150CDMZ-BLK-L",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -1293,7 +1335,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "224598",
@@ -1600,7 +1642,7 @@
       "lineitemName": "Lowrider Moto Mesh Men's Motorcycle Vest - Black / 3XL",
       "lineitemPrice": "77.16",
       "sku": "FIM650MESH-BBLK-3XL",
-      "fulfillmentStatus": "unfulfilled",
+      "fulfillmentStatus": "fulfilled",
       "inventory": 0
     },
     {
@@ -1699,7 +1741,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "224509",
@@ -2021,7 +2063,7 @@
       "lineitemPrice": "27.99",
       "sku": "LHHP1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7958
+      "inventory": 7926
     },
     {
       "name": "224428",
@@ -2035,7 +2077,7 @@
       "lineitemPrice": "24.99",
       "sku": "LHLC1002FBA-UPC",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 12024
+      "inventory": 11971
     },
     {
       "name": "224428",
@@ -2763,7 +2805,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "224263",
@@ -3281,7 +3323,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "224030",
@@ -3477,7 +3519,7 @@
       "lineitemPrice": "27.99",
       "sku": "LHHP1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7958
+      "inventory": 7926
     },
     {
       "name": "223965",
@@ -4541,7 +4583,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "223741",
@@ -4583,7 +4625,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "223739",
@@ -5143,7 +5185,7 @@
       "lineitemPrice": "200.6",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "223477",
@@ -5171,7 +5213,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "223470",
@@ -5717,7 +5759,7 @@
       "lineitemPrice": "24.99",
       "sku": "FIM418RFNL-GNW-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 15
+      "inventory": 16
     },
     {
       "name": "223324",
@@ -5829,7 +5871,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "223306",
@@ -6221,7 +6263,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "223154",
@@ -6277,7 +6319,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "223150",
@@ -6571,7 +6613,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "223081",
@@ -6935,7 +6977,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222930",
@@ -6977,7 +7019,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222930",
@@ -7187,7 +7229,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222872",
@@ -7341,7 +7383,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222819",
@@ -7649,7 +7691,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222694",
@@ -7761,7 +7803,7 @@
       "lineitemPrice": "200.39",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222667",
@@ -7901,7 +7943,7 @@
       "lineitemPrice": "232.74",
       "sku": "FIL150CDMZ-BLK-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 0
+      "inventory": 1
     },
     {
       "name": "222610",
@@ -8013,7 +8055,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222569",
@@ -8083,7 +8125,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222553",
@@ -8321,7 +8363,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222502",
@@ -8405,7 +8447,7 @@
       "lineitemPrice": "243.82",
       "sku": "FIM297CLMZ-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "222472",
@@ -8853,7 +8895,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222331",
@@ -9021,7 +9063,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222304",
@@ -9105,7 +9147,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222284",
@@ -9189,7 +9231,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222273",
@@ -9273,7 +9315,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222253",
@@ -9595,7 +9637,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222229",
@@ -9637,7 +9679,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "fulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222220",
@@ -10183,7 +10225,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "222036",
@@ -10715,7 +10757,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221864",
@@ -10771,7 +10813,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221859",
@@ -11051,7 +11093,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221814",
@@ -11359,7 +11401,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221749",
@@ -11555,7 +11597,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221661",
@@ -11625,7 +11667,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221649",
@@ -11695,7 +11737,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221618",
@@ -11891,7 +11933,7 @@
       "lineitemPrice": "195.06",
       "sku": "FIM297CLMZ-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "221554",
@@ -11961,7 +12003,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221546",
@@ -12451,7 +12493,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221431",
@@ -12507,7 +12549,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221424",
@@ -12913,7 +12955,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221311",
@@ -13151,7 +13193,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221216",
@@ -13445,7 +13487,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221162",
@@ -13473,7 +13515,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221154",
@@ -13627,7 +13669,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221085",
@@ -13753,7 +13795,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "221067",
@@ -13893,7 +13935,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "220998",
@@ -14131,7 +14173,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "220951",
@@ -14369,7 +14411,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "220845",
@@ -14593,7 +14635,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "220787",
@@ -14845,7 +14887,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "220699",
@@ -15335,7 +15377,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3001
+      "inventory": -3003
     },
     {
       "name": "220603",
