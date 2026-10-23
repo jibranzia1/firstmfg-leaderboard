@@ -1,12 +1,26 @@
 {
-  "generatedAt": "2026-10-23T05:43:22Z",
+  "generatedAt": "2026-10-23T07:12:00Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 716,
-  "rowCount": 1036,
+  "orderCount": 717,
+  "rowCount": 1037,
   "rows": [
+    {
+      "name": "227745",
+      "subtotal": "175.13",
+      "currency": "USD",
+      "createdAt": "2026-10-23T07:00:34Z",
+      "orderDate": "2026-10-23",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Sinister - Men's Motorcycle Leather Vest - Black White / XL",
+      "lineitemPrice": "175.13",
+      "sku": "FIM672QLT-BLKWH-XL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
     {
       "name": "227742",
       "subtotal": "295.94",
@@ -2889,7 +2903,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 6691
+      "inventory": 6689
     },
     {
       "name": "226934",
@@ -13501,7 +13515,7 @@
       "lineitemPrice": "27.99",
       "sku": "LHHP1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5922
+      "inventory": 5945
     },
     {
       "name": "224428",
@@ -13515,7 +13529,7 @@
       "lineitemPrice": "24.99",
       "sku": "LHLC1002FBA-UPC",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 11856
+      "inventory": 12015
     },
     {
       "name": "224428",
