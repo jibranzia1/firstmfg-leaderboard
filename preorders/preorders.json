@@ -1,12 +1,26 @@
 {
-  "generatedAt": "2026-10-25T11:28:08Z",
+  "generatedAt": "2026-10-25T14:23:32Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 728,
-  "rowCount": 1050,
+  "orderCount": 729,
+  "rowCount": 1051,
   "rows": [
+    {
+      "name": "227952",
+      "subtotal": "42.13",
+      "currency": "USD",
+      "createdAt": "2026-10-25T13:53:15Z",
+      "orderDate": "2026-10-25",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "CE-2 Armor Pad Set",
+      "lineitemPrice": "42.13",
+      "sku": "ARMOR-SET",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
     {
       "name": "227938",
       "subtotal": "172.98",
@@ -579,7 +593,7 @@
       "lineitemPrice": "300.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -152
+      "inventory": -153
     },
     {
       "name": "227820",
@@ -4023,7 +4037,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 6485
+      "inventory": 6478
     },
     {
       "name": "226934",
@@ -4037,7 +4051,7 @@
       "lineitemPrice": "300.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -152
+      "inventory": -153
     },
     {
       "name": "226930",
@@ -4765,7 +4779,7 @@
       "lineitemPrice": "300.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -152
+      "inventory": -153
     },
     {
       "name": "226747",
@@ -14649,7 +14663,7 @@
       "lineitemPrice": "27.99",
       "sku": "LHHP1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 5504
+      "inventory": 5511
     },
     {
       "name": "224428",
@@ -14663,7 +14677,7 @@
       "lineitemPrice": "24.99",
       "sku": "LHLC1002FBA-UPC",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 12191
+      "inventory": 12167
     },
     {
       "name": "224428",
