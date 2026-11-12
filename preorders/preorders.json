@@ -1,12 +1,40 @@
 {
-  "generatedAt": "2026-11-12T06:27:16.227570+00:00",
+  "generatedAt": "2026-11-12T07:07:00.525117Z",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 642,
-  "rowCount": 950,
+  "orderCount": 643,
+  "rowCount": 952,
   "rows": [
+    {
+      "name": "230044",
+      "subtotal": "217.6",
+      "currency": "USD",
+      "createdAt": "2026-11-12T06:50:35Z",
+      "orderDate": "2026-11-12",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Free Returns and Package Protection - H4T3L",
+      "lineitemPrice": "4.75",
+      "sku": "x-redo",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 999997
+    },
+    {
+      "name": "230044",
+      "subtotal": "217.6",
+      "currency": "USD",
+      "createdAt": "2026-11-12T06:50:35Z",
+      "orderDate": "2026-11-12",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Rider Club - Men's Leather Motorcycle Jacket - Brown / M",
+      "lineitemPrice": "214.99",
+      "sku": "FIM225CDMZ-BRNB-M",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
     {
       "name": "230037",
       "subtotal": "159.99",
@@ -1363,7 +1391,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7663
+      "inventory": 7650
     },
     {
       "name": "229650",
@@ -5283,7 +5311,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7663
+      "inventory": 7650
     },
     {
       "name": "228684",
@@ -5563,7 +5591,7 @@
       "lineitemPrice": "37.99",
       "sku": "LHPT1001",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 2836
+      "inventory": 2837
     },
     {
       "name": "228627",
@@ -7999,7 +8027,7 @@
       "lineitemPrice": "130.0",
       "sku": "FIM225CDMZ-BRNB-M",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "228051",
@@ -8545,7 +8573,7 @@
       "lineitemPrice": "131.89",
       "sku": "FIM225CDMZ-BRNB-M",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "227922",
@@ -9147,7 +9175,7 @@
       "lineitemPrice": "263.78",
       "sku": "FIM225CDMZ-BRNB-M",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "227810",
@@ -12059,7 +12087,7 @@
       "lineitemPrice": "263.78",
       "sku": "FIM225CDMZ-BRNB-M",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "227035",
@@ -12591,7 +12619,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7663
+      "inventory": 7650
     },
     {
       "name": "226934",
