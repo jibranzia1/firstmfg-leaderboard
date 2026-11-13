@@ -1,12 +1,152 @@
 {
-  "generatedAt": "2026-11-13T05:31:11.373993+00:00",
+  "generatedAt": "2026-11-13T07:07:23.698492+00:00",
   "store": "firstmfg.myshopify.com",
   "tag": "NM-preorder",
   "timezone": "America/New_York",
   "windowDays": 30,
-  "orderCount": 667,
-  "rowCount": 1011,
+  "orderCount": 670,
+  "rowCount": 1021,
   "rows": [
+    {
+      "name": "230228",
+      "subtotal": "198.0",
+      "currency": "USD",
+      "createdAt": "2026-11-13T06:30:49Z",
+      "orderDate": "2026-11-13",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Enforcer Men's Motorcycle Leather Jacket - Black / XXL",
+      "lineitemPrice": "199.99",
+      "sku": "FIM297CLMZ-BLK-XXL",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 1
+    },
+    {
+      "name": "230226",
+      "subtotal": "273.99",
+      "currency": "USD",
+      "createdAt": "2026-11-13T05:58:36Z",
+      "orderDate": "2026-11-13",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Savage Skulls Men's Motorcycle Leather Jacket - Black / L",
+      "lineitemPrice": "208.27",
+      "sku": "FIM243CSLZ-BLK-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 21
+    },
+    {
+      "name": "230226",
+      "subtotal": "273.99",
+      "currency": "USD",
+      "createdAt": "2026-11-13T05:58:36Z",
+      "orderDate": "2026-11-13",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Clutch Men's Motorcycle Leather Gloves - Black / L",
+      "lineitemPrice": "16.43",
+      "sku": "FI230-BLK-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 104
+    },
+    {
+      "name": "230226",
+      "subtotal": "273.99",
+      "currency": "USD",
+      "createdAt": "2026-11-13T05:58:36Z",
+      "orderDate": "2026-11-13",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Ghost Men's Gloves - Black / L",
+      "lineitemPrice": "20.46",
+      "sku": "FI137GEL-BLK-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 0
+    },
+    {
+      "name": "230226",
+      "subtotal": "273.99",
+      "currency": "USD",
+      "createdAt": "2026-11-13T05:58:36Z",
+      "orderDate": "2026-11-13",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Roadster - Men's Motorcycle Gloves - Black / L",
+      "lineitemPrice": "8.37",
+      "sku": "FI160GL-BLK-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 1103
+    },
+    {
+      "name": "230226",
+      "subtotal": "273.99",
+      "currency": "USD",
+      "createdAt": "2026-11-13T05:58:36Z",
+      "orderDate": "2026-11-13",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Roadway - Men's Leather Motorcycle Gloves - L / Black",
+      "lineitemPrice": "20.46",
+      "sku": "FI132GEL-BLK-L",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 165
+    },
+    {
+      "name": "230225",
+      "subtotal": "464.22",
+      "currency": "USD",
+      "createdAt": "2026-11-13T05:50:59Z",
+      "orderDate": "2026-11-13",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Free Returns and Package Protection - E6B3Q",
+      "lineitemPrice": "9.25",
+      "sku": "x-redo",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 999999
+    },
+    {
+      "name": "230225",
+      "subtotal": "464.22",
+      "currency": "USD",
+      "createdAt": "2026-11-13T05:50:59Z",
+      "orderDate": "2026-11-13",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Jada - Women's Motorcycle Leather Jacket - Black / Made To Measure (+$50 USD)",
+      "lineitemPrice": "229.99",
+      "sku": "",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": -3
+    },
+    {
+      "name": "230225",
+      "subtotal": "464.22",
+      "currency": "USD",
+      "createdAt": "2026-11-13T05:50:59Z",
+      "orderDate": "2026-11-13",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Get Back Whip - BLUE WHITE / STRD",
+      "lineitemPrice": "19.99",
+      "sku": "WHIP-BLUWHT-STRD",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": 112
+    },
+    {
+      "name": "230225",
+      "subtotal": "464.22",
+      "currency": "USD",
+      "createdAt": "2026-11-13T05:50:59Z",
+      "orderDate": "2026-11-13",
+      "financialStatus": "PAID",
+      "quantity": 1,
+      "lineitemName": "Tantrum - Women's Motorcycle Leather Jacket - Black / XXS",
+      "lineitemPrice": "204.99",
+      "sku": "FIL196SDMZ-BLK-XXS",
+      "fulfillmentStatus": "unfulfilled",
+      "inventory": -1
+    },
     {
       "name": "230214",
       "subtotal": "204.99",
@@ -19,7 +159,7 @@
       "lineitemPrice": "204.99",
       "sku": "FIM208CDLZ-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "230213",
@@ -33,7 +173,7 @@
       "lineitemPrice": "154.99",
       "sku": "CUS6021LTH-OXB-XL",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "230210",
@@ -117,7 +257,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "230198",
@@ -285,7 +425,7 @@
       "lineitemPrice": "3.0",
       "sku": "x-redo",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 999989
+      "inventory": 999988
     },
     {
       "name": "230170",
@@ -425,7 +565,7 @@
       "lineitemPrice": "3.0",
       "sku": "x-redo",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 999989
+      "inventory": 999988
     },
     {
       "name": "230146",
@@ -579,7 +719,7 @@
       "lineitemPrice": "204.99",
       "sku": "FIM208CDLZ-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 1
+      "inventory": 0
     },
     {
       "name": "230122",
@@ -621,7 +761,7 @@
       "lineitemPrice": "34.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "230122",
@@ -719,7 +859,7 @@
       "lineitemPrice": "625.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "230099",
@@ -775,7 +915,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "230092",
@@ -803,7 +943,7 @@
       "lineitemPrice": "34.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "230092",
@@ -887,7 +1027,7 @@
       "lineitemPrice": "34.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "230050",
@@ -1237,7 +1377,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "229939",
@@ -1265,7 +1405,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "229939",
@@ -1307,7 +1447,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "229925",
@@ -1321,7 +1461,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "229925",
@@ -1587,7 +1727,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229862",
@@ -1713,7 +1853,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229821",
@@ -1825,7 +1965,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229782",
@@ -1867,7 +2007,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229771",
@@ -1951,7 +2091,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229745",
@@ -1979,7 +2119,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229742",
@@ -2035,7 +2175,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229730",
@@ -2091,7 +2231,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229717",
@@ -2105,7 +2245,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229717",
@@ -2175,7 +2315,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229702",
@@ -2385,7 +2525,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "229663",
@@ -2455,7 +2595,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7761
+      "inventory": 7760
     },
     {
       "name": "229650",
@@ -2483,7 +2623,7 @@
       "lineitemPrice": "300.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -436
+      "inventory": -437
     },
     {
       "name": "229650",
@@ -2721,7 +2861,7 @@
       "lineitemPrice": "24.99",
       "sku": "FI132GEL-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 166
+      "inventory": 165
     },
     {
       "name": "229568",
@@ -2791,7 +2931,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229567",
@@ -2931,7 +3071,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "229521",
@@ -2959,7 +3099,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229509",
@@ -3099,7 +3239,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229473",
@@ -3435,7 +3575,7 @@
       "lineitemPrice": "42.49",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229250",
@@ -3575,7 +3715,7 @@
       "lineitemPrice": "42.49",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229200",
@@ -3715,7 +3855,7 @@
       "lineitemPrice": "42.49",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229167",
@@ -3925,7 +4065,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229114",
@@ -3967,7 +4107,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229103",
@@ -3995,7 +4135,7 @@
       "lineitemPrice": "19.99",
       "sku": "FI132GEL-BLK-L",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 166
+      "inventory": 165
     },
     {
       "name": "229098",
@@ -4009,7 +4149,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229098",
@@ -4121,7 +4261,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229086",
@@ -4163,7 +4303,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229082",
@@ -4219,7 +4359,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229071",
@@ -4275,7 +4415,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229060",
@@ -4289,7 +4429,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229060",
@@ -4345,7 +4485,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229048",
@@ -4415,7 +4555,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229033",
@@ -4639,7 +4779,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "229005",
@@ -4835,7 +4975,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228972",
@@ -4877,7 +5017,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228963",
@@ -4919,7 +5059,7 @@
       "lineitemPrice": "19.99",
       "sku": "FI132GEL-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 166
+      "inventory": 165
     },
     {
       "name": "228952",
@@ -5115,7 +5255,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228906",
@@ -5171,7 +5311,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228902",
@@ -5381,7 +5521,7 @@
       "lineitemPrice": "300.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -436
+      "inventory": -437
     },
     {
       "name": "228873",
@@ -5423,7 +5563,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228853",
@@ -5451,7 +5591,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228852",
@@ -5507,7 +5647,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "228839",
@@ -5773,7 +5913,7 @@
       "lineitemPrice": "300.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -436
+      "inventory": -437
     },
     {
       "name": "228799",
@@ -5787,7 +5927,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228799",
@@ -5899,7 +6039,7 @@
       "lineitemPrice": "19.99",
       "sku": "FI132GEL-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 166
+      "inventory": 165
     },
     {
       "name": "228792",
@@ -5913,7 +6053,7 @@
       "lineitemPrice": "7.99",
       "sku": "FI160GL-BLK-L",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 1104
+      "inventory": 1103
     },
     {
       "name": "228789",
@@ -5955,7 +6095,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "228785",
@@ -6235,7 +6375,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228717",
@@ -6319,7 +6459,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "228699",
@@ -6389,7 +6529,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228690",
@@ -6459,7 +6599,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7761
+      "inventory": 7760
     },
     {
       "name": "228684",
@@ -6585,7 +6725,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228677",
@@ -6893,7 +7033,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "228599",
@@ -7075,7 +7215,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228556",
@@ -7215,7 +7355,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228537",
@@ -7649,7 +7789,7 @@
       "lineitemPrice": "33.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228445",
@@ -8181,7 +8321,7 @@
       "lineitemPrice": "29.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228311",
@@ -8517,7 +8657,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228237",
@@ -8657,7 +8797,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228217",
@@ -9259,7 +9399,7 @@
       "lineitemPrice": "39.99",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "228038",
@@ -9497,7 +9637,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227999",
@@ -9581,7 +9721,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "227969",
@@ -9679,7 +9819,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227945",
@@ -9931,7 +10071,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227890",
@@ -10057,7 +10197,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227858",
@@ -10211,7 +10351,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227838",
@@ -10295,7 +10435,7 @@
       "lineitemPrice": "200.52",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "227820",
@@ -10407,7 +10547,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227804",
@@ -10533,7 +10673,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "227797",
@@ -10617,7 +10757,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "227782",
@@ -10645,7 +10785,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227778",
@@ -11807,7 +11947,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227502",
@@ -11933,7 +12073,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227487",
@@ -12185,7 +12325,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "fulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "227414",
@@ -12409,7 +12549,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "227324",
@@ -12507,7 +12647,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227298",
@@ -12633,7 +12773,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227254",
@@ -12843,7 +12983,7 @@
       "lineitemPrice": "300.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -436
+      "inventory": -437
     },
     {
       "name": "227175",
@@ -13081,7 +13221,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "fulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "227087",
@@ -13179,7 +13319,7 @@
       "lineitemPrice": "42.13",
       "sku": "ARMOR-SET",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 4
+      "inventory": 5
     },
     {
       "name": "227056",
@@ -13291,7 +13431,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "227035",
@@ -13711,7 +13851,7 @@
       "lineitemPrice": "300.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -436
+      "inventory": -437
     },
     {
       "name": "226942",
@@ -13795,7 +13935,7 @@
       "lineitemPrice": "43.99",
       "sku": "LH88KIT",
       "fulfillmentStatus": "fulfilled",
-      "inventory": 7761
+      "inventory": 7760
     },
     {
       "name": "226934",
@@ -13865,7 +14005,7 @@
       "lineitemPrice": "200.0",
       "sku": "",
       "fulfillmentStatus": "unfulfilled",
-      "inventory": -3490
+      "inventory": -3491
     },
     {
       "name": "226926",
